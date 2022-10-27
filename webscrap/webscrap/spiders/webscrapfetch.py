@@ -5,6 +5,9 @@ import scrapy
 from scrapy import Selector
 from scrapy.crawler import CrawlerProcess
 from bs4 import BeautifulSoup
+import json
+import posixpath
+from urllib.parse import urljoin
   
 class ExtractUrls(scrapy.Spider):
       
@@ -36,19 +39,20 @@ class ExtractUrls(scrapy.Spider):
         # link for going to next pages
         next_page_links = response.css('div.prd-cats-nav__lst a::attr(href)').extract()
         if next_page_links is not None:
+            url= 'https://www.aarstiderne.com'
+            next_page_links= ['/dagligvarer/frugt','/dagligvarer/groent','/dagligvarer/plantebaseret','/dagligvarer/koed-fisk','/dagligvarer/mejeri','/dagligvarer/broed','/dagligvarer/kolonial','/dagligvarer/snacks-soede-sager','/dagligvarer/juice-saft','/dagligvarer/oel-vin','/dagligvarer/husholdning-grej','/dagligvarer/boger','/jordens-bedste-koebmand/anbefalinger','/dagligvarer/anbefalinger/hokkaidosuppe','/dagligvarer/anbefalinger/pizza-bla-congo']
             for next_page_link in next_page_links:
-                url= "https://www.aarstiderne.com"
-                next_page = url + next_page_link #response.urljoin(next_page_link)
-                yield scrapy.Request(url=next_page, callback=self.parse_pages)
+                next_page_link = urljoin(url, next_page_link) # 'https://www.aarstiderne.com/dagligvarer/frugt' #url.urljoin(next_page_links[0])#url + next_page_links[0] 
+                yield scrapy.Request(url=next_page_link, callback=self.parse_pages)
+
     
     def parse_pages(self, response):
         #yield the initial response as HTML file and save it in HTML file
-        #link_file= 'link.html'
-        #with open (link_file, "w") as flink:
-            #print("*" * 100)
-            #flink.write([link for link in response.body])
-            #print("*" * 100)
-
+        link_file= 'link.xml'
+        with open (link_file, "a") as flink:
+            print("+" * 100)
+            flink.write(str(response.body))
+            print("+" * 100)
 
         #Extracting the content for each category
         food_categories= response.css('.prd-cats-nav__lst-item-hdr::text').getall()
@@ -91,7 +95,11 @@ class ExtractUrls(scrapy.Spider):
         items['Aarstidernes_anbefalers_opskriftens']=Aarstidernes_anbefalers_opskriftens
         items['Aarstidernes_anbefalers_links']= Aarstidernes_anbefalers_links
 
+        print("-"*50)
         yield items
+        print("-"*50)
+
+
 
         #scrapy runspider webscrapfetch.py -o link.xml
 
