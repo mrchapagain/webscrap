@@ -38,6 +38,14 @@ class ExtractUrls(scrapy.Spider):
     
         # link for going to next pages
         next_page_links = response.css('div.prd-cats-nav__lst a::attr(href)').extract()
+
+        #yield the initial list of response as HTML file and save it in HTML file
+        link_file= 'link.xml'
+        with open (link_file, "a") as flink:
+            print("+" * 100)
+            flink.writelines([page_link + "\n" for page_link in next_page_links])
+            print("+" * 100)
+
         if next_page_links is not None:
             url= 'https://www.aarstiderne.com'
             next_page_links= ['/dagligvarer/frugt','/dagligvarer/groent','/dagligvarer/plantebaseret','/dagligvarer/koed-fisk','/dagligvarer/mejeri','/dagligvarer/broed','/dagligvarer/kolonial','/dagligvarer/snacks-soede-sager','/dagligvarer/juice-saft','/dagligvarer/oel-vin','/dagligvarer/husholdning-grej','/dagligvarer/boger','/jordens-bedste-koebmand/anbefalinger','/dagligvarer/anbefalinger/hokkaidosuppe','/dagligvarer/anbefalinger/pizza-bla-congo']
@@ -47,12 +55,6 @@ class ExtractUrls(scrapy.Spider):
 
     
     def parse_pages(self, response):
-        #yield the initial response as HTML file and save it in HTML file
-        link_file= 'link.xml'
-        with open (link_file, "a") as flink:
-            print("+" * 100)
-            flink.write(str(response.body))
-            print("+" * 100)
 
         #Extracting the content for each category
         food_categories= response.css('.prd-cats-nav__lst-item-hdr::text').getall()
