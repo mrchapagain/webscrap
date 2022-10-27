@@ -1,0 +1,140 @@
+[
+    {
+    "food_cat_links": 
+        [
+        "/dagligvarer/frugt", 
+        "/dagligvarer/groent", 
+        "/dagligvarer/plantebaseret", 
+        "/dagligvarer/koed-fisk", 
+        "/dagligvarer/mejeri", 
+        "/dagligvarer/broed", 
+        "/dagligvarer/kolonial", 
+        "/dagligvarer/snacks-soede-sager", 
+        "/dagligvarer/juice-saft", 
+        "/dagligvarer/oel-vin", 
+        "/dagligvarer/husholdning-grej", 
+        "/dagligvarer/boger", 
+        "/jordens-bedste-koebmand/anbefalinger", 
+        "/dagligvarer/anbefalinger/hokkaidosuppe", 
+        "/dagligvarer/anbefalinger/pizza-bla-congo"
+        ], 
+    
+    "food_categories": 
+        [
+        "Frugt", 
+        "Gr\u00f8nt", 
+        "Plantebaseret", 
+        "K\u00f8d & Fisk", 
+        "Mejeri", 
+        "Br\u00f8d", 
+        "Kolonial", 
+        "Snacks & S\u00f8de sager", 
+        "Juice, Saft & Sodavand", 
+        "\u00d8l, Vin & Spiritus", 
+        "Husholdning & Grej", 
+        "B\u00f8ger"
+        ], 
+    
+    "food_images": 
+        [
+        "https://assetsv2.aarstiderne.com/pim/category/frugt-2738-90-90-50.PNG", 
+        "https://assetsv2.aarstiderne.com/pim/category/groent-2739-90-90-50.PNG", 
+        "https://assetsv2.aarstiderne.com/pim/category/plantebaseret-2744-90-90-50.PNG", 
+        "https://assetsv2.aarstiderne.com/pim/category/koed-fisk-2741-90-90-50.PNG", 
+        "https://assetsv2.aarstiderne.com/pim/category/mejeri-2742-90-90-50.PNG", 
+        "https://assetsv2.aarstiderne.com/pim/category/broed-2737-90-90-50.PNG", 
+        "https://assetsv2.aarstiderne.com/pim/category/kolonial-2740-90-90-50.PNG", 
+        "https://assetsv2.aarstiderne.com/pim/category/snacks-soede-sager-3510-90-90-50.PNG", 
+        "https://assetsv2.aarstiderne.com/pim/category/juice-saft-2749-90-90-50.PNG", 
+        "https://assetsv2.aarstiderne.com/pim/category/oel-vin-2747-90-90-50.PNG", 
+        "https://assetsv2.aarstiderne.com/pim/category/husholdning-grej-2748-90-90-50.PNG", 
+        "https://assetsv2.aarstiderne.com/pim/category/boger-2751-90-90-50.PNG"
+        ], 
+    
+    "product_images": 
+        [
+        "https://assetsv2.aarstiderne.com/product/clementinkassen-1779-392-392-30.PNG", 
+        "https://assetsv2.aarstiderne.com/product/fejokassen-4-kg-4459-392-392-30.PNG", 
+        "https://assetsv2.aarstiderne.com/product/pita-med-miniboffer-2p-4380-392-392-30.PNG", 
+        "https://assetsv2.aarstiderne.com/product/kvader-1988-392-392-30.PNG", 
+        "https://assetsv2.aarstiderne.com/product/clementin-oronule-4461-392-392-30.PNG", 
+        "https://assetsv2.aarstiderne.com/product/andelar-s-v-280g-2988-392-392-30.PNG", 
+        "https://assetsv2.aarstiderne.com/product/granatable-3777-392-392-30.PNG", 
+        "https://assetsv2.aarstiderne.com/product/rosenkal-500-g-4462-392-392-30.PNG", 
+        "https://assetsv2.aarstiderne.com/product/sugar-snaps-arter-150-g-3937-392-392-30.PNG", 
+        "https://assetsv2.aarstiderne.com/product/mortensandkassen-4458-392-392-30.PNG", 
+        "https://assetsv2.aarstiderne.com/product/mixkassen-2842-392-392-30.PNG", 
+        "https://assetsv2.aarstiderne.com/product/frugtkassen-2848-392-392-30.PNG", 
+        "https://assetsv2.aarstiderne.com/product/stor-mixkasse-2843-392-392-30.PNG", 
+        "https://assetsv2.aarstiderne.com/product/den-groenne-frugtkasse-2840-392-392-30.PNG", 
+        "https://assetsv2.aarstiderne.com/product/bananer-farve-3-5-stk-2796-392-392-30.PNG", 
+        "https://assetsv2.aarstiderne.com/product/avocadoposen-1808-392-392-30.PNG", 
+        "https://assetsv2.aarstiderne.com/product/grontkassen-uden-kartofler-2864-392-392-30.PNG", 
+        "https://assetsv2.aarstiderne.com/product/agurk-250-300-g-2725-392-392-30.PNG", 
+        "https://assetsv2.aarstiderne.com/product/basiskassen-2863-392-392-30.PNG", 
+        "https://assetsv2.aarstiderne.com/product/lille-groentkasse-2865-392-392-30.PNG", 
+        "https://assetsv2.aarstiderne.com/product/avlernes-frugtkasse-4215-392-392-30.PNG", 
+        "https://assetsv2.aarstiderne.com/product/appelsinposen-1819-392-392-30.PNG", 
+        "https://assetsv2.aarstiderne.com/product/aebler-2103-392-392-30.PNG", 
+        "https://assetsv2.aarstiderne.com/product/stor-frugtkasse-2820-392-392-30.PNG", 
+        "https://assetsv2.aarstiderne.com/product/pizzadej-frost-2696-392-392-30.PNG", 
+        "https://assetsv2.aarstiderne.com/product/frankly-juicekassen-1906-392-392-30.PNG"
+        ], 
+    
+    "product_names": 
+        [
+        "ClementinKassen", 
+        "Fej\u00f8Kassen", 
+        "Pitabr\u00f8d", 
+        "Kv\u00e6der", 
+        "Oronule-clementiner med blade", 
+        "Confiteret andel\u00e5r", 
+        "Granat\u00e6ble \u2013 Mollar de Elche", 
+        "Rosenk\u00e5l", 
+        "Sugar snaps", 
+        "MortensandKassen", 
+        "Mixkassen", 
+        "FrugtKassen",
+        "Stor MixKasse", 
+        "Den Gr\u00f8nne FrugtKasse", 
+        "Bananer", "AvocadoPosen", 
+        "Gr\u00f8ntKassen uden kartofler", 
+        "Agurk", "BasisKassen", 
+        "Lille Gr\u00f8ntKasse", 
+        "Avlernes FrugtKasse", 
+        "AppelsinPosen", 
+        "\u00c6bleKassen", 
+        "Stor FrugtKasse", 
+        "Pizzadej", 
+        "Frankly JuiceKassen"
+        ], 
+    
+    "product_descriptions": 
+        [
+        "Vesterled Frugtplantage p\u00e5 Fej\u00f8", 
+        "En frugt fra \"glemmebogen\" \u2013 velegnet til marmelade og chutney mm.", 
+        "S\u00f8de og saftige clementiner", 
+        "\u00d8kologisk, confiteret andel\u00e5r", 
+        "Fine sm\u00e5 rosenk\u00e5l", 
+        "Fine gr\u00f8nne sukker\u00e6rter, der kan spises hele", 
+        "\u00d8kologisk\u00a0dansk landand med kartofler, bagt gr\u00e6skar og en frisk k\u00e5lsalat\u00a0\u2013 opskrift medf\u00f8lger", 
+        "Blandet h\u00e5ndfrugt og eksotisk frugt i s\u00e6son til mindre husholdninger", 
+        "Endnu mere spiseklar frugt og gr\u00f8nt\u00a0\u2013 perfekt til en hverdagstravl familie", 
+        "\u00d8kologisk frugt og gr\u00f8nt, der er lige til at g\u00e5 til", 
+        "Lige til at tage med p\u00e5 farten", 
+        "Cremede", 
+        "Indeholder altid mange forskellige l\u00e6kre gr\u00f8ntsager, men aldrig kartofler", 
+        "F\u00e5 d\u00e6kket de basale gr\u00f8ntsagsbehov, og lidt til", 
+        "Et varieret udvalg af b\u00e5de lette og tunge gr\u00f8ntsager", 
+        "De bedste appelsiner netop nu", 
+        "Altid de bedste \u00e6bler, udvalgt efter smag og spr\u00f8dhed", 
+        "Blandet h\u00e5ndfrugt og eksotisk frugt i s\u00e6son, til familier p\u00e5 4-5 personer", 
+        "Udvalgte\u00a0juicer af frisk, koldpresset frugt og gr\u00f8nt"
+        ], 
+    
+    "product_prices": 
+        [
+        "95", "139", "159", "45", "25", "75", "18", "30", "22", "895", "255", "169", "299", "225", "19", "85", "275", "14", "255", "215", "265", "55", "49", "255", "18", "195"
+        ]
+    }
+    ]

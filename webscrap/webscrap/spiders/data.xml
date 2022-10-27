@@ -1,0 +1,2914 @@
+
+        <nav class="servicenav">
+            <ul>
+                    <li><a href="/aarstiderne-plus">Aarstiderne Plus</a></li>
+                    <li><a href="/opskrifter/ugens-menuer">Ugens menuer</a></li>
+                    <li><a href="/kundeservice">Kundeservice</a></li>
+                    <li><a href="/opskrifter">Opskrifter</a></li>
+                    <li><a href="http://aarstiderne.nu" target="_blank">Blog</a></li>
+                    <li><a href="/om-aarstiderne">Om Aarstiderne</a></li>
+            </ul>
+        </nav>
+
+<!-- /Partial: /Consumer/_ServiceNav.cshtml -->
+
+    <div class="header__bottom">
+        
+<!-- Partial: /Common/_TopNav.cshtml -->
+<nav class="topnav" id="topnav">
+    <ul class="topnav__list">
+            <li class="">
+                <a href="/find-din-maaltidskasse" class="">
+                    M&#229;ltidskasser
+                </a>
+            </li>
+            <li class="">
+                <a href="/vaelg-selv-retter" class="">
+                    V&#230;lg-Selv Retter
+                </a>
+            </li>
+            <li class="selected">
+                <a href="/dagligvarer" class="selected">
+                    Dagligvarer
+                </a>
+            </li>
+            <li class="">
+                <a href="/jul-1" class="">
+                    Jul
+                </a>
+            </li>
+            <li class="">
+                <a href="/mortensaften" class="">
+                    Mortensaften
+                </a>
+            </li>
+    </ul>
+</nav>
+
+<main id="main">
+    
+
+<div class="product-breadcrumb">
+    <div class="product-breadcrumb-inner">
+
+        <span itemscope itemtype="http://schema.org/BreadcrumbList">
+            <span class="product-breadcrumb-item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                <a itemprop="item" href="/"><span itemprop="name">Forside</span></a>
+                <meta itemprop="position" content="1" />
+            </span>
+            <span class="product-breadcrumb-item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                    <a itemprop="item" href="/dagligvarer"><span itemprop="name">Dagligvarer</span></a>
+                <meta itemprop="position" content="2" />
+            </span>
+
+        </span>
+    </div>
+</div>
+<!-- /Partial: /Products/Category/_Breadcrumb.cshtml -->
+</div>
+            <div class="products-banner__texts">
+                <h1 class="products-banner__hdr">Dagligvarer</h1>
+                <div class="products-banner__dscrp"><p>Alle de dagligvarer, du har behov for – nøje udvalgt, fordi de er de bedste – både for dig og for planeten.</p></div>
+            </div>
+            <img src="https://assetsv2.aarstiderne.com/pim/category/dagligvarer-2750-1024-0-50.PNG" class="products-banner__img" alt="" />
+        </div>
+    </section>
+    <div class="products-container">
+            <section class="prd-cats-nav">
+                <div class="prd-cats-nav__lst">
+                                <a class="prd-cats-nav__lst-item" href="/dagligvarer/frugt">
+                                    <h3 class="prd-cats-nav__lst-item-hdr">Frugt</h3>
+                                    <img src="https://assetsv2.aarstiderne.com/pim/category/frugt-2738-90-90-50.PNG" width="90" height="90" alt="Frugt" />
+                                </a>
+                                <a class="prd-cats-nav__lst-item" href="/dagligvarer/groent">
+                                    <h3 class="prd-cats-nav__lst-item-hdr">Gr&#248;nt</h3>
+                                    <img src="https://assetsv2.aarstiderne.com/pim/category/groent-2739-90-90-50.PNG" width="90" height="90" alt="Gr&#248;nt" />
+                                </a>
+                                <a class="prd-cats-nav__lst-item" href="/dagligvarer/plantebaseret">
+                                    <h3 class="prd-cats-nav__lst-item-hdr">Plantebaseret</h3>
+                                    <img src="https://assetsv2.aarstiderne.com/pim/category/plantebaseret-2744-90-90-50.PNG" width="90" height="90" alt="Plantebaseret" />
+                                </a>
+                                <a class="prd-cats-nav__lst-item" href="/dagligvarer/koed-fisk">
+                                    <h3 class="prd-cats-nav__lst-item-hdr">K&#248;d &amp; Fisk</h3>
+                                    <img src="https://assetsv2.aarstiderne.com/pim/category/koed-fisk-2741-90-90-50.PNG" width="90" height="90" alt="K&#248;d &amp; Fisk" />
+                                </a>
+                                <a class="prd-cats-nav__lst-item" href="/dagligvarer/mejeri">
+                                    <h3 class="prd-cats-nav__lst-item-hdr">Mejeri</h3>
+                                    <img src="https://assetsv2.aarstiderne.com/pim/category/mejeri-2742-90-90-50.PNG" width="90" height="90" alt="Mejeri" />
+                                </a>
+                                <a class="prd-cats-nav__lst-item" href="/dagligvarer/broed">
+                                    <h3 class="prd-cats-nav__lst-item-hdr">Br&#248;d</h3>
+                                    <img src="https://assetsv2.aarstiderne.com/pim/category/broed-2737-90-90-50.PNG" width="90" height="90" alt="Br&#248;d" />
+                                </a>
+                                <a class="prd-cats-nav__lst-item" href="/dagligvarer/kolonial">
+                                    <h3 class="prd-cats-nav__lst-item-hdr">Kolonial</h3>
+                                    <img src="https://assetsv2.aarstiderne.com/pim/category/kolonial-2740-90-90-50.PNG" width="90" height="90" alt="Kolonial" />
+                                </a>
+                                <a class="prd-cats-nav__lst-item" href="/dagligvarer/snacks-soede-sager">
+                                    <h3 class="prd-cats-nav__lst-item-hdr">Snacks &amp; S&#248;de sager</h3>
+                                    <img src="https://assetsv2.aarstiderne.com/pim/category/snacks-soede-sager-3510-90-90-50.PNG" width="90" height="90" alt="Snacks &amp; S&#248;de sager" />
+                                </a>
+                                <a class="prd-cats-nav__lst-item" href="/dagligvarer/juice-saft">
+                                    <h3 class="prd-cats-nav__lst-item-hdr">Juice, Saft &amp; Sodavand</h3>
+                                    <img src="https://assetsv2.aarstiderne.com/pim/category/juice-saft-2749-90-90-50.PNG" width="90" height="90" alt="Juice, Saft &amp; Sodavand" />
+                                </a>
+                                <a class="prd-cats-nav__lst-item" href="/dagligvarer/oel-vin">
+                                    <h3 class="prd-cats-nav__lst-item-hdr">&#216;l, Vin &amp; Spiritus</h3>
+                                    <img src="https://assetsv2.aarstiderne.com/pim/category/oel-vin-2747-90-90-50.PNG" width="90" height="90" alt="&#216;l, Vin &amp; Spiritus" />
+                                </a>
+                                <a class="prd-cats-nav__lst-item" href="/dagligvarer/husholdning-grej">
+                                    <h3 class="prd-cats-nav__lst-item-hdr">Husholdning &amp; Grej</h3>
+                                    <img src="https://assetsv2.aarstiderne.com/pim/category/husholdning-grej-2748-90-90-50.PNG" width="90" height="90" alt="Husholdning &amp; Grej" />
+                                </a>
+                                <a class="prd-cats-nav__lst-item" href="/dagligvarer/boger">
+                                    <h3 class="prd-cats-nav__lst-item-hdr">B&#248;ger</h3>
+                                    <img src="https://assetsv2.aarstiderne.com/pim/category/boger-2751-90-90-50.PNG" width="90" height="90" alt="B&#248;ger" />
+                                </a>
+
+                </div>
+            </section>
+            <section class="prd-cats-nav">
+                <div class="prd-cats-nav__lst-with-bg">
+                        <a href="/dagligvarer/netop-nu" class="prd-cats-nav__lst-with-bg-item" data-color-alias="netop-nu">
+                            <h3>Netop nu</h3>
+                            <img width="490" height="290" src="https://assetsv2.aarstiderne.com/pim/category/netop-nu-4398-490-290-100.JPG" alt="Netop nu" />                         
+                        </a>
+                        <a href="/dagligvarer/mortensaften" class="prd-cats-nav__lst-with-bg-item" data-color-alias="mortensaften">
+                            <h3>Mortensaften</h3>
+                            <img width="490" height="290" src="https://assetsv2.aarstiderne.com/pim/category/mortensaften-4455-490-290-100.JPG" alt="Mortensaften" />                         
+                        </a>
+                        <a href="/dagligvarer/valg-selv-retter" class="prd-cats-nav__lst-with-bg-item" data-color-alias="valg-selv-retter">
+                            <h3>V&#230;lg-Selv Retter</h3>
+                            <img width="490" height="290" src="https://assetsv2.aarstiderne.com/pim/category/valg-selv-retter-4394-490-290-100.JPG" alt="V&#230;lg-Selv Retter" />                         
+                        </a>
+                        <a href="/dagligvarer/julevarer" class="prd-cats-nav__lst-with-bg-item" data-color-alias="julevarer">
+                            <h3>Jul</h3>
+                            <img width="490" height="290" src="https://assetsv2.aarstiderne.com/pim/category/julevarer-4468-490-290-100.JPG" alt="Jul" />                         
+                        </a>
+                </div>
+            </section>
+    </div>
+<!-- Partial: /Products/Category/_Supersection.cshtml -->
+<!-- /MacroPartials/PIM/CategoryByAlias.cshtml -->
+    
+
+
+                            
+        <!-- MacroPartial: FarmshopApiCall.cshtml -->
+<!-- Partial: /Clerk/_ApiCall.cshtml -->
+        <section class="carousel-container">
+                <h3 class="clerk-header">Popul&#230;re dagligvarer</h3>
+            <div class="product-list swiper-container js-carousel-4">
+                <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                    <a href="/dagligvarer/frugt/citrusfrugter/clementinkassen"
+       class="product-list__item js-product-item js-product-item-quantity"  data-clerk-product-id='298036-STK'
+       data-is-favorite="false"
+       data-id="2738"
+       data-item-no="298036"
+       data-giftcard-id=""
+       data-configuration="Extra"
+       data-position="1"
+       data-delivery-days="1,2,3,0,5"
+       data-track='{ "name": "ClementinKassen", "id": 2738, "price": 95, "brand": null, "category": "Extra", "variant": null, "position": 1, "url": "/dagligvarer/frugt/citrusfrugter/clementinkassen", "list": "ProductCategoryPage" }'
+       itemscope
+       itemtype="http://schema.org/Product">
+        <div class="product-list__image">
+                <img src="https://assetsv2.aarstiderne.com/product/clementinkassen-1779-392-392-30.PNG" width="238" height="238" alt="ClementinKassen" data-prop="GetImage" loading="lazy" />
+        </div>
+        <div class="product-list__tags">
+                            <span class="tag tag--news">Nyhed</span>
+
+        </div>
+
+        <div class="product-list__favorite">
+                <span href="#login-modal" data-modal="login" class="favorite"></span>
+        </div>
+        <div class="product-list__layout">
+            <header class="product-list__header">
+                <h2 class="product-list__title" data-prop="Title" itemprop="name">ClementinKassen</h2>
+            </header>
+
+            <div class="product-list__short-description" data-prop="ShortTitle" itemprop="description">                            
+                  <span data-prop="SubTitle">Min. 2,3 kg | </span>
+                Kasse med sæsonens bedste clementiner fra Spanien
+            </div>
+            <div class="product-list__numbers" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                    <span class="product-list__price" data-prop="PriceDetails.Price"><span class='price' itemprop='price'>95</span> <span class='currency' itemprop='priceCurrency'>kr.</span></span>
+                        <span class="product-list__price product-list__price--member" data-prop="PriceDetails.DiscountPriceAsFormatted" data-resource-key="Global.Generics.memberPrice">Medlemspris <span class="product-list__price--wrap"> <span class='price' itemprop='price'>85,50</span> <span class='currency' itemprop='priceCurrency'>kr.</span></span></span>
+            </div>          
+
+
+        </div>    
+                          
+                            <button class="btn btn--cta js-quantity-button  js-plp-clerk js-btn--buy"
+                id="buy2738"
+                data-id="2738"
+                data-configuration="Extra"
+                data-giftcard=""
+                                data-action="addToBasket"
+                data-original-text="L&#230;g i kurv"
+                data-success-text="Lagt i kurv"
+                data-loading-text="Vent..."
+                data-error-text="Pr&#248;v igen"
+                data-soldout-text="Udsolgt"
+                data-not-available-text="Ikke tilg&#230;ngelig"
+                name="itemId"
+                value="2738">
+            L&#230;g i kurv
+        </button>
+
+                </div>
+            </div>
+        </div>
+    </a>
+
+                            </div>
+                            <div class="swiper-slide">
+                                    <a href="/dagligvarer/frugt/aebler-paerer/fejokassen-4-kg"
+       class="product-list__item js-product-item js-product-item-quantity"  data-clerk-product-id='298067-STK'
+       data-is-favorite="false"
+       data-id="4756"
+       data-item-no="298067"
+       data-giftcard-id=""
+       data-configuration="Extra"
+       data-position="1"
+       data-delivery-days="0,1,2,3,5"
+       data-track='{ "name": "Fej&#248;Kassen", "id": 4756, "price": 139, "brand": null, "category": "Extra", "variant": null, "position": 1, "url": "/dagligvarer/frugt/aebler-paerer/fejokassen-4-kg", "list": "ProductCategoryPage" }'
+       itemscope
+       itemtype="http://schema.org/Product">
+        <div class="product-list__image">
+                <img src="https://assetsv2.aarstiderne.com/product/fejokassen-4-kg-4459-392-392-30.PNG" width="238" height="238" alt="Fej&#248;Kassen" data-prop="GetImage" loading="lazy" />
+        </div>
+        <div class="product-list__tags">
+                            <span class="tag tag--news">Nyhed</span>
+
+        </div>
+
+        <div class="product-list__favorite">
+                <span href="#login-modal" data-modal="login" class="favorite"></span>
+        </div>
+        <div class="product-list__layout">
+            <header class="product-list__header">
+                <h2 class="product-list__title" data-prop="Title" itemprop="name">Fej&#248;Kassen</h2>
+            </header>
+
+            <div class="product-list__short-description" data-prop="ShortTitle" itemprop="description">                            
+                  <span data-prop="SubTitle">4 kg | </span>
+                De bedste æbler og pærer fra <span>Vesterled Frugtplantage på Fejø</span>
+            </div>
+            <div class="product-list__numbers" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                    <span class="product-list__price" data-prop="PriceDetails.Price"><span class='price' itemprop='price'>139</span> <span class='currency' itemprop='priceCurrency'>kr.</span></span>
+                        <span class="product-list__price product-list__price--member" data-prop="PriceDetails.DiscountPriceAsFormatted" data-resource-key="Global.Generics.memberPrice">Medlemspris <span class="product-list__price--wrap"> <span class='price' itemprop='price'>125,10</span> <span class='currency' itemprop='priceCurrency'>kr.</span></span></span>
+            </div>          
+            <div class="product-list__button">
+                <div class="product-details__quantity product-quantity js-product-quantity" data-productid="4756">
+                            <div class="product-quantity__input-wrap js-input-wrap hide">           
+            <button type="button" class="btn btn--cta btn--quantity js-btn-quantity"
+                id="buy4756subtract"
+                data-action="subtract"
+                value="subtract"
+                aria-label="fjern antal">              
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="3" viewBox="0 0 16 3" fill="none">
+                    <rect y="0.0960693" width="16.2974" height="2" rx="1" fill="white"/>
+                </svg>                      
+            </button>
+            <label><input type="number" value="0" name="quantity" min="0" max="99" maxlength="2" /></label>       
+            <button type="button" class="btn btn--cta btn--quantity js-btn-quantity"
+                id="buy4756add"
+                data-action="add"
+                value="add"
+                aria-label="tilføj antal">              
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.10938 15.2974C7.10938 15.8497 7.55709 16.2974 8.10938 16.2974C8.66166 16.2974 9.10938 15.8497 9.10938 15.2974V9.09607H15.2974C15.8497 9.09607 16.2974 8.64835 16.2974 8.09607C16.2974 7.54378 15.8497 7.09607 15.2974 7.09607H9.10938V0.999999C9.10938 0.447715 8.66166 0 8.10938 0C7.55709 0 7.10938 0.447715 7.10938 1V7.09607H1C0.447715 7.09607 0 7.54378 0 8.09607C0 8.64835 0.447716 9.09607 1 9.09607H7.10938V15.2974Z" fill="white"/>
+                </svg>                     
+            </button>
+        </div>    
+                          
+                            <button class="btn btn--cta js-quantity-button  js-plp-clerk js-btn--buy"
+                id="buy4756"
+                data-id="4756"
+                data-configuration="Extra"
+                data-giftcard=""
+                                data-action="addToBasket"
+                data-original-text="L&#230;g i kurv"
+                data-success-text="Lagt i kurv"
+                data-loading-text="Vent..."
+                data-error-text="Pr&#248;v igen"
+                data-soldout-text="Udsolgt"
+                data-not-available-text="Ikke tilg&#230;ngelig"
+                name="itemId"
+                value="4756">
+            L&#230;g i kurv
+        </button>
+
+                </div>
+            </div>
+        </div>
+    </a>
+
+                            </div>
+                            <div class="swiper-slide">
+                                    <a href="/dagligvarer/frugt/eksotiske-frugter/dragefrugter-i-kasse"
+       class="product-list__item js-product-item js-product-item-quantity"  data-clerk-product-id='298059-STK'
+       data-is-favorite="false"
+       data-id="4246"
+       data-item-no="298059"
+       data-giftcard-id=""
+       data-configuration="Extra"
+       data-position="1"
+       data-delivery-days="0,1,2,3,5"
+       data-track='{ "name": "Dragefrugter i kasse", "id": 4246, "price": 195, "brand": null, "category": "Extra", "variant": null, "position": 1, "url": "/dagligvarer/frugt/eksotiske-frugter/dragefrugter-i-kasse", "list": "ProductCategoryPage" }'
+       itemscope
+       itemtype="http://schema.org/Product">
+        <div class="product-list__image">
+                <img src="https://assetsv2.aarstiderne.com/product/dragefrugter-i-kasse-3712-392-392-30.PNG" width="238" height="238" alt="Dragefrugter i kasse" data-prop="GetImage" loading="lazy" />
+        </div>
+        <div class="product-list__tags">
+                            <span class="tag tag--news">Nyhed</span>
+
+        </div>
+
+        <div class="product-list__favorite">
+                <span href="#login-modal" data-modal="login" class="favorite"></span>
+        </div>
+        <div class="product-list__layout">
+            <header class="product-list__header">
+                <h2 class="product-list__title" data-prop="Title" itemprop="name">Dragefrugter i kasse</h2>
+            </header>
+
+            <div class="product-list__short-description" data-prop="ShortTitle" itemprop="description">                            
+                  <span data-prop="SubTitle">1,5 kg | </span>
+                <span>Tropiske frugter, også kendt som 'pitahaya', dyrket i Spanien</span>
+            </div>
+            <div class="product-list__numbers" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                    <span class="product-list__price" data-prop="PriceDetails.Price"><span class='price' itemprop='price'>195</span> <span class='currency' itemprop='priceCurrency'>kr.</span></span>
+                        <span class="product-list__price product-list__price--member" data-prop="PriceDetails.DiscountPriceAsFormatted" data-resource-key="Global.Generics.memberPrice">Medlemspris <span class="product-list__price--wrap"> <span class='price' itemprop='price'>175,50</span> <span class='currency' itemprop='priceCurrency'>kr.</span></span></span>
+            </div>          
+            <div class="product-list__button">
+                <div class="product-details__quantity product-quantity js-product-quantity" data-productid="4246">
+                            <div class="product-quantity__input-wrap js-input-wrap hide">           
+            <button type="button" class="btn btn--cta btn--quantity js-btn-quantity"
+                id="buy4246subtract"
+                data-action="subtract"
+                value="subtract"
+                aria-label="fjern antal">              
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="3" viewBox="0 0 16 3" fill="none">
+                    <rect y="0.0960693" width="16.2974" height="2" rx="1" fill="white"/>
+                </svg>                      
+            </button>
+            <label><input type="number" value="0" name="quantity" min="0" max="99" maxlength="2" /></label>       
+            <button type="button" class="btn btn--cta btn--quantity js-btn-quantity"
+                id="buy4246add"
+                data-action="add"
+                value="add"
+                aria-label="tilføj antal">              
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.10938 15.2974C7.10938 15.8497 7.55709 16.2974 8.10938 16.2974C8.66166 16.2974 9.10938 15.8497 9.10938 15.2974V9.09607H15.2974C15.8497 9.09607 16.2974 8.64835 16.2974 8.09607C16.2974 7.54378 15.8497 7.09607 15.2974 7.09607H9.10938V0.999999C9.10938 0.447715 8.66166 0 8.10938 0C7.55709 0 7.10938 0.447715 7.10938 1V7.09607H1C0.447715 7.09607 0 7.54378 0 8.09607C0 8.64835 0.447716 9.09607 1 9.09607H7.10938V15.2974Z" fill="white"/>
+                </svg>                     
+            </button>
+        </div>    
+                          
+                            <button class="btn btn--cta js-quantity-button  js-plp-clerk js-btn--buy"
+                id="buy4246"
+                data-id="4246"
+                data-configuration="Extra"
+                data-giftcard=""
+                                data-action="addToBasket"
+                data-original-text="L&#230;g i kurv"
+                data-success-text="Lagt i kurv"
+                data-loading-text="Vent..."
+                data-error-text="Pr&#248;v igen"
+                data-soldout-text="Udsolgt"
+                data-not-available-text="Ikke tilg&#230;ngelig"
+                name="itemId"
+                value="4246">
+            L&#230;g i kurv
+        </button>
+
+                </div>
+            </div>
+        </div>
+    </a>
+
+                            </div>
+                            <div class="swiper-slide">
+                                    <a href="/dagligvarer/valg-selv-retter/2-personer/pita-med-miniboffer-2p"
+       class="product-list__item js-product-item js-product-item-quantity"  data-clerk-product-id='115341-STK'
+       data-is-favorite="false"
+       data-id="4725"
+       data-item-no="115341"
+       data-giftcard-id=""
+       data-configuration="Extra"
+       data-position="1"
+       data-delivery-days="0,1,2,3,5"
+       data-track='{ "name": "Pitabr&#248;d", "id": 4725, "price": 159, "brand": null, "category": "Extra", "variant": null, "position": 1, "url": "/dagligvarer/valg-selv-retter/2-personer/pita-med-miniboffer-2p", "list": "ProductCategoryPage" }'
+       itemscope
+       itemtype="http://schema.org/Product">
+        <div class="product-list__image">
+                <img src="https://assetsv2.aarstiderne.com/product/pita-med-miniboffer-2p-4380-392-392-30.PNG" width="238" height="238" alt="Pitabr&#248;d" data-prop="GetImage" loading="lazy" />
+        </div>
+        <div class="product-list__tags">
+                            <span class="tag tag--news">Nyhed</span>
+
+        </div>
+
+        <div class="product-list__favorite">
+                <span href="#login-modal" data-modal="login" class="favorite"></span>
+        </div>
+        <div class="product-list__layout">
+            <header class="product-list__header">
+                <h2 class="product-list__title" data-prop="Title" itemprop="name">Pitabr&#248;d</h2>
+            </header>
+
+            <div class="product-list__short-description" data-prop="ShortTitle" itemprop="description">                            
+                  <span data-prop="SubTitle">Til 2 personer | </span>
+                Pita med minibøffer, hvidløgsdressing og sprødt grønt
+            </div>
+            <div class="product-list__numbers" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                    <span class="product-list__price" data-prop="PriceDetails.Price"><span class='price' itemprop='price'>159</span> <span class='currency' itemprop='priceCurrency'>kr.</span></span>
+                        <span class="product-list__price product-list__price--member" data-prop="PriceDetails.DiscountPriceAsFormatted" data-resource-key="Global.Generics.memberPrice">Medlemspris <span class="product-list__price--wrap"> <span class='price' itemprop='price'>143,10</span> <span class='currency' itemprop='priceCurrency'>kr.</span></span></span>
+            </div>          
+            <div class="product-list__button">
+                <div class="product-details__quantity product-quantity js-product-quantity" data-productid="4725">
+                            <div class="product-quantity__input-wrap js-input-wrap hide">           
+            <button type="button" class="btn btn--cta btn--quantity js-btn-quantity"
+                id="buy4725subtract"
+                data-action="subtract"
+                value="subtract"
+                aria-label="fjern antal">              
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="3" viewBox="0 0 16 3" fill="none">
+                    <rect y="0.0960693" width="16.2974" height="2" rx="1" fill="white"/>
+                </svg>                      
+            </button>
+            <label><input type="number" value="0" name="quantity" min="0" max="99" maxlength="2" /></label>       
+            <button type="button" class="btn btn--cta btn--quantity js-btn-quantity"
+                id="buy4725add"
+                data-action="add"
+                value="add"
+                aria-label="tilføj antal">              
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.10938 15.2974C7.10938 15.8497 7.55709 16.2974 8.10938 16.2974C8.66166 16.2974 9.10938 15.8497 9.10938 15.2974V9.09607H15.2974C15.8497 9.09607 16.2974 8.64835 16.2974 8.09607C16.2974 7.54378 15.8497 7.09607 15.2974 7.09607H9.10938V0.999999C9.10938 0.447715 8.66166 0 8.10938 0C7.55709 0 7.10938 0.447715 7.10938 1V7.09607H1C0.447715 7.09607 0 7.54378 0 8.09607C0 8.64835 0.447716 9.09607 1 9.09607H7.10938V15.2974Z" fill="white"/>
+                </svg>                     
+            </button>
+        </div>    
+                          
+                            <button class="btn btn--cta js-quantity-button  js-plp-clerk js-btn--buy"
+                id="buy4725"
+                data-id="4725"
+                data-configuration="Extra"
+                data-giftcard=""
+                                data-action="addToBasket"
+                data-original-text="L&#230;g i kurv"
+                data-success-text="Lagt i kurv"
+                data-loading-text="Vent..."
+                data-error-text="Pr&#248;v igen"
+                data-soldout-text="Udsolgt"
+                data-not-available-text="Ikke tilg&#230;ngelig"
+                name="itemId"
+                value="4725">
+            L&#230;g i kurv
+        </button>
+
+                </div>
+            </div>
+        </div>
+    </a>
+
+                            </div>
+                            <div class="swiper-slide">
+                                    <a href="/dagligvarer/koed-fisk/koed/andelar-s-v-280g"
+       class="product-list__item js-product-item js-product-item-quantity"  data-clerk-product-id='422287-STK'
+       data-is-favorite="false"
+       data-id="4777"
+       data-item-no="422287"
+       data-giftcard-id=""
+       data-configuration="Extra"
+       data-position="1"
+       data-delivery-days="0,1,2,3,5"
+       data-track='{ "name": "Confiteret andel&#229;r", "id": 4777, "price": 75, "brand": null, "category": "Extra", "variant": null, "position": 1, "url": "/dagligvarer/koed-fisk/koed/andelar-s-v-280g", "list": "ProductCategoryPage" }'
+       itemscope
+       itemtype="http://schema.org/Product">
+        <div class="product-list__image">
+                <img src="https://assetsv2.aarstiderne.com/product/andelar-s-v-280g-2988-392-392-30.PNG" width="238" height="238" alt="Confiteret andel&#229;r" data-prop="GetImage" loading="lazy" />
+        </div>
+        <div class="product-list__tags">
+                            <span class="tag tag--news">Nyhed</span>
+
+        </div>
+
+        <div class="product-list__favorite">
+                <span href="#login-modal" data-modal="login" class="favorite"></span>
+        </div>
+        <div class="product-list__layout">
+            <header class="product-list__header">
+                <h2 class="product-list__title" data-prop="Title" itemprop="name">Confiteret andel&#229;r</h2>
+            </header>
+
+            <div class="product-list__short-description" data-prop="ShortTitle" itemprop="description">                            
+                  <span data-prop="SubTitle">1 stk., min. 280 g | </span>
+                <span mce-data-marked="1">Økologisk, confiteret andelår</span>
+            </div>
+            <div class="product-list__numbers" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                    <span class="product-list__price" data-prop="PriceDetails.Price"><span class='price' itemprop='price'>75</span> <span class='currency' itemprop='priceCurrency'>kr.</span></span>
+                        <span class="product-list__price product-list__price--member" data-prop="PriceDetails.DiscountPriceAsFormatted" data-resource-key="Global.Generics.memberPrice">Medlemspris <span class="product-list__price--wrap"> <span class='price' itemprop='price'>67,50</span> <span class='currency' itemprop='priceCurrency'>kr.</span></span></span>
+            </div>          
+            <div class="product-list__button">
+                <div class="product-details__quantity product-quantity js-product-quantity" data-productid="4777">
+                            <div class="product-quantity__input-wrap js-input-wrap hide">           
+            <button type="button" class="btn btn--cta btn--quantity js-btn-quantity"
+                id="buy4777subtract"
+                data-action="subtract"
+                value="subtract"
+                aria-label="fjern antal">              
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="3" viewBox="0 0 16 3" fill="none">
+                    <rect y="0.0960693" width="16.2974" height="2" rx="1" fill="white"/>
+                </svg>                      
+            </button>
+            <label><input type="number" value="0" name="quantity" min="0" max="99" maxlength="2" /></label>       
+            <button type="button" class="btn btn--cta btn--quantity js-btn-quantity"
+                id="buy4777add"
+                data-action="add"
+                value="add"
+                aria-label="tilføj antal">              
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.10938 15.2974C7.10938 15.8497 7.55709 16.2974 8.10938 16.2974C8.66166 16.2974 9.10938 15.8497 9.10938 15.2974V9.09607H15.2974C15.8497 9.09607 16.2974 8.64835 16.2974 8.09607C16.2974 7.54378 15.8497 7.09607 15.2974 7.09607H9.10938V0.999999C9.10938 0.447715 8.66166 0 8.10938 0C7.55709 0 7.10938 0.447715 7.10938 1V7.09607H1C0.447715 7.09607 0 7.54378 0 8.09607C0 8.64835 0.447716 9.09607 1 9.09607H7.10938V15.2974Z" fill="white"/>
+                </svg>                     
+            </button>
+        </div>    
+                          
+                            <button class="btn btn--cta js-quantity-button  js-plp-clerk js-btn--buy"
+                id="buy4777"
+                data-id="4777"
+                data-configuration="Extra"
+                data-giftcard=""
+                                data-action="addToBasket"
+                data-original-text="L&#230;g i kurv"
+                data-success-text="Lagt i kurv"
+                data-loading-text="Vent..."
+                data-error-text="Pr&#248;v igen"
+                data-soldout-text="Udsolgt"
+                data-not-available-text="Ikke tilg&#230;ngelig"
+                name="itemId"
+                value="4777">
+            L&#230;g i kurv
+        </button>
+
+                </div>
+            </div>
+        </div>
+    </a>
+
+                            </div>
+                            <div class="swiper-slide">
+                                    <a href="/dagligvarer/frugt/aebler-paerer/kvader"
+       class="product-list__item js-product-item js-product-item-quantity"  data-clerk-product-id='280001-KG'
+       data-is-favorite="false"
+       data-id="3643"
+       data-item-no="280001"
+       data-giftcard-id=""
+       data-configuration="Extra"
+       data-position="1"
+       data-delivery-days="0,1,2,3,5"
+       data-track='{ "name": "Kv&#230;der", "id": 3643, "price": 45, "brand": null, "category": "Extra", "variant": null, "position": 1, "url": "/dagligvarer/frugt/aebler-paerer/kvader", "list": "ProductCategoryPage" }'
+       itemscope
+       itemtype="http://schema.org/Product">
+        <div class="product-list__image">
+                <img src="https://assetsv2.aarstiderne.com/product/kvader-1988-392-392-30.PNG" width="238" height="238" alt="Kv&#230;der" data-prop="GetImage" loading="lazy" />
+        </div>
+        <div class="product-list__tags">
+                            <span class="tag tag--news">Nyhed</span>
+
+        </div>
+
+        <div class="product-list__favorite">
+                <span href="#login-modal" data-modal="login" class="favorite"></span>
+        </div>
+        <div class="product-list__layout">
+            <header class="product-list__header">
+                <h2 class="product-list__title" data-prop="Title" itemprop="name">Kv&#230;der</h2>
+            </header>
+
+            <div class="product-list__short-description" data-prop="ShortTitle" itemprop="description">                            
+                  <span data-prop="SubTitle">1 kg | </span>
+                <span>En frugt fra "glemmebogen" – velegnet til marmelade og chutney mm.</span>
+            </div>
+            <div class="product-list__numbers" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                    <span class="product-list__price" data-prop="PriceDetails.Price"><span class='price' itemprop='price'>45</span> <span class='currency' itemprop='priceCurrency'>kr.</span></span>
+                        <span class="product-list__price product-list__price--member" data-prop="PriceDetails.DiscountPriceAsFormatted" data-resource-key="Global.Generics.memberPrice">Medlemspris <span class="product-list__price--wrap"> <span class='price' itemprop='price'>40,50</span> <span class='currency' itemprop='priceCurrency'>kr.</span></span></span>
+            </div>          
+            <div class="product-list__button">
+                <div class="product-details__quantity product-quantity js-product-quantity" data-productid="3643">
+                            <div class="product-quantity__input-wrap js-input-wrap hide">           
+            <button type="button" class="btn btn--cta btn--quantity js-btn-quantity"
+                id="buy3643subtract"
+                data-action="subtract"
+                value="subtract"
+                aria-label="fjern antal">              
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="3" viewBox="0 0 16 3" fill="none">
+                    <rect y="0.0960693" width="16.2974" height="2" rx="1" fill="white"/>
+                </svg>                      
+            </button>
+            <label><input type="number" value="0" name="quantity" min="0" max="99" maxlength="2" /></label>       
+            <button type="button" class="btn btn--cta btn--quantity js-btn-quantity"
+                id="buy3643add"
+                data-action="add"
+                value="add"
+                aria-label="tilføj antal">              
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.10938 15.2974C7.10938 15.8497 7.55709 16.2974 8.10938 16.2974C8.66166 16.2974 9.10938 15.8497 9.10938 15.2974V9.09607H15.2974C15.8497 9.09607 16.2974 8.64835 16.2974 8.09607C16.2974 7.54378 15.8497 7.09607 15.2974 7.09607H9.10938V0.999999C9.10938 0.447715 8.66166 0 8.10938 0C7.55709 0 7.10938 0.447715 7.10938 1V7.09607H1C0.447715 7.09607 0 7.54378 0 8.09607C0 8.64835 0.447716 9.09607 1 9.09607H7.10938V15.2974Z" fill="white"/>
+                </svg>                     
+            </button>
+        </div>    
+                          
+                            <button class="btn btn--cta js-quantity-button  js-plp-clerk js-btn--buy"
+                id="buy3643"
+                data-id="3643"
+                data-configuration="Extra"
+                data-giftcard=""
+                                data-action="addToBasket"
+                data-original-text="L&#230;g i kurv"
+                data-success-text="Lagt i kurv"
+                data-loading-text="Vent..."
+                data-error-text="Pr&#248;v igen"
+                data-soldout-text="Udsolgt"
+                data-not-available-text="Ikke tilg&#230;ngelig"
+                name="itemId"
+                value="3643">
+            L&#230;g i kurv
+        </button>
+
+                </div>
+            </div>
+        </div>
+    </a>
+
+                            </div>
+                            <div class="swiper-slide">
+                                    <a href="/dagligvarer/frugt/citrusfrugter/clementin-oronule"
+       class="product-list__item js-product-item js-product-item-quantity"  data-clerk-product-id='211170-500 GR'
+       data-is-favorite="false"
+       data-id="4770"
+       data-item-no="211170"
+       data-giftcard-id=""
+       data-configuration="Extra"
+       data-position="1"
+       data-delivery-days="0,1,2,3,5"
+       data-track='{ "name": "Oronule-clementiner med blade", "id": 4770, "price": 25, "brand": null, "category": "Extra", "variant": null, "position": 1, "url": "/dagligvarer/frugt/citrusfrugter/clementin-oronule", "list": "ProductCategoryPage" }'
+       itemscope
+       itemtype="http://schema.org/Product">
+        <div class="product-list__image">
+                <img src="https://assetsv2.aarstiderne.com/product/clementin-oronule-4461-392-392-30.PNG" width="238" height="238" alt="Oronule-clementiner med blade" data-prop="GetImage" loading="lazy" />
+        </div>
+        <div class="product-list__tags">
+                            <span class="tag tag--news">Nyhed</span>
+
+        </div>
+
+        <div class="product-list__favorite">
+                <span href="#login-modal" data-modal="login" class="favorite"></span>
+        </div>
+        <div class="product-list__layout">
+            <header class="product-list__header">
+                <h2 class="product-list__title" data-prop="Title" itemprop="name">Oronule-clementiner med blade</h2>
+            </header>
+
+            <div class="product-list__short-description" data-prop="ShortTitle" itemprop="description">                            
+                  <span data-prop="SubTitle">500 g | </span>
+                <span>Søde og saftige clementiner</span>
+            </div>
+            <div class="product-list__numbers" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                    <span class="product-list__price" data-prop="PriceDetails.Price"><span class='price' itemprop='price'>25</span> <span class='currency' itemprop='priceCurrency'>kr.</span></span>
+                        <span class="product-list__price product-list__price--member" data-prop="PriceDetails.DiscountPriceAsFormatted" data-resource-key="Global.Generics.memberPrice">Medlemspris <span class="product-list__price--wrap"> <span class='price' itemprop='price'>22,50</span> <span class='currency' itemprop='priceCurrency'>kr.</span></span></span>
+            </div>          
+            <div class="product-list__button">
+                <div class="product-details__quantity product-quantity js-product-quantity" data-productid="4770">
+                            <div class="product-quantity__input-wrap js-input-wrap hide">           
+            <button type="button" class="btn btn--cta btn--quantity js-btn-quantity"
+                id="buy4770subtract"
+                data-action="subtract"
+                value="subtract"
+                aria-label="fjern antal">              
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="3" viewBox="0 0 16 3" fill="none">
+                    <rect y="0.0960693" width="16.2974" height="2" rx="1" fill="white"/>
+                </svg>                      
+            </button>
+            <label><input type="number" value="0" name="quantity" min="0" max="99" maxlength="2" /></label>       
+            <button type="button" class="btn btn--cta btn--quantity js-btn-quantity"
+                id="buy4770add"
+                data-action="add"
+                value="add"
+                aria-label="tilføj antal">              
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.10938 15.2974C7.10938 15.8497 7.55709 16.2974 8.10938 16.2974C8.66166 16.2974 9.10938 15.8497 9.10938 15.2974V9.09607H15.2974C15.8497 9.09607 16.2974 8.64835 16.2974 8.09607C16.2974 7.54378 15.8497 7.09607 15.2974 7.09607H9.10938V0.999999C9.10938 0.447715 8.66166 0 8.10938 0C7.55709 0 7.10938 0.447715 7.10938 1V7.09607H1C0.447715 7.09607 0 7.54378 0 8.09607C0 8.64835 0.447716 9.09607 1 9.09607H7.10938V15.2974Z" fill="white"/>
+                </svg>                     
+            </button>
+        </div>    
+                          
+                            <button class="btn btn--cta js-quantity-button  js-plp-clerk js-btn--buy"
+                id="buy4770"
+                data-id="4770"
+                data-configuration="Extra"
+                data-giftcard=""
+                                data-action="addToBasket"
+                data-original-text="L&#230;g i kurv"
+                data-success-text="Lagt i kurv"
+                data-loading-text="Vent..."
+                data-error-text="Pr&#248;v igen"
+                data-soldout-text="Udsolgt"
+                data-not-available-text="Ikke tilg&#230;ngelig"
+                name="itemId"
+                value="4770">
+            L&#230;g i kurv
+        </button>
+
+                </div>
+            </div>
+        </div>
+    </a>
+
+                            </div>
+                            <div class="swiper-slide">
+                                    <a href="/dagligvarer/frugt/eksotiske-frugter/granatable"
+       class="product-list__item js-product-item js-product-item-quantity"  data-clerk-product-id='268013-STK'
+       data-is-favorite="false"
+       data-id="3536"
+       data-item-no="268013"
+       data-giftcard-id=""
+       data-configuration="Extra"
+       data-position="1"
+       data-delivery-days="0,1,2,3,5"
+       data-track='{ "name": "Granat&#230;ble – Mollar de Elche", "id": 3536, "price": 18, "brand": null, "category": "Extra", "variant": null, "position": 1, "url": "/dagligvarer/frugt/eksotiske-frugter/granatable", "list": "ProductCategoryPage" }'
+       itemscope
+       itemtype="http://schema.org/Product">
+        <div class="product-list__image">
+                <img src="https://assetsv2.aarstiderne.com/product/granatable-3777-392-392-30.PNG" width="238" height="238" alt="Granat&#230;ble – Mollar de Elche" data-prop="GetImage" loading="lazy" />
+        </div>
+        <div class="product-list__tags">
+                            <span class="tag tag--news">Nyhed</span>
+
+        </div>
+
+        <div class="product-list__favorite">
+                <span href="#login-modal" data-modal="login" class="favorite"></span>
+        </div>
+        <div class="product-list__layout">
+            <header class="product-list__header">
+                <h2 class="product-list__title" data-prop="Title" itemprop="name">Granat&#230;ble – Mollar de Elche</h2>
+            </header>
+
+            <div class="product-list__short-description" data-prop="ShortTitle" itemprop="description">                            
+                  <span data-prop="SubTitle">1 stk. | </span>
+                Sødmefuldt og super saftigt granatæble – dyrkes biodynamisk
+            </div>
+            <div class="product-list__numbers" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                    <span class="product-list__price" data-prop="PriceDetails.Price"><span class='price' itemprop='price'>18</span> <span class='currency' itemprop='priceCurrency'>kr.</span></span>
+                        <span class="product-list__price product-list__price--member" data-prop="PriceDetails.DiscountPriceAsFormatted" data-resource-key="Global.Generics.memberPrice">Medlemspris <span class="product-list__price--wrap"> <span class='price' itemprop='price'>16,20</span> <span class='currency' itemprop='priceCurrency'>kr.</span></span></span>
+            </div>          
+            <div class="product-list__button">
+                <div class="product-details__quantity product-quantity js-product-quantity" data-productid="3536">
+                            <div class="product-quantity__input-wrap js-input-wrap hide">           
+            <button type="button" class="btn btn--cta btn--quantity js-btn-quantity"
+                id="buy3536subtract"
+                data-action="subtract"
+                value="subtract"
+                aria-label="fjern antal">              
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="3" viewBox="0 0 16 3" fill="none">
+                    <rect y="0.0960693" width="16.2974" height="2" rx="1" fill="white"/>
+                </svg>                      
+            </button>
+            <label><input type="number" value="0" name="quantity" min="0" max="99" maxlength="2" /></label>       
+            <button type="button" class="btn btn--cta btn--quantity js-btn-quantity"
+                id="buy3536add"
+                data-action="add"
+                value="add"
+                aria-label="tilføj antal">              
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.10938 15.2974C7.10938 15.8497 7.55709 16.2974 8.10938 16.2974C8.66166 16.2974 9.10938 15.8497 9.10938 15.2974V9.09607H15.2974C15.8497 9.09607 16.2974 8.64835 16.2974 8.09607C16.2974 7.54378 15.8497 7.09607 15.2974 7.09607H9.10938V0.999999C9.10938 0.447715 8.66166 0 8.10938 0C7.55709 0 7.10938 0.447715 7.10938 1V7.09607H1C0.447715 7.09607 0 7.54378 0 8.09607C0 8.64835 0.447716 9.09607 1 9.09607H7.10938V15.2974Z" fill="white"/>
+                </svg>                     
+            </button>
+        </div>    
+                          
+                            <button class="btn btn--cta js-quantity-button  js-plp-clerk js-btn--buy"
+                id="buy3536"
+                data-id="3536"
+                data-configuration="Extra"
+                data-giftcard=""
+                                data-action="addToBasket"
+                data-original-text="L&#230;g i kurv"
+                data-success-text="Lagt i kurv"
+                data-loading-text="Vent..."
+                data-error-text="Pr&#248;v igen"
+                data-soldout-text="Udsolgt"
+                data-not-available-text="Ikke tilg&#230;ngelig"
+                name="itemId"
+                value="3536">
+            L&#230;g i kurv
+        </button>
+
+                </div>
+            </div>
+        </div>
+    </a>
+
+                            </div>
+                            <div class="swiper-slide">
+                                    <a href="/dagligvarer/groent/kaal/rosenkal-500-g"
+       class="product-list__item js-product-item js-product-item-quantity"  data-clerk-product-id='318166-STK'
+       data-is-favorite="false"
+       data-id="4774"
+       data-item-no="318166"
+       data-giftcard-id=""
+       data-configuration="Extra"
+       data-position="1"
+       data-delivery-days="0,1,2,3,5"
+       data-track='{ "name": "Rosenk&#229;l", "id": 4774, "price": 30, "brand": null, "category": "Extra", "variant": null, "position": 1, "url": "/dagligvarer/groent/kaal/rosenkal-500-g", "list": "ProductCategoryPage" }'
+       itemscope
+       itemtype="http://schema.org/Product">
+        <div class="product-list__image">
+                <img src="https://assetsv2.aarstiderne.com/product/rosenkal-500-g-4462-392-392-30.PNG" width="238" height="238" alt="Rosenk&#229;l" data-prop="GetImage" loading="lazy" />
+        </div>
+        <div class="product-list__tags">
+                            <span class="tag tag--news">Nyhed</span>
+
+        </div>
+
+        <div class="product-list__favorite">
+                <span href="#login-modal" data-modal="login" class="favorite"></span>
+        </div>
+        <div class="product-list__layout">
+            <header class="product-list__header">
+                <h2 class="product-list__title" data-prop="Title" itemprop="name">Rosenk&#229;l</h2>
+            </header>
+
+            <div class="product-list__short-description" data-prop="ShortTitle" itemprop="description">                            
+                  <span data-prop="SubTitle">500 g | </span>
+                <span>Fine små rosenkål</span>
+            </div>
+            <div class="product-list__numbers" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                    <span class="product-list__price" data-prop="PriceDetails.Price"><span class='price' itemprop='price'>30</span> <span class='currency' itemprop='priceCurrency'>kr.</span></span>
+                        <span class="product-list__price product-list__price--member" data-prop="PriceDetails.DiscountPriceAsFormatted" data-resource-key="Global.Generics.memberPrice">Medlemspris <span class="product-list__price--wrap"> <span class='price' itemprop='price'>27</span> <span class='currency' itemprop='priceCurrency'>kr.</span></span></span>
+            </div>          
+            <div class="product-list__button">
+                <div class="product-details__quantity product-quantity js-product-quantity" data-productid="4774">
+                            <div class="product-quantity__input-wrap js-input-wrap hide">           
+            <button type="button" class="btn btn--cta btn--quantity js-btn-quantity"
+                id="buy4774subtract"
+                data-action="subtract"
+                value="subtract"
+                aria-label="fjern antal">              
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="3" viewBox="0 0 16 3" fill="none">
+                    <rect y="0.0960693" width="16.2974" height="2" rx="1" fill="white"/>
+                </svg>                      
+            </button>
+            <label><input type="number" value="0" name="quantity" min="0" max="99" maxlength="2" /></label>       
+            <button type="button" class="btn btn--cta btn--quantity js-btn-quantity"
+                id="buy4774add"
+                data-action="add"
+                value="add"
+                aria-label="tilføj antal">              
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.10938 15.2974C7.10938 15.8497 7.55709 16.2974 8.10938 16.2974C8.66166 16.2974 9.10938 15.8497 9.10938 15.2974V9.09607H15.2974C15.8497 9.09607 16.2974 8.64835 16.2974 8.09607C16.2974 7.54378 15.8497 7.09607 15.2974 7.09607H9.10938V0.999999C9.10938 0.447715 8.66166 0 8.10938 0C7.55709 0 7.10938 0.447715 7.10938 1V7.09607H1C0.447715 7.09607 0 7.54378 0 8.09607C0 8.64835 0.447716 9.09607 1 9.09607H7.10938V15.2974Z" fill="white"/>
+                </svg>                     
+            </button>
+        </div>    
+                          
+                            <button class="btn btn--cta js-quantity-button  js-plp-clerk js-btn--buy"
+                id="buy4774"
+                data-id="4774"
+                data-configuration="Extra"
+                data-giftcard=""
+                                data-action="addToBasket"
+                data-original-text="L&#230;g i kurv"
+                data-success-text="Lagt i kurv"
+                data-loading-text="Vent..."
+                data-error-text="Pr&#248;v igen"
+                data-soldout-text="Udsolgt"
+                data-not-available-text="Ikke tilg&#230;ngelig"
+                name="itemId"
+                value="4774">
+            L&#230;g i kurv
+        </button>
+
+                </div>
+            </div>
+        </div>
+    </a>
+
+                            </div>
+                            <div class="swiper-slide">
+                                    <a href="/dagligvarer/koed-fisk/koed/mortensandkassen"
+       class="product-list__item js-product-item js-product-item-quantity"  data-clerk-product-id='115048-STK'
+       data-is-favorite="false"
+       data-id="2415"
+       data-item-no="115048"
+       data-giftcard-id=""
+       data-configuration="Extra"
+       data-position="1"
+       data-delivery-days="3"
+       data-track='{ "name": "MortensandKassen", "id": 2415, "price": 895, "brand": null, "category": "Extra", "variant": null, "position": 1, "url": "/dagligvarer/koed-fisk/koed/mortensandkassen", "list": "ProductCategoryPage" }'
+       itemscope
+       itemtype="http://schema.org/Product">
+        <div class="product-list__image">
+                <img src="https://assetsv2.aarstiderne.com/product/mortensandkassen-4458-392-392-30.PNG" width="238" height="238" alt="MortensandKassen" data-prop="GetImage" loading="lazy" />
+        </div>
+        <div class="product-list__tags">
+                            <span class="tag tag--news">Nyhed</span>
+
+        </div>
+
+        <div class="product-list__favorite">
+                <span href="#login-modal" data-modal="login" class="favorite"></span>
+        </div>
+        <div class="product-list__layout">
+            <header class="product-list__header">
+                <h2 class="product-list__title" data-prop="Title" itemprop="name">MortensandKassen</h2>
+            </header>
+
+            <div class="product-list__short-description" data-prop="ShortTitle" itemprop="description">                            
+                  <span data-prop="SubTitle">Til 4 personer | </span>
+                <span>Økologisk dansk landand med kartofler, bagt græskar og en frisk kålsalat – opskrift medfølger</span>
+            </div>
+            <div class="product-list__numbers" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                    <span class="product-list__price" data-prop="PriceDetails.Price"><span class='price' itemprop='price'>895</span> <span class='currency' itemprop='priceCurrency'>kr.</span></span>
+                        <span class="product-list__price product-list__price--member" data-prop="PriceDetails.DiscountPriceAsFormatted" data-resource-key="Global.Generics.memberPrice">Medlemspris <span class="product-list__price--wrap"> <span class='price' itemprop='price'>805,50</span> <span class='currency' itemprop='priceCurrency'>kr.</span></span></span>
+            </div>          
+            <div class="product-list__button">
+                <div class="product-details__quantity product-quantity js-product-quantity" data-productid="2415">
+                            <div class="product-quantity__input-wrap js-input-wrap hide">           
+            <button type="button" class="btn btn--cta btn--quantity js-btn-quantity"
+                id="buy2415subtract"
+                data-action="subtract"
+                value="subtract"
+                aria-label="fjern antal">              
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="3" viewBox="0 0 16 3" fill="none">
+                    <rect y="0.0960693" width="16.2974" height="2" rx="1" fill="white"/>
+                </svg>                      
+            </button>
+            <label><input type="number" value="0" name="quantity" min="0" max="99" maxlength="2" /></label>       
+            <button type="button" class="btn btn--cta btn--quantity js-btn-quantity"
+                id="buy2415add"
+                data-action="add"
+                value="add"
+                aria-label="tilføj antal">              
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.10938 15.2974C7.10938 15.8497 7.55709 16.2974 8.10938 16.2974C8.66166 16.2974 9.10938 15.8497 9.10938 15.2974V9.09607H15.2974C15.8497 9.09607 16.2974 8.64835 16.2974 8.09607C16.2974 7.54378 15.8497 7.09607 15.2974 7.09607H9.10938V0.999999C9.10938 0.447715 8.66166 0 8.10938 0C7.55709 0 7.10938 0.447715 7.10938 1V7.09607H1C0.447715 7.09607 0 7.54378 0 8.09607C0 8.64835 0.447716 9.09607 1 9.09607H7.10938V15.2974Z" fill="white"/>
+                </svg>                     
+            </button>
+        </div>    
+                          
+                            <button class="btn btn--cta js-quantity-button  js-plp-clerk js-btn--buy"
+                id="buy2415"
+                data-id="2415"
+                data-configuration="Extra"
+                data-giftcard=""
+                                data-action="addToBasket"
+                data-original-text="L&#230;g i kurv"
+                data-success-text="Lagt i kurv"
+                data-loading-text="Vent..."
+                data-error-text="Pr&#248;v igen"
+                data-soldout-text="Udsolgt"
+                data-not-available-text="Ikke tilg&#230;ngelig"
+                name="itemId"
+                value="2415">
+            L&#230;g i kurv
+        </button>
+
+                </div>
+            </div>
+        </div>
+    </a>
+
+                            </div>
+
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </section>
+
+<pre class="hidden">
+        <pre>ErrorMessage: </pre>
+        <pre>Error2: </pre>
+        <pre>JsonApiResult: {"status":"ok","result":["298036-STK","298067-STK","298059-STK","115341-STK","422287-STK","280001-KG","211170-500 GR","268013-STK","318166-STK","115048-STK"],"count":80,"facets":null,"product_data":[{"id":"298036-STK","pimId":2738},{"id":"298067-STK","pimId":4756},{"id":"298059-STK","pimId":4246},{"id":"115341-STK","pimId":4725},{"id":"422287-STK","pimId":4777},{"id":"280001-KG","pimId":3643},{"id":"211170-500 GR","pimId":4770},{"id":"268013-STK","pimId":3536},{"id":"318166-STK","pimId":4774},{"id":"115048-STK","pimId":2415}]}</pre>
+        <pre>ApiUrl: https://api.clerk.io/v2/recommendations/popular?key=&limit=10&filter=isNews%3dtrue&email=&attributes=id,pimId&labels[]=API / KØBMAND / NYHEDER&visitor=72b8a13052df4c9bb6a65116e8a4dec6&products[]=</pre>
+
+</pre>
+
+<!-- /Partial: /Clerk/_ApiCall.cshtml -->
+
+<!-- /MacroPartial: FarmshopApiCall.cshtml -->
+    
+
+
+                            
+        <!-- MacroPartials/PIM/CategoryByAlias.cshtml -->
+
+<!-- Partial: /Products/Category/_BundleStrip.cshtml -->
+<div class="products-bg products-bg--white" data-color-alias="recommendation">
+        <div class="products-container products-container--full" >
+            <section class="prd-cats-nav">
+                 <div class="prd-cats-nav__lst">
+                            <section class="bundle-overview">
+                                <ul class="bundle-overview__list">
+                                    <li class="bundle__list-item-container--recom">                                      
+                                        <h2 class="bundle__list-item-intro-header" data-resouce-key="Global.BundleStrip.header">Aarstiderne anbefaler</h2>
+                                        <p class="bundle__list-item-intro-text" data-resouce-key="Global.BundleStrip.text">Hver uge guider vores kokke og k&#248;bm&#230;nd dig til de bedste varer lige nu – med indk&#248;bslister og opskriftforslag.</p>
+                                        <p class="bundle__list-item-intro-text"><a href="/jordens-bedste-koebmand/anbefalinger" class="btn btn--cta" data-resouce-key="Global.BundleStrip.linkText">Se vores anbefalinger</a></p>
+                                      
+                                    </li>
+        <li id="hokkaidosuppe_item-container" class="bundle__list-item-container boost" style="background-image: url(/media/2095/jbk_anbefaling_hokkaidosuppe_primaert_2020_3053.jpg?crop=0,0,0,0&amp;cropmode=percentage&amp;width=900&amp;height=675); background-color: #cf6227" data-alias="hokkaidosuppe">
+            <a href="/dagligvarer/anbefalinger/hokkaidosuppe" class="bundle__list-item boost " style="">
+                <div class="bundle__list-item-label boost">Aftensmad</div>
+                <h3 class="bundle__list-item-header boost">Hokkaidosuppe</h3>
+            </a>
+        </li>
+        <li id="pizza-bla-congo_item-container" class="bundle__list-item-container boost" style="background-image: url(/media/2083/bla-congo-pizza_signaturret_2021_2405.jpg?crop=0,0,0,0&amp;cropmode=percentage&amp;width=900&amp;height=675); background-color: #463a52" data-alias="pizza-bla-congo">
+            <a href="/dagligvarer/anbefalinger/pizza-bla-congo" class="bundle__list-item boost " style="">
+                <div class="bundle__list-item-label boost">Aftensmad</div>
+                <h3 class="bundle__list-item-header boost">Pizza Bl&#229; Congo</h3>
+            </a>
+        </li>
+                                </ul>
+                            </section>
+
+                </div>
+            </section>
+        </div>
+</div>
+<!-- Partial: /Products/Category/_BundleStrip.cshtml -->
+<!-- /MacroPartials/PIM/CategoryByAlias.cshtml -->
+    
+
+
+                            
+        <!-- MacroPartial: FarmshopApiCall.cshtml -->
+<!-- Partial: /Clerk/_ApiCall.cshtml -->
+        <section class="carousel-container">
+                <h3 class="clerk-header">M&#229;ske vil du kunne lide...</h3>
+            <div class="product-list swiper-container js-carousel-4">
+                <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                    <a href="/dagligvarer/netop-nu/babymangoer-i-kasse"
+       class="product-list__item js-product-item js-product-item-quantity"  data-clerk-product-id='298060-STK'
+       data-is-favorite="false"
+       data-id="4261"
+       data-item-no="298060"
+       data-giftcard-id=""
+       data-configuration="Extra"
+       data-position="1"
+       data-delivery-days="0,1,2,3,5"
+       data-track='{ "name": "Babymangoer i kasse", "id": 4261, "price": 115, "brand": null, "category": "Extra", "variant": null, "position": 1, "url": "/dagligvarer/netop-nu/babymangoer-i-kasse", "list": "ProductCategoryPage" }'
+       itemscope
+       itemtype="http://schema.org/Product">
+        <div class="product-list__image">
+                <img src="https://assetsv2.aarstiderne.com/product/babymangoer-i-kasse-3725-392-392-30.PNG" width="238" height="238" alt="Babymangoer i kasse" data-prop="GetImage" loading="lazy" />
+        </div>
+        <div class="product-list__tags">
+            
+        </div>
+
+        <div class="product-list__favorite">
+                <span href="#login-modal" data-modal="login" class="favorite"></span>
+        </div>
+        <div class="product-list__layout">
+            <header class="product-list__header">
+                <h2 class="product-list__title" data-prop="Title" itemprop="name">Babymangoer i kasse</h2>
+            </header>
+
+            <div class="product-list__short-description" data-prop="ShortTitle" itemprop="description">                            
+                  <span data-prop="SubTitle">Min. 1,8 kg | </span>
+                <span>Små 'snack'-mangoer fra Spanien med en lille sten og næsten ingen fibre</span>
+            </div>
+            <div class="product-list__numbers" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                    <span class="product-list__price" data-prop="PriceDetails.Price"><span class='price' itemprop='price'>115</span> <span class='currency' itemprop='priceCurrency'>kr.</span></span>
+                        <span class="product-list__price product-list__price--member" data-prop="PriceDetails.DiscountPriceAsFormatted" data-resource-key="Global.Generics.memberPrice">Medlemspris <span class="product-list__price--wrap"> <span class='price' itemprop='price'>103,50</span> <span class='currency' itemprop='priceCurrency'>kr.</span></span></span>
+            </div>          
+            <div class="product-list__button">
+                <div class="product-details__quantity product-quantity js-product-quantity" data-productid="4261">
+                            <div class="product-quantity__input-wrap js-input-wrap hide">           
+            <button type="button" class="btn btn--cta btn--quantity js-btn-quantity"
+                id="buy4261subtract"
+                data-action="subtract"
+                value="subtract"
+                aria-label="fjern antal">              
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="3" viewBox="0 0 16 3" fill="none">
+                    <rect y="0.0960693" width="16.2974" height="2" rx="1" fill="white"/>
+                </svg>                      
+            </button>
+            <label><input type="number" value="0" name="quantity" min="0" max="99" maxlength="2" /></label>       
+            <button type="button" class="btn btn--cta btn--quantity js-btn-quantity"
+                id="buy4261add"
+                data-action="add"
+                value="add"
+                aria-label="tilføj antal">              
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.10938 15.2974C7.10938 15.8497 7.55709 16.2974 8.10938 16.2974C8.66166 16.2974 9.10938 15.8497 9.10938 15.2974V9.09607H15.2974C15.8497 9.09607 16.2974 8.64835 16.2974 8.09607C16.2974 7.54378 15.8497 7.09607 15.2974 7.09607H9.10938V0.999999C9.10938 0.447715 8.66166 0 8.10938 0C7.55709 0 7.10938 0.447715 7.10938 1V7.09607H1C0.447715 7.09607 0 7.54378 0 8.09607C0 8.64835 0.447716 9.09607 1 9.09607H7.10938V15.2974Z" fill="white"/>
+                </svg>                     
+            </button>
+        </div>    
+                          
+                            <button class="btn btn--cta js-quantity-button  js-plp-clerk js-btn--buy"
+                id="buy4261"
+                data-id="4261"
+                data-configuration="Extra"
+                data-giftcard=""
+                                data-action="addToBasket"
+                data-original-text="L&#230;g i kurv"
+                data-success-text="Lagt i kurv"
+                data-loading-text="Vent..."
+                data-error-text="Pr&#248;v igen"
+                data-soldout-text="Udsolgt"
+                data-not-available-text="Ikke tilg&#230;ngelig"
+                name="itemId"
+                value="4261">
+            L&#230;g i kurv
+        </button>
+
+                </div>
+            </div>
+        </div>
+    </a>
+
+                            </div>
+                            <div class="swiper-slide">
+                                    <a href="/dagligvarer/groent/blandet-gront/mixkassen"
+       class="product-list__item js-product-item js-product-item-quantity"  data-clerk-product-id='105100-STK'
+       data-is-favorite="false"
+       data-id="1925"
+       data-item-no="105100"
+       data-giftcard-id=""
+       data-configuration="Box"
+       data-position="1"
+       data-delivery-days="3"
+       data-track='{ "name": "Mixkassen", "id": 1925, "price": 255, "brand": null, "category": "Box", "variant": null, "position": 1, "url": "/dagligvarer/groent/blandet-gront/mixkassen", "list": "ProductCategoryPage" }'
+       itemscope
+       itemtype="http://schema.org/Product">
+        <div class="product-list__image">
+                <img src="https://assetsv2.aarstiderne.com/product/mixkassen-2842-392-392-30.PNG" width="238" height="238" alt="Mixkassen" data-prop="GetImage" loading="lazy" />
+        </div>
+        <div class="product-list__tags">
+            
+        </div>
+
+        <div class="product-list__favorite">
+                <span href="#login-modal" data-modal="login" class="favorite"></span>
+        </div>
+        <div class="product-list__layout">
+                <div class="product-list__delivery-days" data-resource-key="Global.Generics.isDelivered">
+
+                        <span>Leveres <span>onsdag</span></span>
+                </div>
+            <header class="product-list__header">
+                <h2 class="product-list__title" data-prop="Title" itemprop="name">Mixkassen</h2>
+            </header>
+
+            <div class="product-list__short-description" data-prop="ShortTitle" itemprop="description">                            
+                  <span data-prop="SubTitle">Blandet frugt og gr&#248;nt, min. 4,5 kg | </span>
+                Grøntsager og frugt, der er lige til at spise
+            </div>
+            <div class="product-list__numbers" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                    <span class="product-list__price" data-prop="PriceDetails.Price"><span class='price' itemprop='price'>255</span> <span class='currency' itemprop='priceCurrency'>kr.</span></span>
+                        <span class="product-list__price product-list__price--member" data-prop="PriceDetails.DiscountPriceAsFormatted" data-resource-key="Global.Generics.memberPrice">Medlemspris <span class="product-list__price--wrap"> <span class='price' itemprop='price'>229,50</span> <span class='currency' itemprop='priceCurrency'>kr.</span></span></span>
+            </div>          
+            <div class="product-list__button">
+                <div class="product-details__quantity product-quantity js-product-quantity" data-productid="1925">
+                            <div class="product-quantity__input-wrap js-input-wrap hide">           
+            <button type="button" class="btn btn--cta btn--quantity js-btn-quantity"
+                id="buy1925subtract"
+                data-action="subtract"
+                value="subtract"
+                aria-label="fjern antal">              
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="3" viewBox="0 0 16 3" fill="none">
+                    <rect y="0.0960693" width="16.2974" height="2" rx="1" fill="white"/>
+                </svg>                      
+            </button>
+            <label><input type="number" value="0" name="quantity" min="0" max="99" maxlength="2" /></label>       
+            <button type="button" class="btn btn--cta btn--quantity js-btn-quantity"
+                id="buy1925add"
+                data-action="add"
+                value="add"
+                aria-label="tilføj antal">              
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.10938 15.2974C7.10938 15.8497 7.55709 16.2974 8.10938 16.2974C8.66166 16.2974 9.10938 15.8497 9.10938 15.2974V9.09607H15.2974C15.8497 9.09607 16.2974 8.64835 16.2974 8.09607C16.2974 7.54378 15.8497 7.09607 15.2974 7.09607H9.10938V0.999999C9.10938 0.447715 8.66166 0 8.10938 0C7.55709 0 7.10938 0.447715 7.10938 1V7.09607H1C0.447715 7.09607 0 7.54378 0 8.09607C0 8.64835 0.447716 9.09607 1 9.09607H7.10938V15.2974Z" fill="white"/>
+                </svg>                     
+            </button>
+        </div>    
+                          
+                            <button class="btn btn--cta js-quantity-button  js-plp-clerk js-btn--buy"
+                id="buy1925"
+                data-id="1925"
+                data-configuration="Box"
+                data-giftcard=""
+                                data-action="addToBasket"
+                data-original-text="L&#230;g i kurv"
+                data-success-text="Lagt i kurv"
+                data-loading-text="Vent..."
+                data-error-text="Pr&#248;v igen"
+                data-soldout-text="Udsolgt"
+                data-not-available-text="Ikke tilg&#230;ngelig"
+                name="itemId"
+                value="1925">
+            L&#230;g i kurv
+        </button>
+
+                </div>
+            </div>
+        </div>
+    </a>
+
+                            </div>
+                            <div class="swiper-slide">
+                                    <a href="/dagligvarer/frugt/blandede-frugtkasser/frugtkassen"
+       class="product-list__item js-product-item js-product-item-quantity"  data-clerk-product-id='110150-STK'
+       data-is-favorite="false"
+       data-id="1937"
+       data-item-no="110150"
+       data-giftcard-id=""
+       data-configuration="Box"
+       data-position="1"
+       data-delivery-days="1,3,0"
+       data-track='{ "name": "FrugtKassen", "id": 1937, "price": 169, "brand": null, "category": "Box", "variant": null, "position": 1, "url": "/dagligvarer/frugt/blandede-frugtkasser/frugtkassen", "list": "ProductCategoryPage" }'
+       itemscope
+       itemtype="http://schema.org/Product">
+        <div class="product-list__image">
+                <img src="https://assetsv2.aarstiderne.com/product/frugtkassen-2848-392-392-30.PNG" width="238" height="238" alt="FrugtKassen" data-prop="GetImage" loading="lazy" />
+        </div>
+        <div class="product-list__tags">
+            
+        </div>
+
+        <div class="product-list__favorite">
+                <span href="#login-modal" data-modal="login" class="favorite"></span>
+        </div>
+        <div class="product-list__layout">
+                <div class="product-list__delivery-days" data-resource-key="Global.Generics.isDelivered">
+
+                        <span>Leveres <span>mandag, onsdag og s&#248;ndag</span></span>
+                </div>
+            <header class="product-list__header">
+                <h2 class="product-list__title" data-prop="Title" itemprop="name">FrugtKassen</h2>
+            </header>
+
+            <div class="product-list__short-description" data-prop="ShortTitle" itemprop="description">                            
+                  <span data-prop="SubTitle">4-5 slags frugt, min. 4 kg | </span>
+                <span>Blandet håndfrugt og eksotisk frugt i sæson til mindre husholdninger</span>
+            </div>
+            <div class="product-list__numbers" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                    <span class="product-list__price" data-prop="PriceDetails.Price"><span class='price' itemprop='price'>169</span> <span class='currency' itemprop='priceCurrency'>kr.</span></span>
+                        <span class="product-list__price product-list__price--member" data-prop="PriceDetails.DiscountPriceAsFormatted" data-resource-key="Global.Generics.memberPrice">Medlemspris <span class="product-list__price--wrap"> <span class='price' itemprop='price'>152,10</span> <span class='currency' itemprop='priceCurrency'>kr.</span></span></span>
+            </div>          
+            <div class="product-list__button">
+                <div class="product-details__quantity product-quantity js-product-quantity" data-productid="1937">
+                            <div class="product-quantity__input-wrap js-input-wrap hide">           
+            <button type="button" class="btn btn--cta btn--quantity js-btn-quantity"
+                id="buy1937subtract"
+                data-action="subtract"
+                value="subtract"
+                aria-label="fjern antal">              
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="3" viewBox="0 0 16 3" fill="none">
+                    <rect y="0.0960693" width="16.2974" height="2" rx="1" fill="white"/>
+                </svg>                      
+            </button>
+            <label><input type="number" value="0" name="quantity" min="0" max="99" maxlength="2" /></label>       
+            <button type="button" class="btn btn--cta btn--quantity js-btn-quantity"
+                id="buy1937add"
+                data-action="add"
+                value="add"
+                aria-label="tilføj antal">              
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.10938 15.2974C7.10938 15.8497 7.55709 16.2974 8.10938 16.2974C8.66166 16.2974 9.10938 15.8497 9.10938 15.2974V9.09607H15.2974C15.8497 9.09607 16.2974 8.64835 16.2974 8.09607C16.2974 7.54378 15.8497 7.09607 15.2974 7.09607H9.10938V0.999999C9.10938 0.447715 8.66166 0 8.10938 0C7.55709 0 7.10938 0.447715 7.10938 1V7.09607H1C0.447715 7.09607 0 7.54378 0 8.09607C0 8.64835 0.447716 9.09607 1 9.09607H7.10938V15.2974Z" fill="white"/>
+                </svg>                     
+            </button>
+        </div>    
+                          
+                            <button class="btn btn--cta js-quantity-button  js-plp-clerk js-btn--buy"
+                id="buy1937"
+                data-id="1937"
+                data-configuration="Box"
+                data-giftcard=""
+                                data-action="addToBasket"
+                data-original-text="L&#230;g i kurv"
+                data-success-text="Lagt i kurv"
+                data-loading-text="Vent..."
+                data-error-text="Pr&#248;v igen"
+                data-soldout-text="Udsolgt"
+                data-not-available-text="Ikke tilg&#230;ngelig"
+                name="itemId"
+                value="1937">
+            L&#230;g i kurv
+        </button>
+
+                </div>
+            </div>
+        </div>
+    </a>
+
+                            </div>
+                            <div class="swiper-slide">
+                                    <a href="/dagligvarer/groent/blandet-gront/stor-mixkasse"
+       class="product-list__item js-product-item js-product-item-quantity"  data-clerk-product-id='105105-STK'
+       data-is-favorite="false"
+       data-id="1926"
+       data-item-no="105105"
+       data-giftcard-id=""
+       data-configuration="Box"
+       data-position="1"
+       data-delivery-days="3"
+       data-track='{ "name": "Stor MixKasse", "id": 1926, "price": 299, "brand": null, "category": "Box", "variant": null, "position": 1, "url": "/dagligvarer/groent/blandet-gront/stor-mixkasse", "list": "ProductCategoryPage" }'
+       itemscope
+       itemtype="http://schema.org/Product">
+        <div class="product-list__image">
+                <img src="https://assetsv2.aarstiderne.com/product/stor-mixkasse-2843-392-392-30.PNG" width="238" height="238" alt="Stor MixKasse" data-prop="GetImage" loading="lazy" />
+        </div>
+        <div class="product-list__tags">
+            
+        </div>
+
+        <div class="product-list__favorite">
+                <span href="#login-modal" data-modal="login" class="favorite"></span>
+        </div>
+        <div class="product-list__layout">
+                <div class="product-list__delivery-days" data-resource-key="Global.Generics.isDelivered">
+
+                        <span>Leveres <span>onsdag</span></span>
+                </div>
+            <header class="product-list__header">
+                <h2 class="product-list__title" data-prop="Title" itemprop="name">Stor MixKasse</h2>
+            </header>
+
+            <div class="product-list__short-description" data-prop="ShortTitle" itemprop="description">                            
+                  <span data-prop="SubTitle">Blandet frugt og gr&#248;nt, 6-7 kg | </span>
+                <span>Endnu mere spiseklar frugt og grønt – perfekt til en hverdagstravl familie</span>
+            </div>
+            <div class="product-list__numbers" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                    <span class="product-list__price" data-prop="PriceDetails.Price"><span class='price' itemprop='price'>299</span> <span class='currency' itemprop='priceCurrency'>kr.</span></span>
+                        <span class="product-list__price product-list__price--member" data-prop="PriceDetails.DiscountPriceAsFormatted" data-resource-key="Global.Generics.memberPrice">Medlemspris <span class="product-list__price--wrap"> <span class='price' itemprop='price'>269,10</span> <span class='currency' itemprop='priceCurrency'>kr.</span></span></span>
+            </div>          
+            <div class="product-list__button">
+                <div class="product-details__quantity product-quantity js-product-quantity" data-productid="1926">
+                            <div class="product-quantity__input-wrap js-input-wrap hide">           
+            <button type="button" class="btn btn--cta btn--quantity js-btn-quantity"
+                id="buy1926subtract"
+                data-action="subtract"
+                value="subtract"
+                aria-label="fjern antal">              
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="3" viewBox="0 0 16 3" fill="none">
+                    <rect y="0.0960693" width="16.2974" height="2" rx="1" fill="white"/>
+                </svg>                      
+            </button>
+            <label><input type="number" value="0" name="quantity" min="0" max="99" maxlength="2" /></label>       
+            <button type="button" class="btn btn--cta btn--quantity js-btn-quantity"
+                id="buy1926add"
+                data-action="add"
+                value="add"
+                aria-label="tilføj antal">              
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.10938 15.2974C7.10938 15.8497 7.55709 16.2974 8.10938 16.2974C8.66166 16.2974 9.10938 15.8497 9.10938 15.2974V9.09607H15.2974C15.8497 9.09607 16.2974 8.64835 16.2974 8.09607C16.2974 7.54378 15.8497 7.09607 15.2974 7.09607H9.10938V0.999999C9.10938 0.447715 8.66166 0 8.10938 0C7.55709 0 7.10938 0.447715 7.10938 1V7.09607H1C0.447715 7.09607 0 7.54378 0 8.09607C0 8.64835 0.447716 9.09607 1 9.09607H7.10938V15.2974Z" fill="white"/>
+                </svg>                     
+            </button>
+        </div>    
+                          
+                            <button class="btn btn--cta js-quantity-button  js-plp-clerk js-btn--buy"
+                id="buy1926"
+                data-id="1926"
+                data-configuration="Box"
+                data-giftcard=""
+                                data-action="addToBasket"
+                data-original-text="L&#230;g i kurv"
+                data-success-text="Lagt i kurv"
+                data-loading-text="Vent..."
+                data-error-text="Pr&#248;v igen"
+                data-soldout-text="Udsolgt"
+                data-not-available-text="Ikke tilg&#230;ngelig"
+                name="itemId"
+                value="1926">
+            L&#230;g i kurv
+        </button>
+
+                </div>
+            </div>
+        </div>
+    </a>
+
+                            </div>
+                            <div class="swiper-slide">
+                                    <a href="/dagligvarer/frugt/blandede-frugtkasser/den-groenne-frugtkasse"
+       class="product-list__item js-product-item js-product-item-quantity"  data-clerk-product-id='105130-STK'
+       data-is-favorite="false"
+       data-id="1936"
+       data-item-no="105130"
+       data-giftcard-id=""
+       data-configuration="Box"
+       data-position="1"
+       data-delivery-days="1,3,0"
+       data-track='{ "name": "Den Gr&#248;nne FrugtKasse", "id": 1936, "price": 225, "brand": null, "category": "Box", "variant": null, "position": 1, "url": "/dagligvarer/frugt/blandede-frugtkasser/den-groenne-frugtkasse", "list": "ProductCategoryPage" }'
+       itemscope
+       itemtype="http://schema.org/Product">
+        <div class="product-list__image">
+                <img src="https://assetsv2.aarstiderne.com/product/den-groenne-frugtkasse-2840-392-392-30.PNG" width="238" height="238" alt="Den Gr&#248;nne FrugtKasse" data-prop="GetImage" loading="lazy" />
+        </div>
+        <div class="product-list__tags">
+            
+        </div>
+
+        <div class="product-list__favorite">
+                <span href="#login-modal" data-modal="login" class="favorite"></span>
+        </div>
+        <div class="product-list__layout">
+                <div class="product-list__delivery-days" data-resource-key="Global.Generics.isDelivered">
+
+                        <span>Leveres <span>mandag, onsdag og s&#248;ndag</span></span>
+                </div>
+            <header class="product-list__header">
+                <h2 class="product-list__title" data-prop="Title" itemprop="name">Den Gr&#248;nne FrugtKasse</h2>
+            </header>
+
+            <div class="product-list__short-description" data-prop="ShortTitle" itemprop="description">                            
+                  <span data-prop="SubTitle">Blandet frugt og gr&#248;nt, ca. 5 kg | </span>
+                <span>Økologisk frugt og grønt, der er lige til at gå til</span>
+            </div>
+            <div class="product-list__numbers" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                    <span class="product-list__price" data-prop="PriceDetails.Price"><span class='price' itemprop='price'>225</span> <span class='currency' itemprop='priceCurrency'>kr.</span></span>
+                        <span class="product-list__price product-list__price--member" data-prop="PriceDetails.DiscountPriceAsFormatted" data-resource-key="Global.Generics.memberPrice">Medlemspris <span class="product-list__price--wrap"> <span class='price' itemprop='price'>202,50</span> <span class='currency' itemprop='priceCurrency'>kr.</span></span></span>
+            </div>          
+            <div class="product-list__button">
+                <div class="product-details__quantity product-quantity js-product-quantity" data-productid="1936">
+                            <div class="product-quantity__input-wrap js-input-wrap hide">           
+            <button type="button" class="btn btn--cta btn--quantity js-btn-quantity"
+                id="buy1936subtract"
+                data-action="subtract"
+                value="subtract"
+                aria-label="fjern antal">              
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="3" viewBox="0 0 16 3" fill="none">
+                    <rect y="0.0960693" width="16.2974" height="2" rx="1" fill="white"/>
+                </svg>                      
+            </button>
+            <label><input type="number" value="0" name="quantity" min="0" max="99" maxlength="2" /></label>       
+            <button type="button" class="btn btn--cta btn--quantity js-btn-quantity"
+                id="buy1936add"
+                data-action="add"
+                value="add"
+                aria-label="tilføj antal">              
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.10938 15.2974C7.10938 15.8497 7.55709 16.2974 8.10938 16.2974C8.66166 16.2974 9.10938 15.8497 9.10938 15.2974V9.09607H15.2974C15.8497 9.09607 16.2974 8.64835 16.2974 8.09607C16.2974 7.54378 15.8497 7.09607 15.2974 7.09607H9.10938V0.999999C9.10938 0.447715 8.66166 0 8.10938 0C7.55709 0 7.10938 0.447715 7.10938 1V7.09607H1C0.447715 7.09607 0 7.54378 0 8.09607C0 8.64835 0.447716 9.09607 1 9.09607H7.10938V15.2974Z" fill="white"/>
+                </svg>                     
+            </button>
+        </div>    
+                          
+                            <button class="btn btn--cta js-quantity-button  js-plp-clerk js-btn--buy"
+                id="buy1936"
+                data-id="1936"
+                data-configuration="Box"
+                data-giftcard=""
+                                data-action="addToBasket"
+                data-original-text="L&#230;g i kurv"
+                data-success-text="Lagt i kurv"
+                data-loading-text="Vent..."
+                data-error-text="Pr&#248;v igen"
+                data-soldout-text="Udsolgt"
+                data-not-available-text="Ikke tilg&#230;ngelig"
+                name="itemId"
+                value="1936">
+            L&#230;g i kurv
+        </button>
+
+                </div>
+            </div>
+        </div>
+    </a>
+
+                            </div>
+                            <div class="swiper-slide">
+                                    <a href="/dagligvarer/frugt/aebler-paerer/bananer-farve-3-5-stk"
+       class="product-list__item js-product-item js-product-item-quantity"  data-clerk-product-id='210967-5 STK'
+       data-is-favorite="false"
+       data-id="3556"
+       data-item-no="210967"
+       data-giftcard-id=""
+       data-configuration="Extra"
+       data-position="1"
+       data-delivery-days="0,1,2,3,5"
+       data-track='{ "name": "Bananer", "id": 3556, "price": 19, "brand": null, "category": "Extra", "variant": null, "position": 1, "url": "/dagligvarer/frugt/aebler-paerer/bananer-farve-3-5-stk", "list": "ProductCategoryPage" }'
+       itemscope
+       itemtype="http://schema.org/Product">
+        <div class="product-list__image">
+                <img src="https://assetsv2.aarstiderne.com/product/bananer-farve-3-5-stk-2796-392-392-30.PNG" width="238" height="238" alt="Bananer" data-prop="GetImage" loading="lazy" />
+        </div>
+        <div class="product-list__tags">
+            
+        </div>
+
+        <div class="product-list__favorite">
+                <span href="#login-modal" data-modal="login" class="favorite"></span>
+        </div>
+        <div class="product-list__layout">
+            <header class="product-list__header">
+                <h2 class="product-list__title" data-prop="Title" itemprop="name">Bananer</h2>
+            </header>
+
+            <div class="product-list__short-description" data-prop="ShortTitle" itemprop="description">                            
+                  <span data-prop="SubTitle">5 stk. | </span>
+                <span>Lige til at tage med på farten</span>
+            </div>
+            <div class="product-list__numbers" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                    <span class="product-list__price" data-prop="PriceDetails.Price"><span class='price' itemprop='price'>19</span> <span class='currency' itemprop='priceCurrency'>kr.</span></span>
+                        <span class="product-list__price product-list__price--member" data-prop="PriceDetails.DiscountPriceAsFormatted" data-resource-key="Global.Generics.memberPrice">Medlemspris <span class="product-list__price--wrap"> <span class='price' itemprop='price'>17,10</span> <span class='currency' itemprop='priceCurrency'>kr.</span></span></span>
+            </div>          
+            <div class="product-list__button">
+                <div class="product-details__quantity product-quantity js-product-quantity" data-productid="3556">
+                            <div class="product-quantity__input-wrap js-input-wrap hide">           
+            <button type="button" class="btn btn--cta btn--quantity js-btn-quantity"
+                id="buy3556subtract"
+                data-action="subtract"
+                value="subtract"
+                aria-label="fjern antal">              
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="3" viewBox="0 0 16 3" fill="none">
+                    <rect y="0.0960693" width="16.2974" height="2" rx="1" fill="white"/>
+                </svg>                      
+            </button>
+            <label><input type="number" value="0" name="quantity" min="0" max="99" maxlength="2" /></label>       
+            <button type="button" class="btn btn--cta btn--quantity js-btn-quantity"
+                id="buy3556add"
+                data-action="add"
+                value="add"
+                aria-label="tilføj antal">              
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.10938 15.2974C7.10938 15.8497 7.55709 16.2974 8.10938 16.2974C8.66166 16.2974 9.10938 15.8497 9.10938 15.2974V9.09607H15.2974C15.8497 9.09607 16.2974 8.64835 16.2974 8.09607C16.2974 7.54378 15.8497 7.09607 15.2974 7.09607H9.10938V0.999999C9.10938 0.447715 8.66166 0 8.10938 0C7.55709 0 7.10938 0.447715 7.10938 1V7.09607H1C0.447715 7.09607 0 7.54378 0 8.09607C0 8.64835 0.447716 9.09607 1 9.09607H7.10938V15.2974Z" fill="white"/>
+                </svg>                     
+            </button>
+        </div>    
+                          
+                            <button class="btn btn--cta js-quantity-button  js-plp-clerk js-btn--buy"
+                id="buy3556"
+                data-id="3556"
+                data-configuration="Extra"
+                data-giftcard=""
+                                data-action="addToBasket"
+                data-original-text="L&#230;g i kurv"
+                data-success-text="Lagt i kurv"
+                data-loading-text="Vent..."
+                data-error-text="Pr&#248;v igen"
+                data-soldout-text="Udsolgt"
+                data-not-available-text="Ikke tilg&#230;ngelig"
+                name="itemId"
+                value="3556">
+            L&#230;g i kurv
+        </button>
+
+                </div>
+            </div>
+        </div>
+    </a>
+
+                            </div>
+                            <div class="swiper-slide">
+                                    <a href="/dagligvarer/groent/basisgront/avocadoposen"
+       class="product-list__item js-product-item js-product-item-quantity"  data-clerk-product-id='140004-STK'
+       data-is-favorite="false"
+       data-id="2051"
+       data-item-no="140004"
+       data-giftcard-id=""
+       data-configuration="Extra"
+       data-position="1"
+       data-delivery-days="2,1,3,0,5"
+       data-track='{ "name": "AvocadoPosen", "id": 2051, "price": 85, "brand": null, "category": "Extra", "variant": null, "position": 1, "url": "/dagligvarer/groent/basisgront/avocadoposen", "list": "ProductCategoryPage" }'
+       itemscope
+       itemtype="http://schema.org/Product">
+        <div class="product-list__image">
+                <img src="https://assetsv2.aarstiderne.com/product/avocadoposen-1808-392-392-30.PNG" width="238" height="238" alt="AvocadoPosen" data-prop="GetImage" loading="lazy" />
+        </div>
+        <div class="product-list__tags">
+            
+        </div>
+
+        <div class="product-list__favorite">
+                <span href="#login-modal" data-modal="login" class="favorite"></span>
+        </div>
+        <div class="product-list__layout">
+            <header class="product-list__header">
+                <h2 class="product-list__title" data-prop="Title" itemprop="name">AvocadoPosen</h2>
+            </header>
+
+            <div class="product-list__short-description" data-prop="ShortTitle" itemprop="description">                            
+                  <span data-prop="SubTitle">6 stk. | </span>
+                <span class="SpellingError  BCX0 SCXW13348268">Cremede</span><span class="NormalTextRun  BCX0 SCXW13348268"> </span><span class="SpellingError  BCX0 SCXW13348268">og</span><span class="NormalTextRun  BCX0 SCXW13348268"> </span><span class="SpellingError  BCX0 SCXW13348268">uimodståelige</span><span class="NormalTextRun  BCX0 SCXW13348268"> </span><span class="SpellingError  BCX0 SCXW13348268">avocadoer</span>
+            </div>
+            <div class="product-list__numbers" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                    <span class="product-list__price" data-prop="PriceDetails.Price"><span class='price' itemprop='price'>85</span> <span class='currency' itemprop='priceCurrency'>kr.</span></span>
+                        <span class="product-list__price product-list__price--member" data-prop="PriceDetails.DiscountPriceAsFormatted" data-resource-key="Global.Generics.memberPrice">Medlemspris <span class="product-list__price--wrap"> <span class='price' itemprop='price'>76,50</span> <span class='currency' itemprop='priceCurrency'>kr.</span></span></span>
+            </div>          
+            <div class="product-list__button">
+                <div class="product-details__quantity product-quantity js-product-quantity" data-productid="2051">
+                            <div class="product-quantity__input-wrap js-input-wrap hide">           
+            <button type="button" class="btn btn--cta btn--quantity js-btn-quantity"
+                id="buy2051subtract"
+                data-action="subtract"
+                value="subtract"
+                aria-label="fjern antal">              
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="3" viewBox="0 0 16 3" fill="none">
+                    <rect y="0.0960693" width="16.2974" height="2" rx="1" fill="white"/>
+                </svg>                      
+            </button>
+            <label><input type="number" value="0" name="quantity" min="0" max="99" maxlength="2" /></label>       
+            <button type="button" class="btn btn--cta btn--quantity js-btn-quantity"
+                id="buy2051add"
+                data-action="add"
+                value="add"
+                aria-label="tilføj antal">              
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.10938 15.2974C7.10938 15.8497 7.55709 16.2974 8.10938 16.2974C8.66166 16.2974 9.10938 15.8497 9.10938 15.2974V9.09607H15.2974C15.8497 9.09607 16.2974 8.64835 16.2974 8.09607C16.2974 7.54378 15.8497 7.09607 15.2974 7.09607H9.10938V0.999999C9.10938 0.447715 8.66166 0 8.10938 0C7.55709 0 7.10938 0.447715 7.10938 1V7.09607H1C0.447715 7.09607 0 7.54378 0 8.09607C0 8.64835 0.447716 9.09607 1 9.09607H7.10938V15.2974Z" fill="white"/>
+                </svg>                     
+            </button>
+        </div>    
+                          
+                            <button class="btn btn--cta js-quantity-button  js-plp-clerk js-btn--buy"
+                id="buy2051"
+                data-id="2051"
+                data-configuration="Extra"
+                data-giftcard=""
+                                data-action="addToBasket"
+                data-original-text="L&#230;g i kurv"
+                data-success-text="Lagt i kurv"
+                data-loading-text="Vent..."
+                data-error-text="Pr&#248;v igen"
+                data-soldout-text="Udsolgt"
+                data-not-available-text="Ikke tilg&#230;ngelig"
+                name="itemId"
+                value="2051">
+            L&#230;g i kurv
+        </button>
+
+                </div>
+            </div>
+        </div>
+    </a>
+
+                            </div>
+                            <div class="swiper-slide">
+                                    <a href="/dagligvarer/groent/blandet-gront/grontkassen-uden-kartofler"
+       class="product-list__item js-product-item js-product-item-quantity"  data-clerk-product-id='100012-STK'
+       data-is-favorite="false"
+       data-id="1928"
+       data-item-no="100012"
+       data-giftcard-id=""
+       data-configuration="Box"
+       data-position="1"
+       data-delivery-days="3"
+       data-track='{ "name": "Gr&#248;ntKassen uden kartofler", "id": 1928, "price": 275, "brand": null, "category": "Box", "variant": null, "position": 1, "url": "/dagligvarer/groent/blandet-gront/grontkassen-uden-kartofler", "list": "ProductCategoryPage" }'
+       itemscope
+       itemtype="http://schema.org/Product">
+        <div class="product-list__image">
+                <img src="https://assetsv2.aarstiderne.com/product/grontkassen-uden-kartofler-2864-392-392-30.PNG" width="238" height="238" alt="Gr&#248;ntKassen uden kartofler" data-prop="GetImage" loading="lazy" />
+        </div>
+        <div class="product-list__tags">
+            
+        </div>
+
+        <div class="product-list__favorite">
+                <span href="#login-modal" data-modal="login" class="favorite"></span>
+        </div>
+        <div class="product-list__layout">
+                <div class="product-list__delivery-days" data-resource-key="Global.Generics.isDelivered">
+
+                        <span>Leveres <span>onsdag</span></span>
+                </div>
+            <header class="product-list__header">
+                <h2 class="product-list__title" data-prop="Title" itemprop="name">Gr&#248;ntKassen uden kartofler</h2>
+            </header>
+
+            <div class="product-list__short-description" data-prop="ShortTitle" itemprop="description">                            
+                  <span data-prop="SubTitle">Min. 12-15 slags gr&#248;nt, min. 4 kg | </span>
+                <span>Indeholder altid mange forskellige lækre grøntsager, men aldrig kartofler</span>
+            </div>
+            <div class="product-list__numbers" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                    <span class="product-list__price" data-prop="PriceDetails.Price"><span class='price' itemprop='price'>275</span> <span class='currency' itemprop='priceCurrency'>kr.</span></span>
+                        <span class="product-list__price product-list__price--member" data-prop="PriceDetails.DiscountPriceAsFormatted" data-resource-key="Global.Generics.memberPrice">Medlemspris <span class="product-list__price--wrap"> <span class='price' itemprop='price'>247,50</span> <span class='currency' itemprop='priceCurrency'>kr.</span></span></span>
+            </div>          
+            <div class="product-list__button">
+                <div class="product-details__quantity product-quantity js-product-quantity" data-productid="1928">
+                            <div class="product-quantity__input-wrap js-input-wrap hide">           
+            <button type="button" class="btn btn--cta btn--quantity js-btn-quantity"
+                id="buy1928subtract"
+                data-action="subtract"
+                value="subtract"
+                aria-label="fjern antal">              
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="3" viewBox="0 0 16 3" fill="none">
+                    <rect y="0.0960693" width="16.2974" height="2" rx="1" fill="white"/>
+                </svg>                      
+            </button>
+            <label><input type="number" value="0" name="quantity" min="0" max="99" maxlength="2" /></label>       
+            <button type="button" class="btn btn--cta btn--quantity js-btn-quantity"
+                id="buy1928add"
+                data-action="add"
+                value="add"
+                aria-label="tilføj antal">              
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.10938 15.2974C7.10938 15.8497 7.55709 16.2974 8.10938 16.2974C8.66166 16.2974 9.10938 15.8497 9.10938 15.2974V9.09607H15.2974C15.8497 9.09607 16.2974 8.64835 16.2974 8.09607C16.2974 7.54378 15.8497 7.09607 15.2974 7.09607H9.10938V0.999999C9.10938 0.447715 8.66166 0 8.10938 0C7.55709 0 7.10938 0.447715 7.10938 1V7.09607H1C0.447715 7.09607 0 7.54378 0 8.09607C0 8.64835 0.447716 9.09607 1 9.09607H7.10938V15.2974Z" fill="white"/>
+                </svg>                     
+            </button>
+        </div>    
+                          
+                            <button class="btn btn--cta js-quantity-button  js-plp-clerk js-btn--buy"
+                id="buy1928"
+                data-id="1928"
+                data-configuration="Box"
+                data-giftcard=""
+                                data-action="addToBasket"
+                data-original-text="L&#230;g i kurv"
+                data-success-text="Lagt i kurv"
+                data-loading-text="Vent..."
+                data-error-text="Pr&#248;v igen"
+                data-soldout-text="Udsolgt"
+                data-not-available-text="Ikke tilg&#230;ngelig"
+                name="itemId"
+                value="1928">
+            L&#230;g i kurv
+        </button>
+
+                </div>
+            </div>
+        </div>
+    </a>
+
+                            </div>
+                            <div class="swiper-slide">
+                                    <a href="/dagligvarer/groent/basisgront/agurk-250-300-g"
+       class="product-list__item js-product-item js-product-item-quantity"  data-clerk-product-id='317591-STK'
+       data-is-favorite="false"
+       data-id="3372"
+       data-item-no="317591"
+       data-giftcard-id=""
+       data-configuration="Extra"
+       data-position="1"
+       data-delivery-days="0,1,2,3,5"
+       data-track='{ "name": "Agurk", "id": 3372, "price": 14, "brand": null, "category": "Extra", "variant": null, "position": 1, "url": "/dagligvarer/groent/basisgront/agurk-250-300-g", "list": "ProductCategoryPage" }'
+       itemscope
+       itemtype="http://schema.org/Product">
+        <div class="product-list__image">
+                <img src="https://assetsv2.aarstiderne.com/product/agurk-250-300-g-2725-392-392-30.PNG" width="238" height="238" alt="Agurk" data-prop="GetImage" loading="lazy" />
+        </div>
+        <div class="product-list__tags">
+            
+        </div>
+
+        <div class="product-list__favorite">
+                <span href="#login-modal" data-modal="login" class="favorite"></span>
+        </div>
+        <div class="product-list__layout">
+            <header class="product-list__header">
+                <h2 class="product-list__title" data-prop="Title" itemprop="name">Agurk</h2>
+            </header>
+
+            <div class="product-list__short-description" data-prop="ShortTitle" itemprop="description">                            
+                  <span data-prop="SubTitle">1 stk., 250-300 g | </span>
+                Hollandsk agurk, uden plasticfilm
+            </div>
+            <div class="product-list__numbers" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                    <span class="product-list__price" data-prop="PriceDetails.Price"><span class='price' itemprop='price'>14</span> <span class='currency' itemprop='priceCurrency'>kr.</span></span>
+                        <span class="product-list__price product-list__price--member" data-prop="PriceDetails.DiscountPriceAsFormatted" data-resource-key="Global.Generics.memberPrice">Medlemspris <span class="product-list__price--wrap"> <span class='price' itemprop='price'>12,60</span> <span class='currency' itemprop='priceCurrency'>kr.</span></span></span>
+            </div>          
+            <div class="product-list__button">
+                <div class="product-details__quantity product-quantity js-product-quantity" data-productid="3372">
+                            <div class="product-quantity__input-wrap js-input-wrap hide">           
+            <button type="button" class="btn btn--cta btn--quantity js-btn-quantity"
+                id="buy3372subtract"
+                data-action="subtract"
+                value="subtract"
+                aria-label="fjern antal">              
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="3" viewBox="0 0 16 3" fill="none">
+                    <rect y="0.0960693" width="16.2974" height="2" rx="1" fill="white"/>
+                </svg>                      
+            </button>
+            <label><input type="number" value="0" name="quantity" min="0" max="99" maxlength="2" /></label>       
+            <button type="button" class="btn btn--cta btn--quantity js-btn-quantity"
+                id="buy3372add"
+                data-action="add"
+                value="add"
+                aria-label="tilføj antal">              
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.10938 15.2974C7.10938 15.8497 7.55709 16.2974 8.10938 16.2974C8.66166 16.2974 9.10938 15.8497 9.10938 15.2974V9.09607H15.2974C15.8497 9.09607 16.2974 8.64835 16.2974 8.09607C16.2974 7.54378 15.8497 7.09607 15.2974 7.09607H9.10938V0.999999C9.10938 0.447715 8.66166 0 8.10938 0C7.55709 0 7.10938 0.447715 7.10938 1V7.09607H1C0.447715 7.09607 0 7.54378 0 8.09607C0 8.64835 0.447716 9.09607 1 9.09607H7.10938V15.2974Z" fill="white"/>
+                </svg>                     
+            </button>
+        </div>    
+                          
+                            <button class="btn btn--cta js-quantity-button  js-plp-clerk js-btn--buy"
+                id="buy3372"
+                data-id="3372"
+                data-configuration="Extra"
+                data-giftcard=""
+                                data-action="addToBasket"
+                data-original-text="L&#230;g i kurv"
+                data-success-text="Lagt i kurv"
+                data-loading-text="Vent..."
+                data-error-text="Pr&#248;v igen"
+                data-soldout-text="Udsolgt"
+                data-not-available-text="Ikke tilg&#230;ngelig"
+                name="itemId"
+                value="3372">
+            L&#230;g i kurv
+        </button>
+
+                </div>
+            </div>
+        </div>
+    </a>
+
+                            </div>
+                            <div class="swiper-slide">
+                                    <a href="/dagligvarer/groent/blandet-gront/basiskassen"
+       class="product-list__item js-product-item js-product-item-quantity"  data-clerk-product-id='100010-STK'
+       data-is-favorite="false"
+       data-id="1922"
+       data-item-no="100010"
+       data-giftcard-id=""
+       data-configuration="Box"
+       data-position="1"
+       data-delivery-days="3"
+       data-track='{ "name": "BasisKassen", "id": 1922, "price": 255, "brand": null, "category": "Box", "variant": null, "position": 1, "url": "/dagligvarer/groent/blandet-gront/basiskassen", "list": "ProductCategoryPage" }'
+       itemscope
+       itemtype="http://schema.org/Product">
+        <div class="product-list__image">
+                <img src="https://assetsv2.aarstiderne.com/product/basiskassen-2863-392-392-30.PNG" width="238" height="238" alt="BasisKassen" data-prop="GetImage" loading="lazy" />
+        </div>
+        <div class="product-list__tags">
+            
+        </div>
+
+        <div class="product-list__favorite">
+                <span href="#login-modal" data-modal="login" class="favorite"></span>
+        </div>
+        <div class="product-list__layout">
+                <div class="product-list__delivery-days" data-resource-key="Global.Generics.isDelivered">
+
+                        <span>Leveres <span>onsdag</span></span>
+                </div>
+            <header class="product-list__header">
+                <h2 class="product-list__title" data-prop="Title" itemprop="name">BasisKassen</h2>
+            </header>
+
+            <div class="product-list__short-description" data-prop="ShortTitle" itemprop="description">                            
+                  <span data-prop="SubTitle">Min. 10-15 slags gr&#248;nt, min. 4 kg | </span>
+                <span>Få dækket de basale grøntsagsbehov, og lidt til</span>
+            </div>
+            <div class="product-list__numbers" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                    <span class="product-list__price" data-prop="PriceDetails.Price"><span class='price' itemprop='price'>255</span> <span class='currency' itemprop='priceCurrency'>kr.</span></span>
+                        <span class="product-list__price product-list__price--member" data-prop="PriceDetails.DiscountPriceAsFormatted" data-resource-key="Global.Generics.memberPrice">Medlemspris <span class="product-list__price--wrap"> <span class='price' itemprop='price'>229,50</span> <span class='currency' itemprop='priceCurrency'>kr.</span></span></span>
+            </div>          
+            <div class="product-list__button">
+                <div class="product-details__quantity product-quantity js-product-quantity" data-productid="1922">
+                            <div class="product-quantity__input-wrap js-input-wrap hide">           
+            <button type="button" class="btn btn--cta btn--quantity js-btn-quantity"
+                id="buy1922subtract"
+                data-action="subtract"
+                value="subtract"
+                aria-label="fjern antal">              
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="3" viewBox="0 0 16 3" fill="none">
+                    <rect y="0.0960693" width="16.2974" height="2" rx="1" fill="white"/>
+                </svg>                      
+            </button>
+            <label><input type="number" value="0" name="quantity" min="0" max="99" maxlength="2" /></label>       
+            <button type="button" class="btn btn--cta btn--quantity js-btn-quantity"
+                id="buy1922add"
+                data-action="add"
+                value="add"
+                aria-label="tilføj antal">              
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.10938 15.2974C7.10938 15.8497 7.55709 16.2974 8.10938 16.2974C8.66166 16.2974 9.10938 15.8497 9.10938 15.2974V9.09607H15.2974C15.8497 9.09607 16.2974 8.64835 16.2974 8.09607C16.2974 7.54378 15.8497 7.09607 15.2974 7.09607H9.10938V0.999999C9.10938 0.447715 8.66166 0 8.10938 0C7.55709 0 7.10938 0.447715 7.10938 1V7.09607H1C0.447715 7.09607 0 7.54378 0 8.09607C0 8.64835 0.447716 9.09607 1 9.09607H7.10938V15.2974Z" fill="white"/>
+                </svg>                     
+            </button>
+        </div>    
+                          
+                            <button class="btn btn--cta js-quantity-button  js-plp-clerk js-btn--buy"
+                id="buy1922"
+                data-id="1922"
+                data-configuration="Box"
+                data-giftcard=""
+                                data-action="addToBasket"
+                data-original-text="L&#230;g i kurv"
+                data-success-text="Lagt i kurv"
+                data-loading-text="Vent..."
+                data-error-text="Pr&#248;v igen"
+                data-soldout-text="Udsolgt"
+                data-not-available-text="Ikke tilg&#230;ngelig"
+                name="itemId"
+                value="1922">
+            L&#230;g i kurv
+        </button>
+
+                </div>
+            </div>
+        </div>
+    </a>
+
+                            </div>
+                            <div class="swiper-slide">
+                                    <a href="/dagligvarer/groent/blandet-gront/lille-groentkasse"
+       class="product-list__item js-product-item js-product-item-quantity"  data-clerk-product-id='100040-STK'
+       data-is-favorite="false"
+       data-id="1929"
+       data-item-no="100040"
+       data-giftcard-id=""
+       data-configuration="Box"
+       data-position="1"
+       data-delivery-days="3"
+       data-track='{ "name": "Lille Gr&#248;ntKasse", "id": 1929, "price": 215, "brand": null, "category": "Box", "variant": null, "position": 1, "url": "/dagligvarer/groent/blandet-gront/lille-groentkasse", "list": "ProductCategoryPage" }'
+       itemscope
+       itemtype="http://schema.org/Product">
+        <div class="product-list__image">
+                <img src="https://assetsv2.aarstiderne.com/product/lille-groentkasse-2865-392-392-30.PNG" width="238" height="238" alt="Lille Gr&#248;ntKasse" data-prop="GetImage" loading="lazy" />
+        </div>
+        <div class="product-list__tags">
+            
+        </div>
+
+        <div class="product-list__favorite">
+                <span href="#login-modal" data-modal="login" class="favorite"></span>
+        </div>
+        <div class="product-list__layout">
+                <div class="product-list__delivery-days" data-resource-key="Global.Generics.isDelivered">
+
+                        <span>Leveres <span>onsdag</span></span>
+                </div>
+            <header class="product-list__header">
+                <h2 class="product-list__title" data-prop="Title" itemprop="name">Lille Gr&#248;ntKasse</h2>
+            </header>
+
+            <div class="product-list__short-description" data-prop="ShortTitle" itemprop="description">                            
+                  <span data-prop="SubTitle">10-15 slags gr&#248;nt, min. 3 kg | </span>
+                <span>Et varieret udvalg af både lette og tunge grøntsager</span>
+            </div>
+            <div class="product-list__numbers" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                    <span class="product-list__price" data-prop="PriceDetails.Price"><span class='price' itemprop='price'>215</span> <span class='currency' itemprop='priceCurrency'>kr.</span></span>
+                        <span class="product-list__price product-list__price--member" data-prop="PriceDetails.DiscountPriceAsFormatted" data-resource-key="Global.Generics.memberPrice">Medlemspris <span class="product-list__price--wrap"> <span class='price' itemprop='price'>193,50</span> <span class='currency' itemprop='priceCurrency'>kr.</span></span></span>
+            </div>          
+            <div class="product-list__button">
+                <div class="product-details__quantity product-quantity js-product-quantity" data-productid="1929">
+                            <div class="product-quantity__input-wrap js-input-wrap hide">           
+            <button type="button" class="btn btn--cta btn--quantity js-btn-quantity"
+                id="buy1929subtract"
+                data-action="subtract"
+                value="subtract"
+                aria-label="fjern antal">              
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="3" viewBox="0 0 16 3" fill="none">
+                    <rect y="0.0960693" width="16.2974" height="2" rx="1" fill="white"/>
+                </svg>                      
+            </button>
+            <label><input type="number" value="0" name="quantity" min="0" max="99" maxlength="2" /></label>       
+            <button type="button" class="btn btn--cta btn--quantity js-btn-quantity"
+                id="buy1929add"
+                data-action="add"
+                value="add"
+                aria-label="tilføj antal">              
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.10938 15.2974C7.10938 15.8497 7.55709 16.2974 8.10938 16.2974C8.66166 16.2974 9.10938 15.8497 9.10938 15.2974V9.09607H15.2974C15.8497 9.09607 16.2974 8.64835 16.2974 8.09607C16.2974 7.54378 15.8497 7.09607 15.2974 7.09607H9.10938V0.999999C9.10938 0.447715 8.66166 0 8.10938 0C7.55709 0 7.10938 0.447715 7.10938 1V7.09607H1C0.447715 7.09607 0 7.54378 0 8.09607C0 8.64835 0.447716 9.09607 1 9.09607H7.10938V15.2974Z" fill="white"/>
+                </svg>                     
+            </button>
+        </div>    
+                          
+                            <button class="btn btn--cta js-quantity-button  js-plp-clerk js-btn--buy"
+                id="buy1929"
+                data-id="1929"
+                data-configuration="Box"
+                data-giftcard=""
+                                data-action="addToBasket"
+                data-original-text="L&#230;g i kurv"
+                data-success-text="Lagt i kurv"
+                data-loading-text="Vent..."
+                data-error-text="Pr&#248;v igen"
+                data-soldout-text="Udsolgt"
+                data-not-available-text="Ikke tilg&#230;ngelig"
+                name="itemId"
+                value="1929">
+            L&#230;g i kurv
+        </button>
+
+                </div>
+            </div>
+        </div>
+    </a>
+
+                            </div>
+                            <div class="swiper-slide">
+                                    <a href="/dagligvarer/netop-nu/avlernes-frugtkasse"
+       class="product-list__item js-product-item js-product-item-quantity"  data-clerk-product-id='110187-STK'
+       data-is-favorite="false"
+       data-id="4608"
+       data-item-no="110187"
+       data-giftcard-id=""
+       data-configuration="Box"
+       data-position="1"
+       data-delivery-days="0,1,3"
+       data-track='{ "name": "Avlernes FrugtKasse", "id": 4608, "price": 265, "brand": null, "category": "Box", "variant": null, "position": 1, "url": "/dagligvarer/netop-nu/avlernes-frugtkasse", "list": "ProductCategoryPage" }'
+       itemscope
+       itemtype="http://schema.org/Product">
+        <div class="product-list__image">
+                <img src="https://assetsv2.aarstiderne.com/product/avlernes-frugtkasse-4215-392-392-30.PNG" width="238" height="238" alt="Avlernes FrugtKasse" data-prop="GetImage" loading="lazy" />
+        </div>
+        <div class="product-list__tags">
+            
+        </div>
+
+        <div class="product-list__favorite">
+                <span href="#login-modal" data-modal="login" class="favorite"></span>
+        </div>
+        <div class="product-list__layout">
+                <div class="product-list__delivery-days" data-resource-key="Global.Generics.isDelivered">
+
+                        <span>Leveres <span>mandag, onsdag og s&#248;ndag</span></span>
+                </div>
+            <header class="product-list__header">
+                <h2 class="product-list__title" data-prop="Title" itemprop="name">Avlernes FrugtKasse</h2>
+            </header>
+
+            <div class="product-list__short-description" data-prop="ShortTitle" itemprop="description">                            
+                  <span data-prop="SubTitle">5-6 slags frugt, ca. 5 kg | </span>
+                Den bedste håndfrugt vores avlere har at byde på lige nu og her
+            </div>
+            <div class="product-list__numbers" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                    <span class="product-list__price" data-prop="PriceDetails.Price"><span class='price' itemprop='price'>265</span> <span class='currency' itemprop='priceCurrency'>kr.</span></span>
+                        <span class="product-list__price product-list__price--member" data-prop="PriceDetails.DiscountPriceAsFormatted" data-resource-key="Global.Generics.memberPrice">Medlemspris <span class="product-list__price--wrap"> <span class='price' itemprop='price'>238,50</span> <span class='currency' itemprop='priceCurrency'>kr.</span></span></span>
+            </div>          
+            <div class="product-list__button">
+                <div class="product-details__quantity product-quantity js-product-quantity" data-productid="4608">
+                            <div class="product-quantity__input-wrap js-input-wrap hide">           
+            <button type="button" class="btn btn--cta btn--quantity js-btn-quantity"
+                id="buy4608subtract"
+                data-action="subtract"
+                value="subtract"
+                aria-label="fjern antal">              
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="3" viewBox="0 0 16 3" fill="none">
+                    <rect y="0.0960693" width="16.2974" height="2" rx="1" fill="white"/>
+                </svg>                      
+            </button>
+            <label><input type="number" value="0" name="quantity" min="0" max="99" maxlength="2" /></label>       
+            <button type="button" class="btn btn--cta btn--quantity js-btn-quantity"
+                id="buy4608add"
+                data-action="add"
+                value="add"
+                aria-label="tilføj antal">              
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.10938 15.2974C7.10938 15.8497 7.55709 16.2974 8.10938 16.2974C8.66166 16.2974 9.10938 15.8497 9.10938 15.2974V9.09607H15.2974C15.8497 9.09607 16.2974 8.64835 16.2974 8.09607C16.2974 7.54378 15.8497 7.09607 15.2974 7.09607H9.10938V0.999999C9.10938 0.447715 8.66166 0 8.10938 0C7.55709 0 7.10938 0.447715 7.10938 1V7.09607H1C0.447715 7.09607 0 7.54378 0 8.09607C0 8.64835 0.447716 9.09607 1 9.09607H7.10938V15.2974Z" fill="white"/>
+                </svg>                     
+            </button>
+        </div>    
+                          
+                            <button class="btn btn--cta js-quantity-button  js-plp-clerk js-btn--buy"
+                id="buy4608"
+                data-id="4608"
+                data-configuration="Box"
+                data-giftcard=""
+                                data-action="addToBasket"
+                data-original-text="L&#230;g i kurv"
+                data-success-text="Lagt i kurv"
+                data-loading-text="Vent..."
+                data-error-text="Pr&#248;v igen"
+                data-soldout-text="Udsolgt"
+                data-not-available-text="Ikke tilg&#230;ngelig"
+                name="itemId"
+                value="4608">
+            L&#230;g i kurv
+        </button>
+
+                </div>
+            </div>
+        </div>
+    </a>
+
+                            </div>
+                            <div class="swiper-slide">
+                                    <a href="/dagligvarer/frugt/citrusfrugter/appelsinposen"
+       class="product-list__item js-product-item js-product-item-quantity"  data-clerk-product-id='140014-STK'
+       data-is-favorite="false"
+       data-id="2004"
+       data-item-no="140014"
+       data-giftcard-id=""
+       data-configuration="Extra"
+       data-position="1"
+       data-delivery-days="1,2,3,0,5"
+       data-track='{ "name": "AppelsinPosen", "id": 2004, "price": 55, "brand": null, "category": "Extra", "variant": null, "position": 1, "url": "/dagligvarer/frugt/citrusfrugter/appelsinposen", "list": "ProductCategoryPage" }'
+       itemscope
+       itemtype="http://schema.org/Product">
+        <div class="product-list__image">
+                <img src="https://assetsv2.aarstiderne.com/product/appelsinposen-1819-392-392-30.PNG" width="238" height="238" alt="AppelsinPosen" data-prop="GetImage" loading="lazy" />
+        </div>
+        <div class="product-list__tags">
+            
+        </div>
+
+        <div class="product-list__favorite">
+                <span href="#login-modal" data-modal="login" class="favorite"></span>
+        </div>
+        <div class="product-list__layout">
+            <header class="product-list__header">
+                <h2 class="product-list__title" data-prop="Title" itemprop="name">AppelsinPosen</h2>
+            </header>
+
+            <div class="product-list__short-description" data-prop="ShortTitle" itemprop="description">                            
+                  <span data-prop="SubTitle">Min. 1,9 kg | </span>
+                <span>De bedste appelsiner netop nu</span>
+            </div>
+            <div class="product-list__numbers" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                    <span class="product-list__price" data-prop="PriceDetails.Price"><span class='price' itemprop='price'>55</span> <span class='currency' itemprop='priceCurrency'>kr.</span></span>
+                        <span class="product-list__price product-list__price--member" data-prop="PriceDetails.DiscountPriceAsFormatted" data-resource-key="Global.Generics.memberPrice">Medlemspris <span class="product-list__price--wrap"> <span class='price' itemprop='price'>49,50</span> <span class='currency' itemprop='priceCurrency'>kr.</span></span></span>
+            </div>          
+            <div class="product-list__button">
+                <div class="product-details__quantity product-quantity js-product-quantity" data-productid="2004">
+                            <div class="product-quantity__input-wrap js-input-wrap hide">           
+            <button type="button" class="btn btn--cta btn--quantity js-btn-quantity"
+                id="buy2004subtract"
+                data-action="subtract"
+                value="subtract"
+                aria-label="fjern antal">              
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="3" viewBox="0 0 16 3" fill="none">
+                    <rect y="0.0960693" width="16.2974" height="2" rx="1" fill="white"/>
+                </svg>                      
+            </button>
+            <label><input type="number" value="0" name="quantity" min="0" max="99" maxlength="2" /></label>       
+            <button type="button" class="btn btn--cta btn--quantity js-btn-quantity"
+                id="buy2004add"
+                data-action="add"
+                value="add"
+                aria-label="tilføj antal">              
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.10938 15.2974C7.10938 15.8497 7.55709 16.2974 8.10938 16.2974C8.66166 16.2974 9.10938 15.8497 9.10938 15.2974V9.09607H15.2974C15.8497 9.09607 16.2974 8.64835 16.2974 8.09607C16.2974 7.54378 15.8497 7.09607 15.2974 7.09607H9.10938V0.999999C9.10938 0.447715 8.66166 0 8.10938 0C7.55709 0 7.10938 0.447715 7.10938 1V7.09607H1C0.447715 7.09607 0 7.54378 0 8.09607C0 8.64835 0.447716 9.09607 1 9.09607H7.10938V15.2974Z" fill="white"/>
+                </svg>                     
+            </button>
+        </div>    
+                          
+                            <button class="btn btn--cta js-quantity-button  js-plp-clerk js-btn--buy"
+                id="buy2004"
+                data-id="2004"
+                data-configuration="Extra"
+                data-giftcard=""
+                                data-action="addToBasket"
+                data-original-text="L&#230;g i kurv"
+                data-success-text="Lagt i kurv"
+                data-loading-text="Vent..."
+                data-error-text="Pr&#248;v igen"
+                data-soldout-text="Udsolgt"
+                data-not-available-text="Ikke tilg&#230;ngelig"
+                name="itemId"
+                value="2004">
+            L&#230;g i kurv
+        </button>
+
+                </div>
+            </div>
+        </div>
+    </a>
+
+                            </div>
+                            <div class="swiper-slide">
+                                    <a href="/dagligvarer/frugt/aebler-paerer/aebler"
+       class="product-list__item js-product-item js-product-item-quantity"  data-clerk-product-id='140015-STK'
+       data-is-favorite="false"
+       data-id="2005"
+       data-item-no="140015"
+       data-giftcard-id=""
+       data-configuration="Extra"
+       data-position="1"
+       data-delivery-days="1,2,3,0,5"
+       data-track='{ "name": "&#198;bleKassen", "id": 2005, "price": 49, "brand": null, "category": "Extra", "variant": null, "position": 1, "url": "/dagligvarer/frugt/aebler-paerer/aebler", "list": "ProductCategoryPage" }'
+       itemscope
+       itemtype="http://schema.org/Product">
+        <div class="product-list__image">
+                <img src="https://assetsv2.aarstiderne.com/product/aebler-2103-392-392-30.PNG" width="238" height="238" alt="&#198;bleKassen" data-prop="GetImage" loading="lazy" />
+        </div>
+        <div class="product-list__tags">
+            
+        </div>
+
+        <div class="product-list__favorite">
+                <span href="#login-modal" data-modal="login" class="favorite"></span>
+        </div>
+        <div class="product-list__layout">
+            <header class="product-list__header">
+                <h2 class="product-list__title" data-prop="Title" itemprop="name">&#198;bleKassen</h2>
+            </header>
+
+            <div class="product-list__short-description" data-prop="ShortTitle" itemprop="description">                            
+                  <span data-prop="SubTitle">Min. 1,9 kg | </span>
+                <span>Altid de bedste æbler, udvalgt efter smag og sprødhed</span>
+            </div>
+            <div class="product-list__numbers" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                    <span class="product-list__price" data-prop="PriceDetails.Price"><span class='price' itemprop='price'>49</span> <span class='currency' itemprop='priceCurrency'>kr.</span></span>
+                        <span class="product-list__price product-list__price--member" data-prop="PriceDetails.DiscountPriceAsFormatted" data-resource-key="Global.Generics.memberPrice">Medlemspris <span class="product-list__price--wrap"> <span class='price' itemprop='price'>44,10</span> <span class='currency' itemprop='priceCurrency'>kr.</span></span></span>
+            </div>          
+            <div class="product-list__button">
+                <div class="product-details__quantity product-quantity js-product-quantity" data-productid="2005">
+                            <div class="product-quantity__input-wrap js-input-wrap hide">           
+            <button type="button" class="btn btn--cta btn--quantity js-btn-quantity"
+                id="buy2005subtract"
+                data-action="subtract"
+                value="subtract"
+                aria-label="fjern antal">              
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="3" viewBox="0 0 16 3" fill="none">
+                    <rect y="0.0960693" width="16.2974" height="2" rx="1" fill="white"/>
+                </svg>                      
+            </button>
+            <label><input type="number" value="0" name="quantity" min="0" max="99" maxlength="2" /></label>       
+            <button type="button" class="btn btn--cta btn--quantity js-btn-quantity"
+                id="buy2005add"
+                data-action="add"
+                value="add"
+                aria-label="tilføj antal">              
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.10938 15.2974C7.10938 15.8497 7.55709 16.2974 8.10938 16.2974C8.66166 16.2974 9.10938 15.8497 9.10938 15.2974V9.09607H15.2974C15.8497 9.09607 16.2974 8.64835 16.2974 8.09607C16.2974 7.54378 15.8497 7.09607 15.2974 7.09607H9.10938V0.999999C9.10938 0.447715 8.66166 0 8.10938 0C7.55709 0 7.10938 0.447715 7.10938 1V7.09607H1C0.447715 7.09607 0 7.54378 0 8.09607C0 8.64835 0.447716 9.09607 1 9.09607H7.10938V15.2974Z" fill="white"/>
+                </svg>                     
+            </button>
+        </div>    
+                          
+                            <button class="btn btn--cta js-quantity-button  js-plp-clerk js-btn--buy"
+                id="buy2005"
+                data-id="2005"
+                data-configuration="Extra"
+                data-giftcard=""
+                                data-action="addToBasket"
+                data-original-text="L&#230;g i kurv"
+                data-success-text="Lagt i kurv"
+                data-loading-text="Vent..."
+                data-error-text="Pr&#248;v igen"
+                data-soldout-text="Udsolgt"
+                data-not-available-text="Ikke tilg&#230;ngelig"
+                name="itemId"
+                value="2005">
+            L&#230;g i kurv
+        </button>
+
+                </div>
+            </div>
+        </div>
+    </a>
+
+                            </div>
+                            <div class="swiper-slide">
+                                    <a href="/dagligvarer/frugt/blandede-frugtkasser/stor-frugtkasse"
+       class="product-list__item js-product-item js-product-item-quantity"  data-clerk-product-id='110151-STK'
+       data-is-favorite="false"
+       data-id="1938"
+       data-item-no="110151"
+       data-giftcard-id=""
+       data-configuration="Box"
+       data-position="1"
+       data-delivery-days="1,3,0"
+       data-track='{ "name": "Stor FrugtKasse", "id": 1938, "price": 255, "brand": null, "category": "Box", "variant": null, "position": 1, "url": "/dagligvarer/frugt/blandede-frugtkasser/stor-frugtkasse", "list": "ProductCategoryPage" }'
+       itemscope
+       itemtype="http://schema.org/Product">
+        <div class="product-list__image">
+                <img src="https://assetsv2.aarstiderne.com/product/stor-frugtkasse-2820-392-392-30.PNG" width="238" height="238" alt="Stor FrugtKasse" data-prop="GetImage" loading="lazy" />
+        </div>
+        <div class="product-list__tags">
+            
+        </div>
+
+        <div class="product-list__favorite">
+                <span href="#login-modal" data-modal="login" class="favorite"></span>
+        </div>
+        <div class="product-list__layout">
+                <div class="product-list__delivery-days" data-resource-key="Global.Generics.isDelivered">
+
+                        <span>Leveres <span>mandag, onsdag og s&#248;ndag</span></span>
+                </div>
+            <header class="product-list__header">
+                <h2 class="product-list__title" data-prop="Title" itemprop="name">Stor FrugtKasse</h2>
+            </header>
+
+            <div class="product-list__short-description" data-prop="ShortTitle" itemprop="description">                            
+                  <span data-prop="SubTitle">5-6 slags frugt, ca. 5,5 kg | </span>
+                <span>Blandet håndfrugt og eksotisk frugt i sæson, til familier på 4-5 personer</span>
+            </div>
+            <div class="product-list__numbers" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                    <span class="product-list__price" data-prop="PriceDetails.Price"><span class='price' itemprop='price'>255</span> <span class='currency' itemprop='priceCurrency'>kr.</span></span>
+                        <span class="product-list__price product-list__price--member" data-prop="PriceDetails.DiscountPriceAsFormatted" data-resource-key="Global.Generics.memberPrice">Medlemspris <span class="product-list__price--wrap"> <span class='price' itemprop='price'>229,50</span> <span class='currency' itemprop='priceCurrency'>kr.</span></span></span>
+            </div>          
+            <div class="product-list__button">
+                <div class="product-details__quantity product-quantity js-product-quantity" data-productid="1938">
+                            <div class="product-quantity__input-wrap js-input-wrap hide">           
+            <button type="button" class="btn btn--cta btn--quantity js-btn-quantity"
+                id="buy1938subtract"
+                data-action="subtract"
+                value="subtract"
+                aria-label="fjern antal">              
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="3" viewBox="0 0 16 3" fill="none">
+                    <rect y="0.0960693" width="16.2974" height="2" rx="1" fill="white"/>
+                </svg>                      
+            </button>
+            <label><input type="number" value="0" name="quantity" min="0" max="99" maxlength="2" /></label>       
+            <button type="button" class="btn btn--cta btn--quantity js-btn-quantity"
+                id="buy1938add"
+                data-action="add"
+                value="add"
+                aria-label="tilføj antal">              
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.10938 15.2974C7.10938 15.8497 7.55709 16.2974 8.10938 16.2974C8.66166 16.2974 9.10938 15.8497 9.10938 15.2974V9.09607H15.2974C15.8497 9.09607 16.2974 8.64835 16.2974 8.09607C16.2974 7.54378 15.8497 7.09607 15.2974 7.09607H9.10938V0.999999C9.10938 0.447715 8.66166 0 8.10938 0C7.55709 0 7.10938 0.447715 7.10938 1V7.09607H1C0.447715 7.09607 0 7.54378 0 8.09607C0 8.64835 0.447716 9.09607 1 9.09607H7.10938V15.2974Z" fill="white"/>
+                </svg>                     
+            </button>
+        </div>    
+                          
+                            <button class="btn btn--cta js-quantity-button  js-plp-clerk js-btn--buy"
+                id="buy1938"
+                data-id="1938"
+                data-configuration="Box"
+                data-giftcard=""
+                                data-action="addToBasket"
+                data-original-text="L&#230;g i kurv"
+                data-success-text="Lagt i kurv"
+                data-loading-text="Vent..."
+                data-error-text="Pr&#248;v igen"
+                data-soldout-text="Udsolgt"
+                data-not-available-text="Ikke tilg&#230;ngelig"
+                name="itemId"
+                value="1938">
+            L&#230;g i kurv
+        </button>
+
+                </div>
+            </div>
+        </div>
+    </a>
+
+                            </div>
+                            <div class="swiper-slide">
+                                    <a href="/dagligvarer/anbefalinger/pizza-bla-congo/pizzadej-frost"
+       class="product-list__item js-product-item js-product-item-quantity"  data-clerk-product-id='421212-STK'
+       data-is-favorite="false"
+       data-id="3172"
+       data-item-no="421212"
+       data-giftcard-id=""
+       data-configuration="Extra"
+       data-position="1"
+       data-delivery-days="0,1,2,3,5"
+       data-track='{ "name": "Pizzadej", "id": 3172, "price": 18, "brand": null, "category": "Extra", "variant": null, "position": 1, "url": "/dagligvarer/anbefalinger/pizza-bla-congo/pizzadej-frost", "list": "ProductCategoryPage" }'
+       itemscope
+       itemtype="http://schema.org/Product">
+        <div class="product-list__image">
+                <img src="https://assetsv2.aarstiderne.com/product/pizzadej-frost-2696-392-392-30.PNG" width="238" height="238" alt="Pizzadej" data-prop="GetImage" loading="lazy" />
+        </div>
+        <div class="product-list__tags">
+            
+        </div>
+
+        <div class="product-list__favorite">
+                <span href="#login-modal" data-modal="login" class="favorite"></span>
+        </div>
+        <div class="product-list__layout">
+            <header class="product-list__header">
+                <h2 class="product-list__title" data-prop="Title" itemprop="name">Pizzadej</h2>
+            </header>
+
+            <div class="product-list__short-description" data-prop="ShortTitle" itemprop="description">                            
+                  <span data-prop="SubTitle">200 g | </span>
+                Færdig pizzadej fra bageriet Brødflov, lige til at rulle ud
+            </div>
+            <div class="product-list__numbers" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                    <span class="product-list__price" data-prop="PriceDetails.Price"><span class='price' itemprop='price'>18</span> <span class='currency' itemprop='priceCurrency'>kr.</span></span>
+                        <span class="product-list__price product-list__price--member" data-prop="PriceDetails.DiscountPriceAsFormatted" data-resource-key="Global.Generics.memberPrice">Medlemspris <span class="product-list__price--wrap"> <span class='price' itemprop='price'>16,20</span> <span class='currency' itemprop='priceCurrency'>kr.</span></span></span>
+            </div>          
+            <div class="product-list__button">
+                <div class="product-details__quantity product-quantity js-product-quantity" data-productid="3172">
+                            <div class="product-quantity__input-wrap js-input-wrap hide">           
+            <button type="button" class="btn btn--cta btn--quantity js-btn-quantity"
+                id="buy3172subtract"
+                data-action="subtract"
+                value="subtract"
+                aria-label="fjern antal">              
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="3" viewBox="0 0 16 3" fill="none">
+                    <rect y="0.0960693" width="16.2974" height="2" rx="1" fill="white"/>
+                </svg>                      
+            </button>
+            <label><input type="number" value="0" name="quantity" min="0" max="99" maxlength="2" /></label>       
+            <button type="button" class="btn btn--cta btn--quantity js-btn-quantity"
+                id="buy3172add"
+                data-action="add"
+                value="add"
+                aria-label="tilføj antal">              
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.10938 15.2974C7.10938 15.8497 7.55709 16.2974 8.10938 16.2974C8.66166 16.2974 9.10938 15.8497 9.10938 15.2974V9.09607H15.2974C15.8497 9.09607 16.2974 8.64835 16.2974 8.09607C16.2974 7.54378 15.8497 7.09607 15.2974 7.09607H9.10938V0.999999C9.10938 0.447715 8.66166 0 8.10938 0C7.55709 0 7.10938 0.447715 7.10938 1V7.09607H1C0.447715 7.09607 0 7.54378 0 8.09607C0 8.64835 0.447716 9.09607 1 9.09607H7.10938V15.2974Z" fill="white"/>
+                </svg>                     
+            </button>
+        </div>    
+                          
+                            <button class="btn btn--cta js-quantity-button  js-plp-clerk js-btn--buy"
+                id="buy3172"
+                data-id="3172"
+                data-configuration="Extra"
+                data-giftcard=""
+                                data-action="addToBasket"
+                data-original-text="L&#230;g i kurv"
+                data-success-text="Lagt i kurv"
+                data-loading-text="Vent..."
+                data-error-text="Pr&#248;v igen"
+                data-soldout-text="Udsolgt"
+                data-not-available-text="Ikke tilg&#230;ngelig"
+                name="itemId"
+                value="3172">
+            L&#230;g i kurv
+        </button>
+
+                </div>
+            </div>
+        </div>
+    </a>
+
+                            </div>
+
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </section>
+
+
+<!-- /Partial: /Clerk/_ApiCall.cshtml -->
+
+<!-- /MacroPartial: FarmshopApiCall.cshtml -->
+    
+
+
+
+
+
+</main>
+<!-- /Layout: Wide -->
+	
+
+        <!-- Partial: _IdeKassen.cshtml -->
+        <div class="ide-kassen oi-ignore">
+            <a target="_blank" class="ide-kassen__link" href="https://idekassen.aarstiderne.com/forums/100373-id-kassen">
+                Id&#233;kassen <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 6.734c0 4.164-3.75 6.98-3.75 10.266h-1.992c.001-2.079.996-3.826 1.968-5.513.913-1.585 1.774-3.083 1.774-4.753 0-3.108-2.518-4.734-5.004-4.734-2.482 0-4.996 1.626-4.996 4.734 0 1.67.861 3.168 1.774 4.753.972 1.687 1.966 3.434 1.967 5.513h-1.991c0-3.286-3.75-6.103-3.75-10.266 0-4.343 3.498-6.734 6.996-6.734 3.502 0 7.004 2.394 7.004 6.734zm-4 11.766c0 .276-.224.5-.5.5h-5c-.276 0-.5-.224-.5-.5s.224-.5.5-.5h5c.276 0 .5.224.5.5zm0 2c0 .276-.224.5-.5.5h-5c-.276 0-.5-.224-.5-.5s.224-.5.5-.5h5c.276 0 .5.224.5.5zm-1.701 3.159c-.19.216-.465.341-.752.341h-1.094c-.287 0-.562-.125-.752-.341l-1.451-1.659h5.5l-1.451 1.659zm-3.629-16.347l-1.188-.153c.259-1.995 1.5-3.473 3.518-3.847l.219 1.177c-1.947.361-2.433 1.924-2.549 2.823z" /></svg>
+            </a>
+        </div>
+        <!-- /Partial: _IdeKassen.cshtml -->
+
+
+    <!-- Partial: /Consumer/_PreFooter.cshtml -->
+
+<!-- /Partial: /Consumer/_PreFooter.cshtml -->
+
+    <!-- Partial: /Consumer/_Footer.cshtml -->
+<!-- MacroPartial: HTMLBlock.cshtml -->
+<!-- item.css -->
+
+<!-- /item.css -->
+<!-- item.html -->
+<div class="footer-bg js-global-footer oi-ignore">
+    <aside class="footer-promises">
+        <a class="footer-promises__link" href="/om-aarstiderne/baggrund-og-tal/aarstidernes-5-loefter">
+            <h3>Aarstidernes 5 kundeløfter 
+                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="27" viewBox="0 0 10 27" fill="none">
+                    <path d="M1 1L9 13.8289L1 26" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </h3>
+            <ol class="footer-promises__list">
+                <li>Vi forpligter os til at vores CO2-regnskab altid er i balance</li>
+                <li>Vi forpligter os til at alle vores leverandører er i CO2-balance i 2025</li>
+                <li>Vi forpligter os til at levere 100% økologisk mad, ud fra 80/20-princippet</li>
+                <li>Vi forpligter os til at hjælpe vores kunder med at blive en del af løsningen</li>
+                <li>Vi forpligter os til at gøre det, vi siger <img width="150" height="85" class="footer-promises__logo" src="/assets/source/images/icons/planetar-logo.png" alt="planetar logo"></li>
+            </ol>
+        </a>
+    </aside>
+</div>
+<footer class="footer-dark js-global-footer oi-ignore">
+   <div class="footer-dark__wrap">
+        <div class="footer-dark__column">
+            <h3>Kundeservice Privat</h3>
+            <ul>               
+                <li>
+                    <a href="tel:+4570260066">70 26 00 66</a>
+                </li>
+                <li>
+                    <a href="mailto:hej@aarstiderne.com">hej@aarstiderne.com</a>
+                </li>
+            </ul>
+
+            <h3>Kundeservice Erhverv</h3>
+            <ul>              
+                <li>
+                    <a href="tel:+4570260064">70 26 00 64</a>
+                </li>
+                <li>
+                    <a href="mailto:erhverv@aarstiderne.com">erhverv@aarstiderne.com</a>
+                </li>
+            </ul>
+
+            <h3>Kundeservice Engros</h3>
+            <ul>
+                <li>
+                    <a href="tel:+4570260032">70 26 00 32</a>
+                </li>
+                <li>
+                    <a href="mailto:engros@aarstiderne.com">engros@aarstiderne.com</a>
+                </li>
+            </ul>
+
+            <h3>Download vores app</h3>
+            <ul>
+                <li> 
+                    <a href="https://apps.apple.com/dk/app/aarstiderne-nem-og-sund-kost/id568066035?l=da" class="app" target="_blank"><img src="/assets/vincent/img/ux/store-apple-noborder.jpg" alt="App Store" width="135" height="40"></a>        
+                </li>               
+                <li>
+                    <a href="https://play.google.com/store/apps/details?id=com.aarstiderne.android" class="app" target="_blank"><img src="/assets/vincent/img/ux/store-google-noborder.jpg" alt="Google Play" width="135" height="40"></a>
+                </li>  
+            </ul>
+        </div>
+        <div class="footer-dark__column">
+            <h3>Hvor finder jeg?</h3>
+            <ul>     
+      <li>
+                    <a href="/fordele">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="5" height="12" viewBox="0 0 5 12" fill="none">
+                        <path d="M1 1L4.125 6.13158L1 11" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>Fordele</a>
+                </li>                
+                <li>
+                    <a href="/aarstiderne-plus">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="5" height="12" viewBox="0 0 5 12" fill="none">
+                        <path d="M1 1L4.125 6.13158L1 11" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>Aarstiderne Plus</a>
+                </li>
+                       <li>
+                    <a href="/gavekort/promo">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="5" height="12" viewBox="0 0 5 12" fill="none">
+                        <path d="M1 1L4.125 6.13158L1 11" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>Gavekort</a>
+                </li>
+        <li>
+                    <a href="https://aarstiderne.career.emply.com/job-og-karriere">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="5" height="12" viewBox="0 0 5 12" fill="none">
+                        <path d="M1 1L4.125 6.13158L1 11" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>Jobs</a>
+                </li>
+          
+                <li>
+                    <a href="https://erhverv.aarstiderne.com">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="5" height="12" viewBox="0 0 5 12" fill="none">
+                        <path d="M1 1L4.125 6.13158L1 11" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>Firmafrugt / erhverv</a>
+                </li>
+       
+             
+                <li>
+                    <a href="https://leverandor.aarstiderne.com">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="5" height="12" viewBox="0 0 5 12" fill="none">
+                        <path d="M1 1L4.125 6.13158L1 11" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>Leverandørportal</a>
+                </li>
+           
+        
+                <li>
+                    <a href="/om-aarstiderne/whistleblower-ordning">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="5" height="12" viewBox="0 0 5 12" fill="none">
+                        <path d="M1 1L4.125 6.13158L1 11" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>Whistleblower-ordning</a>
+                </li>
+                <li>
+                    <a href="/kundeservice/forretningsbetingelser">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="5" height="12" viewBox="0 0 5 12" fill="none">
+                        <path d="M1 1L4.125 6.13158L1 11" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>Forretningsbetingelser og persondatapolitik</a>
+                </li>    
+      <li>
+                    <a href="/kundeservice/cookies">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="5" height="12" viewBox="0 0 5 12" fill="none">
+                        <path d="M1 1L4.125 6.13158L1 11" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>Cookies</a>
+                </li>      
+            </ul>
+        </div>
+
+        <div class="footer-dark__column footer-dark__column--newsletter">
+            <h3>Nyhedsmail</h3>
+          
+            <p>Du siger Ja tak til at modtage nyhedsmail om produkter, opskrifter og arrangementer, samt at blive kontaktet på SMS og telefon. Du kan til en hver tid afmelde dig via link.</p>
+            <div class="footer-newsletter newsletter">
+                <!-- Begin Mailchimp Signup Form -->
+                <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">              
+                <div id="mc_embed_signup" class="footer-newsletter__wrap">
+                    <form action="https://aarstiderne.us13.list-manage.com/subscribe/post?u=bd2b0813d654b328714214408&amp;id=eabf4d8c59" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="footer-newsletter__form validate" target="_blank" novalidate>
+                        <div id="mc_embed_signup_scroll">                        
+                            <div class="footer-newsletter__group mc-field-group">
+                                <label for="mce-EMAIL">Din e-mail  <span class="asterisk">*</span></label>
+                                <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                            </div>
+                            <div class="footer-newsletter__group mc-field-group">
+                                <label for="mce-NAME">Dit navn</label>
+                                <input type="text" value="" name="NAME" class="" id="mce-NAME">
+                            </div>
+                            <div id="mce-responses" class="clear">
+                                <div class="response" id="mce-error-response" style="display:none"></div>
+                                <div class="response" id="mce-success-response" style="display:none"></div>
+                            </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                                <input type="text" name="b_bd2b0813d654b328714214408_eabf4d8c59" tabindex="-1" value="">
+                            </div>
+                            <div class="indicates-required"><span class="asterisk">*</span> påkrævet felt</div>
+                            <p></p>
+                            <div class="clear">
+                                <input type="submit" value="Tilmeld nyhedsbrev" name="subscribe" id="mc-embedded-subscribe" class="button">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+
+            </div>
+            <!--End mc_embed_signup-->
+                
+        </div>
+
+        <div class="footer-dark__column">
+            <h3>Mærkninger</h3>
+            <ul class="flex-row flex-row--my-lg">                               
+                <li class="footer-dark__svg--oeko-maerke">
+                    <svg xmlns="http://www.w3.org/2000/svg" aria-labelledby="Statskontrolleret økologisk logo" viewBox="0 0 33 31" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs>
+                            <path id="path-1" d="M0 35.763h37.793V.083H0z"></path>
+                        </defs>
+                        <g fill="none" fill-rule="evenodd">
+                            <g id="Øko-mærke" transform="translate(-3 -3)">
+                                <path id="Fill-7" fill="#E30613" d="M12.802 25.127c-1.762-1.687-2.86-4.07-2.86-6.712 0-5.115 4.117-9.26 9.196-9.26.886 0 1.743.125 2.556.36.408.12.997.028 1.325-.544.32-.57 2.13-3.77 2.43-4.31.41-.75-.02-1.52-.97-1.52h-6.16C9.94 3.13 3.15 9.98 3.15 18.42c0 3.45 1.134 6.63 3.048 9.186-.626 1.106-2.36 4.204-2.903 5.16-.29.508-.142.945.488.945h4.62c.553 0 .797-.26 1.054-.71.285-.52 2.77-4.93 3.52-6.24.243-.42.514-.97-.178-1.64"></path>
+                                <path id="Fill-9" fill="#E30613" d="M25.477 11.708c1.762 1.687 2.86 4.07 2.86 6.712 0 5.115-4.117 9.26-9.197 9.26-.886 0-1.743-.125-2.556-.36-.408-.12-.996-.028-1.325.544-.33.572-2.14 3.776-2.44 4.32-.42.75.02 1.523.96 1.523h6.16c8.38 0 15.18-6.846 15.18-15.287 0-3.448-1.14-6.63-3.05-9.187.63-1.106 2.36-4.204 2.9-5.16.29-.507.14-.945-.49-.945h-4.62c-.56 0-.8.254-1.06.702-.29.528-2.77 4.935-3.53 6.242-.24.42-.515.973.18 1.636"></path>
+                                <path id="Fill-11" fill="#E30613" d="M20.01 13.168c0 .485-.39.88-.872.88-.483 0-.874-.395-.874-.88 0-.486.39-.88.874-.88.482 0 .873.394.873.88"></path>
+                                <mask id="mask-2" fill="#fff"><use xlink:href="#path-1"></use></mask>
+                                <path id="Fill-13" fill="#E30613" d="M14 23.218h10.28V21.96H14z" mask="url(#mask-2)"></path>
+                                <path id="Fill-15" fill="#E30613" d="M13.133 17.863c0-.55.443-1.14 1.17-1.235-.037.907.43 1.48.772 1.923.326.42.837 1.04 1.36 1.6h-1.89l-.237-.26c-.318-.34-.618-.66-.864-1.03-.222-.33-.31-.72-.31-.99zm5.008 2.283c-.51-.542-1.79-1.977-2.01-2.262-.22-.285-.48-.64-.55-.917.66.3 1.58.692 2.96.784.01.51 0 2.4 0 2.4h-.38zm1.63-2.395c1.38-.09 2.3-.48 2.96-.78-.07.28-.35.67-.47.81-.42.53-1.58 1.83-2.1 2.37h-.38v-2.39zm2.09 2.4c.53-.56 1.15-1.31 1.3-1.51.15-.18.88-.97.84-2 .89.12 1.17.85 1.17 1.24 0 .27-.09.67-.31 1-.24.37-.54.69-.86 1.03l-.23.26h-1.9zm.5-4.37v.01c-.62.29-1.37.64-2.54.73 0-.01 0-.03.01-.04.14-.67.688-1.03 1.153-1.13.55-.123 1.066.04 1.395.448zm-3.86.73c-1.17-.09-1.92-.44-2.54-.72.33-.4.85-.57 1.4-.44.47.105 1.01.46 1.16 1.13 0 .01 0 .03.004.047zm-6.07 3.06c.36.53.65.82.99 1.18l.6.65H24.3l.587-.65c.337-.36.687-.73.985-1.18 1.404-2.11-.26-4.34-2.187-4.19l-.105.01-.204-.3c-.616-.82-1.646-1.19-2.69-.96-.627.15-1.16.48-1.54.94-.378-.46-.91-.79-1.54-.94-1.042-.23-2.073.14-2.69.96-.074.1-.14.2-.2.3h-.106c-1.756-.19-3.678 1.99-2.187 4.19z" mask="url(#mask-2)"></path>
+                            </g>
+                        </g>
+                    </svg>
+                </li>
+                <li class="footer-dark__svg--eu-organic">
+
+                </li>
+            </ul>
+                 
+            <ul>
+                <li class="footer-dark--mb-md">
+                    <p>Alle varer er økologiske, undtaget varer indeholdende vildtfangede fisk i henhold til Rådets forordning 834/2007 om økologisk produktion og mærkning.</p>             
+                </li>
+                <li>
+                    <a href="https://www.findsmiley.dk/Sider/Search.aspx?k=12542976"><svg xmlns="http://www.w3.org/2000/svg" width="5" height="12" viewBox="0 0 5 12" fill="none">
+                        <path d="M1 1L4.125 6.13158L1 11" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>Se Fødevarestyrelsens smiley-rapporter</a>
+                </li>
+            </ul>
+
+            <h3>Følg os</h3>           
+            <ul class="flex-row flex-row--my-md">
+                <li>
+                    <a class="icon-link" href="https://www.facebook.com/aarstiderne" aria-label="facebook link" target="_blank" rel="noopener noreferrer">                        
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                            <g id="Web" fill="none" fill-rule="evenodd">
+                                <g fill="#fff">
+                                    <g id="Footer">
+                                        <path id="Fill-1" d="M17.305 0H2.695C1.207 0 0 1.207 0 2.695v14.61C0 18.793 1.207 20 2.695 20H9.9l.013-7.147H8.056c-.24 0-.437-.195-.438-.436l-.01-2.304c0-.243.197-.44.44-.44H9.9V7.447c0-2.583 1.578-3.99 3.883-3.99h1.89c.242 0 .44.196.44.438v1.943c0 .242-.197.438-.44.438h-1.16c-1.253 0-1.496.596-1.496 1.47v1.927h2.754c.265 0 .468.23.437.49l-.273 2.304c-.026.22-.213.386-.435.386h-2.47L13.017 20h4.288C18.793 20 20 18.793 20 17.305V2.695C20 1.207 18.793 0 17.305 0"></path>
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>                       
+                    </a>
+                </li>
+                <li>
+                    <a class="icon-link" href="https://www.instagram.com/aarstiderne/" aria-label="instagram link" target="_blank" rel="noopener noreferrer">                       
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <g id="Footer">
+                                <g id="Instagram">
+                                    <g id="Group-3">
+                                        <path id="Fill-1" fill="#fff" d="M9.997.006c-2.715 0-3.056.012-4.122.06C4.81.116 4.085.284 3.45.53c-.66.257-1.216.598-1.772 1.154C1.122 2.24.78 2.797.525 3.454.278 4.092.11 4.818.06 5.882.012 6.95 0 7.29 0 10.004c0 2.715.012 3.056.06 4.122.05 1.064.218 1.79.465 2.426.255.66.597 1.216 1.153 1.772s1.113.898 1.77 1.153c.636.247 1.363.416 2.427.465 1.066.048 1.407.06 4.122.06s3.055-.012 4.122-.06c1.06-.05 1.79-.218 2.422-.465.658-.255 1.215-.597 1.77-1.153.557-.556.898-1.113 1.154-1.77.246-.636.415-1.363.464-2.427.05-1.066.06-1.407.06-4.122s-.01-3.055-.06-4.122c-.05-1.063-.217-1.79-.464-2.425-.257-.658-.598-1.215-1.154-1.77C17.757 1.13 17.2.79 16.542.534 15.907.288 15.18.12 14.117.07 13.05.018 12.71.006 9.997.006zm0 1.802c2.67 0 2.985.01 4.04.058.974.044 1.503.207 1.856.344.466.18.8.398 1.15.748.35.35.566.683.747 1.15.137.352.3.88.344 1.856.048 1.054.058 1.37.058 4.04 0 2.668-.01 2.985-.058 4.04-.044.973-.207 1.503-.344 1.855-.18.463-.398.8-.748 1.145-.35.35-.683.567-1.15.748-.352.137-.88.3-1.856.344-1.054.05-1.37.06-4.04.06s-2.985-.01-4.04-.06c-.973-.045-1.503-.208-1.855-.345-.463-.18-.8-.398-1.145-.748-.35-.35-.567-.682-.748-1.15-.137-.35-.3-.88-.344-1.855-.05-1.055-.06-1.37-.06-4.04s.01-2.986.06-4.04c.045-.975.208-1.504.345-1.857.18-.466.398-.8.748-1.15.35-.35.682-.566 1.15-.747.35-.138.88-.3 1.855-.345 1.055-.047 1.37-.057 4.04-.057z"></path>
+                                    </g>
+                                    <path id="Fill-4" fill="#fff" d="M9.997 13.335c-1.84 0-3.332-1.49-3.332-3.332 0-1.84 1.49-3.332 3.332-3.332 1.84 0 3.332 1.496 3.332 3.336s-1.496 3.332-3.336 3.332zm0-8.465c-2.835 0-5.134 2.298-5.134 5.133s2.3 5.134 5.134 5.134c2.835 0 5.133-2.3 5.133-5.134 0-2.835-2.298-5.133-5.133-5.133z"></path>
+                                    <path id="Fill-5" fill="#fff" d="M16.533 4.667c0 .662-.537 1.2-1.2 1.2-.662 0-1.2-.538-1.2-1.2 0-.663.538-1.2 1.2-1.2.663 0 1.2.537 1.2 1.2"></path>
+                                </g>
+                            </g>
+                        </svg>                       
+                    </a>
+                </li>
+
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>                      
+                    </a>
+                </li>
+            </ul>
+              
+        </div>
+  </div>
+
+  <address class="footer-dark__organization" itemscope="" itemtype="http://schema.org/Organization">
+    <p class="space" itemprop="name">Aarstiderne A/S</p>
+
+    <div class="footer-dark__address" itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
+        <p class="space space-m" itemprop="streetAddress">Barritskovvej 34</p>
+        <p class="space"><span itemprop="postalCode">7150</span> <span itemprop="addressLocality">Barrit</span></p>
+    </div>
+
+    <div class="space">Aktieselskab - CVR: <span itemprop="taxID">12542976</span> </div>
+  
+    <p>Ø-mærket</p>
+  </address>
+</footer>
+<!-- /item.html -->
+<!-- item.json -->
+
+<!-- /item.json -->
+<!-- item.js -->
+
+<!-- /item.js -->
+<!-- /MacroPartial: HTMLBlock.cshtml -->
+<!-- /Partial: /Consumer/_Footer.cshtml -->
+
+
+    
+
+<!-- Partial: /Consumer/_Modals.cshtml -->
+
+<a href="#product-added-modal" id="openProductAddedModal" data-modal="product-added" class="visuallyhidden">-</a>
+<div id="product-added-modal" class="modal modal--light" role="dialog">
+    <div class="modal__content modal__content--light modal__content--product-added">
+        <div class="basket__product-added-modal">
+            <h2 class="overlay__header" data-resource-key="Local.BasketLarge.modalAddedHeader">Varen er lagt i kurven</h2>
+            <div class="basket__product-added-modal-text" data-resource-key="Local.BasketLarge.modalAddedText">Vil du handle videre i vores store udvalg af dagligvarer?</div>
+            <div class="button-container button-container--lr">
+                <a href="/kurv" class="btn btn--primary btn--fixed-width-small" data-resource-key="Local.BasketLarge.modalBasketLinkText">G&#229; til kurven</a>
+                <a href="/dagligvarer" class="btn btn--tertiary btn--fixed-width-small" data-resource-key="Local.BasketLarge.modalBasketLinkPrimaryText">G&#229; til dagligvarer</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="find-delivery-modal" class="modal" role="dialog">
+    <div class="modal__content">
+        <div class="modal-inner-default">
+            <div class="modal-close js-modal-close-find-delivery"></div>
+            
+<!-- Partial: /Partials/Delivery/_DeliveryFinder-->
+<div class="delivery js-delivery oi-ignore">
+    <div class="delivery__col-text">
+        <h2 class="delivery__header" data-resource-key="Global.Delivery.formHeader">
+         <svg xmlns="http://www.w3.org/2000/svg" width="29" height="22" viewBox="0 0 29 22" fill="none">
+                            <g id="Property 1=Valgt">
+                            <path id="Fill 3880" fill-rule="evenodd" clip-rule="evenodd" d="M21.3766 6.054L23.0218 9.34489C23.1281 9.55696 23.3414 9.679 23.5631 9.679C23.6537 9.679 23.7462 9.65845 23.8326 9.61556C24.131 9.46573 24.2525 9.10323 24.1032 8.80477L22.2907 5.17977C22.188 4.97496 21.979 4.84566 21.75 4.84566H19.9375C19.6034 4.84566 19.3333 5.11573 19.3333 5.44983C19.3333 5.78393 19.6034 6.054 19.9375 6.054H21.3766ZM11.4792 0.0123299C11.4792 0.0123299 13.612 0.0123299 16.8531 0.0021846C17.0708 0.00150319 17.2935 0.000776014 17.5208 0V0.616497V14.5123H18.125V3.03316C18.125 2.69906 18.3951 2.429 18.7292 2.429H22.9583C23.1776 2.429 23.38 2.54802 23.4864 2.74014L26.4661 8.10333L28.823 10.4602C28.9366 10.5732 29 10.7266 29 10.8873V17.5332C29 17.8673 28.7299 18.1373 28.3958 18.1373H27.1392C27.1676 17.9392 27.1875 17.7386 27.1875 17.5332C27.1875 15.2017 25.2898 13.304 22.9583 13.304C20.6269 13.304 18.7292 15.2017 18.7292 17.5332C18.7292 17.7386 18.7491 17.9392 18.7775 18.1373H10.2225C10.2509 17.9392 10.2708 17.7386 10.2708 17.5332C10.2708 15.2017 8.37315 13.304 6.04167 13.304C3.71019 13.304 1.8125 15.2017 1.8125 17.5332C1.8125 17.7386 1.83244 17.9392 1.86083 18.1373H0.604168C0.270063 18.1373 1.90735e-06 17.8673 1.90735e-06 17.5332V0.616497C1.90735e-06 0.282392 0.270063 0.0123299 0.604168 0.0123299H11.4792Z" fill="#601030"/>
+                            <path id="Fill 3881" fill-rule="evenodd" clip-rule="evenodd" d="M22.9583 14.5123C24.624 14.5123 25.9792 15.8675 25.9792 17.5332C25.9792 19.1988 24.624 20.554 22.9583 20.554C21.2927 20.554 19.9375 19.1988 19.9375 17.5332C19.9375 15.8675 21.2927 14.5123 22.9583 14.5123Z" fill="#601030"/>
+                            <path id="Fill 3882" fill-rule="evenodd" clip-rule="evenodd" d="M6.04167 14.5123C7.70735 14.5123 9.0625 15.8675 9.0625 17.5332C9.0625 19.1988 7.70735 20.554 6.04167 20.554C4.37598 20.554 3.02084 19.1988 3.02084 17.5332C3.02084 15.8675 4.37598 14.5123 6.04167 14.5123Z" fill="#601030"/>
+                            </g>
+                        </svg>
+        Find din leveringsdag</h2>
+        <div class="delivery__intro" data-resource-key="Global.Delivery.formIntro">Skriv din adresse her, for at se hvorn&#229;r vi kan levere hos dig</div>
+    </div>
+    <div class="delivery__col-form">
+        <form action="/" method="post" class="delivery__form js-delivery__form" novalidate autocomplete="off">
+            <div class="delivery__error" data-resource-key="Global.Delivery.formError">Du skal v&#230;lge en adresse fra listen</div>
+            <fieldset>
+                <legend class="delivery__legend" data-resource-key="Global.Delivery.formLegend">Find din leveringsdag</legend>
+                <div class="delivery__need-streetno-message js-delivery-need-streetno-message" data-resource-key="Global.Delivery.formNeedStreetNo">Vi skal ogs&#229; bruge dit husnummer</div>
+                <div class="delivery__fields">
+                    <div class="delivery__composite delivery__composite--street js-delivery-composite-street">
+                        <span class="js-delivery__input-address-fake delivery__input-address-fake"></span>
+                        <input type="text" placeholder="Indtast dit vejnavn og postnummer" class="js-delivery__input-address delivery__input-address" autocomplete="off" aria-label="Indtast dit vejnavn og postnummer" />
+                        <div class="delivery__loading"><img src="/assets/build/images/svg/spinner.svg" alt="" /></div>
+                    </div>
+                    <div class="delivery__composite delivery__composite--street-no js-delivery-composite-streetno">
+                        <input type="number" value="" placeholder="Husnr." class="js-delivery__input-streetno delivery__input-streetno" data-resource-key="Global.Delivery.formStreetNoPlaceholder" autocomplete="off" aria-label="Husnr." />
+                        <input type="button" value="Find" class="btn delivery__composite-button js-delivery-button-streetno" data-resource-key="Global.Delivery.formStreetNoButton" />
+                    </div>
+                </div>
+                <div id="find-delivery-autocomplete-container" class="delivery__autocomplete-container"></div>
+                <div id="find-delivery-loading-results"><img src="/assets/build/images/svg/spinner.svg" alt="" /></div>
+            </fieldset>
+        </form>
+    </div>
+
+        <div class="delivery__col-login">
+            <div class="delivery__col-login-header" data-resource-key="Global.Delivery.formIsAlreadyCustomer">Allerede kunde?</div>
+            <a href="#login-modal" class="btn btn--secondary delivery__col-login-link" data-modal="login" data-resource-key="Global.Delivery.formIsAlreadyCustomerLinkText">Log ind</a>
+        </div>
+</div>
+<!-- /Partial: /Partials/Delivery/_DeliveryFinder -->
+        </div>
+    </div>
+</div>
+
+
+    <div id="login-modal" class="modal" role="dialog">
+        <div class="modal__content">
+            <div class="modal-inner-default">
+                <div class="modal-close js-modal-close-login"></div>
+                <!-- MacroPartial: Loginform.cshtml -->
+<!-- Partial: /Partials/Account/_Login.cshtml -->
+
+<div class="loginbox" data-component-name="loginbox">
+<form action="/dagligvarer" class="form loginbox__form" enctype="multipart/form-data" method="post"><input name="__RequestVerificationToken" type="hidden" value="CFBtPuR2hWG1sCx5cwCtENOB9E7uQmFOTctALzfU77Rz99gErorBUIohqQd_h2IiJOFaciz0i1NsfN8ZybrmBIEkIx2HrYlRbegHSHO9sXw1" />            <h2 class="loginbox__header" data-resource-key="Global.Login.loginHeader">Log ind p&#229; din konto</h2>
+            <fieldset class="loginbox__fieldset loginbox__fieldset--narrow">
+                <ol class="fieldset__list">
+                    <li>
+
+                        <label class="fieldset__label" for="UserName">Brugernavn</label>
+                        <input autocomplete="username" class="fieldset__field loginbox__username" data-val="true" data-val-length="Max. længde overskredet (161)" data-val-length-max="161" data-val-required="Du skal indtaste et brugernavn" id="UserName" name="UserName" placeholder="Indtast dit brugernavn" type="text" value="" />
+                        <span class="field-validation-valid" data-valmsg-for="UserName" data-valmsg-replace="true"></span>
+                    </li>
+                    <li>
+                        <label class="fieldset__label" for="Password">Kodeord</label>
+                        <input autocomplete="current-password" class="fieldset__field loginbox__password" data-val="true" data-val-regex="Du skal indtaste et gyldigt kodeord" data-val-regex-pattern="\S{4,30}$" data-val-required="Du skal indtaste et gyldigt kodeord" id="Password" name="Password" placeholder="Indtast dit kodeord" type="password" value="" />
+                        <span class="field-validation-valid" data-valmsg-for="Password" data-valmsg-replace="true"></span>
+                    </li>
+                </ol>
+            </fieldset>
+            <div class="loginbox__fieldset loginbox__fieldset--narrow">
+
+                    <input type="submit" value="Log ind" class="btn btn--primary btn--cta loginbox__button js-disable-on-click" data-text-loading="Vent venligst" data-text-original="Log ind" data-resource-key="Login.loginButton" data-resource-key-loading="Global.FlowTemplate.buttonOrderWaiting"  />
+
+            </div>
+            <ul class="loginbox__links">
+                <li><a class="loginbox__forgot-password" href="/glemt-kodeord" data-resource-key="Local.SystemSettings.GetForgotPasswordUrl"><span data-resource-key="Global.Login.forgotPasswordText">Glemt kodeord?</span></a></li>
+                <li><a class="loginbox__forgot-username" href="/glemt-brugernavn" data-resource-key="Local.SystemSettings.GetForgotUserNameUrl"><span data-resource-key="Global.Login.forgotUsernameText">Glemt brugernavn?</span></a></li>
+            </ul>
+<input name='ufprt' type='hidden' value='7CBFA524F285054192D9AAE2A9470E1D8611E33304FA508790136146FB9CAF409B02731967217E495FDCE001FD0A0769BA927CACACFDAA3BDF699559B35B6D60CD032AE931873C2DCB6022E1734807D501AE8AF4A0A8B90DCC70B93BF7C92DFC027940E7CE38075BA737C070EB5BDE51CBA8D6F1DBF1BAD0CD4384CBB3AACDAB0588D38A4679953C4A7CC5D8EADEEAF2' /></form></div>
+<!-- /Partial: /Partials/Login/_Login.cshtml -->
+<!-- /MacroPartial: Loginform.cshtml -->
+            </div>
+        </div>
+    </div>
+<div id="logoutConfirmation" data-overlay role="dialog">
+    <div data-overlay-scroll data-overlay-scroll-narrow>
+        <span class="overlay__dismiss" data-overlay-dismiss></span>
+        <h2 class="overlay__header" data-resource-key="Global.Login.logOutConfirmationBoxHeader">Er du sikker p&#229; du vil logge ud?</h2>
+        <p class="overlay__description" data-resource-key="Global.Login.logOutConfirmationBoxTitle">Du har varer i kurven, som bliver slettet hvis du logger ud.</p>
+        <div class="button-container button-container--center">
+            <a href="/kurv" class="btn btn--tertiary" data-resource-key="Global.Login.logOutConfirmationBoxButtonStayText">G&#229; til kurven</a>
+            <a href="/umbraco/Surface/LoginSurface/LogOut" class="btn btn--cta" data-resource-key="Global.Login.logOutConfirmationBoxButtonLogOutText">Log ud</a>
+        </div>
+    </div>
+</div>
+
+
+<div id="myPageCalendarOverlays" role="dialog"></div>
+<div id="myPageSubscriptionOverlays" role="dialog"></div>
+<div id="myPageDeliveryOverlays" role="dialog">
+    <!-- All containers for Edit Delivery overlays -->
+    <div id="myPageOverlayEditDelivery" data-overlay="" class="oi-ignore" role="dialog">
+        <div data-overlay-scroll="" data-overlay-scroll-narrow="">
+            <span class="overlay__dismiss" data-overlay-dismiss=""></span>
+            <div id="myPageOverlayEditDeliveryTemplateTarget"></div>
+        </div>
+    </div>
+
+    <div id="myPageOverlayEditDeliveryProperty" data-overlay="" class="oi-ignore" role="dialog">
+        <div data-overlay-scroll="" data-overlay-scroll-narrow="">
+            <span class="overlay__dismiss" data-overlay-dismiss=""></span>
+            <div id="myPageOverlayEditDeliveryPropertyTemplateTarget"></div>
+        </div>
+    </div>
+
+    <div id="myPageOverlayDeleteAllJbkItems" data-overlay="" class="oi-ignore" role="dialog">
+        <div data-overlay-scroll="" data-overlay-scroll-narrow="">
+            <span class="overlay__dismiss" data-overlay-dismiss=""></span>
+            <div id="myPageOverlayDeleteAllJbkItemsTemplateTarget"></div>
+        </div>
+    </div>
+    <div id="myPageOverlayDeleteDelivery" data-overlay="" class="oi-ignore" role="dialog">
+        <div data-overlay-scroll="" data-overlay-scroll-narrow="">
+            <span class="overlay__dismiss" data-overlay-dismiss=""></span>
+            <div id="myPageOverlayDeleteDeliveryTemplateTarget"></div>
+        </div>
+    </div>
+
+
+    <div id="myPageOverlayEditDeliveryQuantity" data-overlay="" class="oi-ignore" role="dialog">
+        <div data-overlay-scroll="" data-overlay-scroll-narrow="">
+            <span class="overlay__dismiss" data-overlay-dismiss=""></span>
+            <div id="myPageOverlayEditDeliveryQuantityTemplateTarget"></div>
+        </div>
+    </div>
+
+    <!-- Mealbox details view from MyPage subscription editing is injected here -->
+    <div id="myPageDeliveryMealboxDetails" data-overlay role="dialog">
+        <div data-overlay-scroll data-overlay-scroll-narrow>
+            <span class="overlay__dismiss" data-overlay-dismiss data-hide-date="false"></span>
+            <div id="deliveryEditMealboxDetailsTemplateTarget"><div class="mypage-mealbox-details__loader"><img src="/assets/build/images/svg/spinner.svg" alt="" /></div></div>
+            
+        </div>
+    </div>
+
+</div>
+
+<!-- Mealbox details view from MyPage subscription editing is injected here -->
+<div id="myPageSubscriptionMealboxDetails" data-overlay role="dialog">
+    <div data-overlay-scroll data-overlay-scroll-narrow>
+        <span class="overlay__dismiss" data-overlay-dismiss data-hide-date="false"></span>
+        <div id="subscriptionEditMealboxDetailsTemplateTarget"><div class="mypage-mealbox-details__loader"><img src="/assets/build/images/svg/spinner.svg" alt="" /></div></div>
+        
+    </div>
+</div>
+
+<div id="dlryPauseView" data-overlay role="dialog">
+    <div data-overlay-scroll data-overlay-scroll-narrow>
+        <span class="overlay__dismiss" data-overlay-dismiss></span>
+        <div id="dlryPauseTemplateTarget"></div>
+    </div>
+</div>
+
+</body>
+</html>
