@@ -7,32 +7,19 @@
 # useful for handling different item types with a single interface
 from itemadapter import ItemAdapter
 import json
+import pandas as pd
+from datetime import datetime
 
 class WebscrapPipeline:
     def process_item(self, item, spider):       
        
         # calling dumps to create json data.
-        line = json.dumps(dict(item)) + "\n"  
-        self.file.writelines(line + "\n")               
-        return item
+        line=json.dumps(dict(item), ensure_ascii=True,  indent= '\t') + "\n"  
+        my_dict= self.file.writelines(line + "\n")
+        return my_dict
  
     def open_spider(self, spider):
         self.file = open('data.json', 'w')
  
     def close_spider(self, spider):
         self.file.close()
-
-
-"""class ImagesPipeline:
-    def process_item(self, image, spider):       
-       
-        # calling dumps to create json data.
-        line = json.dumps(dict(image)) + "\n"  
-        self.file.write(line)               
-        return image
- 
-    def open_spider(self, spider):
-        self.file = open('tmp/images/', 'w')
- 
-    def close_spider(self, spider):
-        self.file.close()"""

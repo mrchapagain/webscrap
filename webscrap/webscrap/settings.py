@@ -21,16 +21,18 @@ FEEDS = {
         'overwrite': True,
         'encoding': 'utf8'},
 
-    'data.html': {
-        'format': 'html', 
-        'overwrite': True,
-        'encoding': 'utf8'},
+    #'data.html': {
+        #'format': 'html', 
+        #'overwrite': True,
+        #'encoding': 'utf8'},
 
-    'link.html': {
-        'format': 'html', 
+    'log.jsonlines': {
+        'format': 'jsonlines', 
         'overwrite': True,
         'encoding': 'utf8'}
 }
+
+FEED_EXPORT_ENCODING = 'utf-8'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
