@@ -7,30 +7,492 @@ parce_urls: <GET https://www.aarstiderne.com> to: parse_frontpage_to_tabnavigati
 
 START ------------------------------------------------------------
 Function: parse_frontpage_to_tabnavigation_page with url: <200 https://www.aarstiderne.com>
-	/vaelg-selv-retter
-	/dagligvarer
-	/jul-1
-	/find-din-maaltidskasse
-	/mortensaften
+	/find-din-maaltidskasse	/vaelg-selv-retter	/dagligvarer	/jul-1	/mortensaften
 parce_urls: <GET https://www.aarstiderne.com/dagligvarer> to: parse_foodgroup_pages
 ------------------------------------------------------------ END
 
 START ------------------------------------------------------------
 Function: parse_foodgroup_pages with url: <200 https://www.aarstiderne.com/dagligvarer>
-	/dagligvarer/groent
-	/dagligvarer/frugt
-	/dagligvarer/boger
-	/dagligvarer/anbefalinger/hokkaidosuppe
-	/dagligvarer/kolonial
-	/jordens-bedste-koebmand/anbefalinger
-	/dagligvarer/broed
-	/dagligvarer/husholdning-grej
-	/dagligvarer/mejeri
-	/dagligvarer/anbefalinger/pizza-bla-congo
-	/dagligvarer/plantebaseret
-	/dagligvarer/juice-saft
-	/dagligvarer/koed-fisk
-	/dagligvarer/snacks-soede-sager
-	/dagligvarer/oel-vin
+	/dagligvarer/frugt	/dagligvarer/groent	/dagligvarer/plantebaseret	/dagligvarer/koed-fisk	/dagligvarer/mejeri	/dagligvarer/broed	/dagligvarer/kolonial	/dagligvarer/snacks-soede-sager	/dagligvarer/juice-saft	/dagligvarer/oel-vin	/dagligvarer/husholdning-grej	/dagligvarer/boger	/jordens-bedste-koebmand/anbefalinger	/dagligvarer/anbefalinger/hokkaidosuppe	/dagligvarer/anbefalinger/pizza-bla-congo
 parce_urls: <GET https://www.aarstiderne.com/dagligvarer/anbefalinger/pizza-bla-congo> to: parse_product_category_pages
+------------------------------------------------------------ END
+
+START ------------------------------------------------------------
+Function: parse_product_category_pages with url: <200 https://www.aarstiderne.com/dagligvarer/frugt>
+	/dagligvarer/frugt	/dagligvarer/frugt/frugtkasser	/dagligvarer/frugt/aebler-paerer	/dagligvarer/frugt/baer-druer	/dagligvarer/frugt/citrusfrugter	/dagligvarer/frugt/eksotiske-frugter	/dagligvarer/frugt/blandede-frugtkasser
+parce_urls: <GET https://www.aarstiderne.com/dagligvarer/frugt/blandede-frugtkasser> to: parse_product_subcategory_pages
+------------------------------------------------------------ END
+
+START ------------------------------------------------------------
+Function: parse_product_category_pages with url: <200 https://www.aarstiderne.com/dagligvarer/husholdning-grej>
+	/dagligvarer/husholdning-grej	/dagligvarer/husholdning-grej/vask-rengoring	/dagligvarer/husholdning-grej/personlig-pleje	/dagligvarer/husholdning-grej/papir-poser	/dagligvarer/husholdning-grej/baby-born	/dagligvarer/husholdning-grej/kokkengrej	/dagligvarer/husholdning-grej/borddaekning
+parce_urls: <GET https://www.aarstiderne.com/dagligvarer/husholdning-grej/borddaekning> to: parse_product_subcategory_pages
+------------------------------------------------------------ END
+
+START ------------------------------------------------------------
+Function: parse_product_category_pages with url: <200 https://www.aarstiderne.com/dagligvarer/plantebaseret>
+	/dagligvarer/plantebaseret	/dagligvarer/plantebaseret/plantedrikke	/dagligvarer/plantebaseret/smorbart	/dagligvarer/plantebaseret/fars-boffer-tofu	/dagligvarer/plantebaseret/frisk-pasta-polenta	/dagligvarer/plantebaseret/retter-menuer
+parce_urls: <GET https://www.aarstiderne.com/dagligvarer/plantebaseret/retter-menuer> to: parse_product_subcategory_pages
+------------------------------------------------------------ END
+
+START ------------------------------------------------------------
+Function: parse_product_category_pages with url: <200 https://www.aarstiderne.com/dagligvarer/juice-saft>
+	/dagligvarer/juice-saft	/dagligvarer/juice-saft/juice-most	/dagligvarer/juice-saft/saft-lemonade	/dagligvarer/juice-saft/sodavand	/dagligvarer/juice-saft/smoothies	/dagligvarer/juice-saft/juice-selv-kasser	/dagligvarer/juice-saft/kombucha-kefir
+parce_urls: <GET https://www.aarstiderne.com/dagligvarer/juice-saft/kombucha-kefir> to: parse_product_subcategory_pages
+------------------------------------------------------------ END
+
+START ------------------------------------------------------------
+Function: parse_product_category_pages with url: <200 https://www.aarstiderne.com/dagligvarer/groent>
+	/dagligvarer/groent	/dagligvarer/groent/basisgront	/dagligvarer/groent/graskar-squash-aubergine	/dagligvarer/groent/kaal	/dagligvarer/groent/log-porrer	/dagligvarer/groent/rodfrugter-kartofler	/dagligvarer/groent/salat-bladgront	/dagligvarer/groent/smagsgivere-krydderurter	/dagligvarer/groent/staengler-baelgfrugter	/dagligvarer/groent/svampe	/dagligvarer/groent/tomater	/dagligvarer/groent/blandet-gront
+parce_urls: <GET https://www.aarstiderne.com/dagligvarer/groent/blandet-gront> to: parse_product_subcategory_pages
+------------------------------------------------------------ END
+
+START ------------------------------------------------------------
+Function: parse_product_category_pages with url: <200 https://www.aarstiderne.com/dagligvarer/broed>
+	/dagligvarer/broed	/dagligvarer/broed/hele-broed	/dagligvarer/broed/boller	/dagligvarer/broed/specialbroed-madbroed	/dagligvarer/broed/knaekbroed	/dagligvarer/broed/wienerbroed-soedt-broed
+parce_urls: <GET https://www.aarstiderne.com/dagligvarer/broed/wienerbroed-soedt-broed> to: parse_product_subcategory_pages
+------------------------------------------------------------ END
+
+START ------------------------------------------------------------
+Function: parse_product_category_pages with url: <200 https://www.aarstiderne.com/dagligvarer/mejeri>
+	/dagligvarer/mejeri	/dagligvarer/mejeri/maelk-drikke	/dagligvarer/mejeri/syrnede-produkter	/dagligvarer/mejeri/ost	/dagligvarer/mejeri/smor-aeg-haevemidler
+parce_urls: <GET https://www.aarstiderne.com/dagligvarer/mejeri/smor-aeg-haevemidler> to: parse_product_subcategory_pages
+------------------------------------------------------------ END
+
+START ------------------------------------------------------------
+Function: parse_product_subcategory_pages with url: <200 https://www.aarstiderne.com/dagligvarer/juice-saft/kombucha-kefir>
+	/dagligvarer/juice-saft/kombucha-kefir/kombucha-aronia	/dagligvarer/juice-saft/kombucha-kefir/kombucha-estragon	/dagligvarer/juice-saft/kombucha-kefir/kombucha-gurkemeje
+parce_urls: <GET https://www.aarstiderne.com/dagligvarer/juice-saft/kombucha-kefir/kombucha-gurkemeje> to: parse_product_details_pages
+------------------------------------------------------------ END
+
+START ------------------------------------------------------------
+Function: parse_product_subcategory_pages with url: <200 https://www.aarstiderne.com/dagligvarer/juice-saft/juice-selv-kasser>
+	/dagligvarer/juice-saft/juice-selv-kasser/juiceselvkassen	/dagligvarer/juice-saft/juice-selv-kasser/den-gronne-juicekasse	/dagligvarer/juice-saft/juice-selv-kasser/smoothiekassen
+parce_urls: <GET https://www.aarstiderne.com/dagligvarer/juice-saft/juice-selv-kasser/smoothiekassen> to: parse_product_details_pages
+------------------------------------------------------------ END
+
+START ------------------------------------------------------------
+Function: parse_product_subcategory_pages with url: <200 https://www.aarstiderne.com/dagligvarer/husholdning-grej/papir-poser>
+	/dagligvarer/husholdning-grej/papir-poser/plantebaerer-net	/dagligvarer/husholdning-grej/papir-poser/food-bag-stor	/dagligvarer/husholdning-grej/papir-poser/food-bag-medium	/dagligvarer/husholdning-grej/papir-poser/food-bag-lille	/dagligvarer/husholdning-grej/papir-poser/food-wrap-mixpakke	/dagligvarer/husholdning-grej/papir-poser/komposterbare-poser-20-l	/dagligvarer/husholdning-grej/papir-poser/kaffefilter-rustfrit-stal	/dagligvarer/husholdning-grej/papir-poser/tea-bag-set-genanvendelige
+parce_urls: <GET https://www.aarstiderne.com/dagligvarer/husholdning-grej/papir-poser/tea-bag-set-genanvendelige> to: parse_product_details_pages
+------------------------------------------------------------ END
+
+START ------------------------------------------------------------
+Function: parse_product_subcategory_pages with url: <200 https://www.aarstiderne.com/dagligvarer/frugt/frugtkasser>
+	/dagligvarer/frugt/frugtkasser/dragefrugter-i-kasse	/dagligvarer/frugt/frugtkasser/friske-figner-2-kg	/dagligvarer/frugt/frugtkasser/avlernes-frugtkasse	/dagligvarer/frugt/frugtkasser/aebler	/dagligvarer/frugt/frugtkasser/fejokassen-4-kg	/dagligvarer/frugt/frugtkasser/appelsinposen	/dagligvarer/frugt/frugtkasser/eksotisk-frugtkasse	/dagligvarer/frugt/frugtkasser/mangoposen	/dagligvarer/frugt/frugtkasser/citronposen	/dagligvarer/frugt/frugtkasser/clementinkassen
+parce_urls: <GET https://www.aarstiderne.com/dagligvarer/frugt/frugtkasser/clementinkassen> to: parse_product_details_pages
+------------------------------------------------------------ END
+
+START ------------------------------------------------------------
+Function: parse_product_subcategory_pages with url: <200 https://www.aarstiderne.com/dagligvarer/husholdning-grej/vask-rengoring>
+	/dagligvarer/husholdning-grej/vask-rengoring/universalrengoring-citron-appelsin	/dagligvarer/husholdning-grej/vask-rengoring/opvaskemiddel-neutral-500-ml	/dagligvarer/husholdning-grej/vask-rengoring/opvaskemiddel-citrus	/dagligvarer/husholdning-grej/vask-rengoring/opvasketabs-25x20-g	/dagligvarer/husholdning-grej/vask-rengoring/overflade-og-glasrens-0-5-l	/dagligvarer/husholdning-grej/vask-rengoring/badrengoring	/dagligvarer/husholdning-grej/vask-rengoring/toiletrens-mynte-750-ml	/dagligvarer/husholdning-grej/vask-rengoring/vaskemiddel-color-citron-1-5l	/dagligvarer/husholdning-grej/vask-rengoring/vaskemiddel-neutral-2-l	/dagligvarer/husholdning-grej/vask-rengoring/vaskeag-uden-duft-144-vaske	/dagligvarer/husholdning-grej/vask-rengoring/karklud-rosa	/dagligvarer/husholdning-grej/vask-rengoring/opvaskeborste-med-skaft	/dagligvarer/husholdning-grej/vask-rengoring/stor-skrubber-uden-skaft	/dagligvarer/husholdning-grej/vask-rengoring/rengoringssvamp-2-stk	/dagligvarer/husholdning-grej/vask-rengoring/haandklaede-lille	/dagligvarer/husholdning-grej/vask-rengoring/viskestykke-rosa
+parce_urls: <GET https://www.aarstiderne.com/dagligvarer/husholdning-grej/vask-rengoring/viskestykke-rosa> to: parse_product_details_pages
+------------------------------------------------------------ END
+
+START ------------------------------------------------------------
+Function: parse_product_subcategory_pages with url: <200 https://www.aarstiderne.com/dagligvarer/frugt/aebler-paerer>
+	/dagligvarer/frugt/aebler-paerer/abler-royal-gala-4-stk	/dagligvarer/frugt/aebler-paerer/aebler	/dagligvarer/frugt/aebler-paerer/juice-selv-abler	/dagligvarer/frugt/aebler-paerer/fejokassen-4-kg	/dagligvarer/frugt/aebler-paerer/bananer-farve-3-5-stk	/dagligvarer/frugt/aebler-paerer/kvader	/dagligvarer/frugt/aebler-paerer/abler-santana	/dagligvarer/frugt/aebler-paerer/abler-aroma-dk-4-stk	/dagligvarer/frugt/aebler-paerer/parer-katrine-dk	/dagligvarer/frugt/aebler-paerer/parer-conference-4-stk	/dagligvarer/frugt/aebler-paerer/parer-concorde	/dagligvarer/frugt/aebler-paerer/aeble-og-paereposen	/dagligvarer/frugt/aebler-paerer/paerer
+parce_urls: <GET https://www.aarstiderne.com/dagligvarer/frugt/aebler-paerer/paerer> to: parse_product_details_pages
+------------------------------------------------------------ END
+
+START ------------------------------------------------------------
+Function: parse_product_subcategory_pages with url: <200 https://www.aarstiderne.com/dagligvarer/groent/svampe>
+	/dagligvarer/groent/svampe/portobello	/dagligvarer/groent/svampe/ostershatte-150-g	/dagligvarer/groent/svampe/svampekassen-1-kg	/dagligvarer/groent/svampe/brune-champignon-200-g-dk
+parce_urls: <GET https://www.aarstiderne.com/dagligvarer/groent/svampe/brune-champignon-200-g-dk> to: parse_product_details_pages
+------------------------------------------------------------ END
+
+START ------------------------------------------------------------
+Function: parse_product_subcategory_pages with url: <200 https://www.aarstiderne.com/dagligvarer/groent/staengler-baelgfrugter>
+	/dagligvarer/groent/staengler-baelgfrugter/sugar-snaps-arter-150-g	/dagligvarer/groent/staengler-baelgfrugter/gronne-bonner	/dagligvarer/groent/staengler-baelgfrugter/broccoli	/dagligvarer/groent/staengler-baelgfrugter/bladsellerikassen	/dagligvarer/groent/staengler-baelgfrugter/fennikel	/dagligvarer/groent/staengler-baelgfrugter/bladselleri-350-g-dk
+parce_urls: <GET https://www.aarstiderne.com/dagligvarer/groent/staengler-baelgfrugter/bladselleri-350-g-dk> to: parse_product_details_pages
+------------------------------------------------------------ END
+
+START ------------------------------------------------------------
+Function: parse_product_subcategory_pages with url: <200 https://www.aarstiderne.com/dagligvarer/groent/tomater>
+	/dagligvarer/groent/tomater/boftomater-cabomar	/dagligvarer/groent/tomater/cherrytomater-250-g	/dagligvarer/groent/tomater/cherrytomater-pa-gren-250-g	/dagligvarer/groent/tomater/cherrytomatmix-250-g	/dagligvarer/groent/tomater/den-lille-tomatkasse	/dagligvarer/groent/tomater/tomater-runde-500g-dk	/dagligvarer/groent/tomater/tomater-pa-gren-500-gr
+parce_urls: <GET https://www.aarstiderne.com/dagligvarer/groent/tomater/tomater-pa-gren-500-gr> to: parse_product_details_pages
+------------------------------------------------------------ END
+
+START ------------------------------------------------------------
+Function: parse_product_category_pages with url: <200 https://www.aarstiderne.com/dagligvarer/snacks-soede-sager>
+	/dagligvarer/snacks-soede-sager	/dagligvarer/snacks-soede-sager/chokolade	/dagligvarer/snacks-soede-sager/kager-desserter	/dagligvarer/snacks-soede-sager/nodder-chips	/dagligvarer/snacks-soede-sager/slik
+parce_urls: <GET https://www.aarstiderne.com/dagligvarer/snacks-soede-sager/slik> to: parse_product_subcategory_pages
+------------------------------------------------------------ END
+
+START ------------------------------------------------------------
+Function: parse_product_subcategory_pages with url: <200 https://www.aarstiderne.com/dagligvarer/broed/hele-broed>
+	/dagligvarer/broed/hele-broed/svedjerugbrod	/dagligvarer/broed/hele-broed/svedjerugbrod-skiver	/dagligvarer/broed/hele-broed/baguette	/dagligvarer/broed/hele-broed/speltbrod	/dagligvarer/broed/hele-broed/granolabrod	/dagligvarer/broed/hele-broed/kruskabrod	/dagligvarer/broed/hele-broed/surdejsbrod
+parce_urls: <GET https://www.aarstiderne.com/dagligvarer/broed/hele-broed/surdejsbrod> to: parse_product_details_pages
+------------------------------------------------------------ END
+
+START ------------------------------------------------------------
+Function: parse_product_subcategory_pages with url: <200 https://www.aarstiderne.com/dagligvarer/groent/blandet-gront>
+	/dagligvarer/groent/blandet-gront/basiskassen	/dagligvarer/groent/blandet-gront/guacamoleposen	/dagligvarer/groent/blandet-gront/lille-groentkasse	/dagligvarer/groent/blandet-gront/mixkassen	/dagligvarer/groent/blandet-gront/stor-mixkasse	/dagligvarer/groent/blandet-gront/grontkassen-uden-kartofler	/dagligvarer/groent/blandet-gront/gnavegroentkassen	/dagligvarer/groent/blandet-gront/dogmekassen	/dagligvarer/groent/blandet-gront/efterarsgrontkassen	/dagligvarer/groent/blandet-gront/kiselkassen	/dagligvarer/groent/blandet-gront/lille-gnavegroentkassen
+parce_urls: <GET https://www.aarstiderne.com/dagligvarer/groent/blandet-gront/lille-gnavegroentkassen> to: parse_product_details_pages
+------------------------------------------------------------ END
+
+START ------------------------------------------------------------
+Function: parse_product_subcategory_pages with url: <200 https://www.aarstiderne.com/dagligvarer/broed/specialbroed-madbroed>
+	/dagligvarer/broed/specialbroed-madbroed/pizzadej-frost	/dagligvarer/broed/specialbroed-madbroed/tarteletter	/dagligvarer/broed/specialbroed-madbroed/il-fornaio-hvidlogsflute	/dagligvarer/broed/specialbroed-madbroed/burgerbolle-kartoffel	/dagligvarer/broed/specialbroed-madbroed/briocheboller	/dagligvarer/broed/specialbroed-madbroed/majstortillas	/dagligvarer/broed/specialbroed-madbroed/tortilla-fuldkorn-6-stk	/dagligvarer/broed/specialbroed-madbroed/taco-skaller	/dagligvarer/broed/specialbroed-madbroed/pitabrod	/dagligvarer/broed/specialbroed-madbroed/pitabrod-fuldkorn	/dagligvarer/broed/specialbroed-madbroed/mini-blinis	/dagligvarer/broed/specialbroed-madbroed/rasp-400g
+parce_urls: <GET https://www.aarstiderne.com/dagligvarer/broed/specialbroed-madbroed/rasp-400g> to: parse_product_details_pages
+------------------------------------------------------------ END
+
+START ------------------------------------------------------------
+Function: parse_product_category_pages with url: <200 https://www.aarstiderne.com/dagligvarer/koed-fisk>
+	/dagligvarer/koed-fisk	/dagligvarer/koed-fisk/koed	/dagligvarer/koed-fisk/fisk	/dagligvarer/koed-fisk/paalaeg	/dagligvarer/koed-fisk/retter-menuer
+parce_urls: <GET https://www.aarstiderne.com/dagligvarer/koed-fisk/retter-menuer> to: parse_product_subcategory_pages
+------------------------------------------------------------ END
+
+START ------------------------------------------------------------
+Function: parse_product_category_pages with url: <200 https://www.aarstiderne.com/dagligvarer/oel-vin>
+	/dagligvarer/oel-vin	/dagligvarer/oel-vin/oel	/dagligvarer/oel-vin/roedvin	/dagligvarer/oel-vin/hvidvin-rose	/dagligvarer/oel-vin/mousserende-dessertvin	/dagligvarer/oel-vin/spiritus
+parce_urls: <GET https://www.aarstiderne.com/dagligvarer/oel-vin/spiritus> to: parse_product_subcategory_pages
+------------------------------------------------------------ END
+
+START ------------------------------------------------------------
+Function: parse_product_subcategory_pages with url: <200 https://www.aarstiderne.com/dagligvarer/husholdning-grej/kokkengrej>
+	/dagligvarer/husholdning-grej/kokkengrej/to-go-kop-lille	/dagligvarer/husholdning-grej/kokkengrej/mac-chef-brodkniv-24-cm	/dagligvarer/husholdning-grej/kokkengrej/mac-chef-urtekniv-9-cm	/dagligvarer/husholdning-grej/kokkengrej/bradepande-30x35-cm	/dagligvarer/husholdning-grej/kokkengrej/bradepande-30x30-cm	/dagligvarer/husholdning-grej/kokkengrej/taerteform-o28	/dagligvarer/husholdning-grej/kokkengrej/universalskaal-o20	/dagligvarer/husholdning-grej/kokkengrej/microplane-fin	/dagligvarer/husholdning-grej/kokkengrej/microplane-grov	/dagligvarer/husholdning-grej/kokkengrej/mandolin	/dagligvarer/husholdning-grej/kokkengrej/skraeller-i-rustfrit-stal	/dagligvarer/husholdning-grej/kokkengrej/de-buyer-pande-mini	/dagligvarer/husholdning-grej/kokkengrej/de-buyer-pande-flad-o24	/dagligvarer/husholdning-grej/kokkengrej/de-buyer-pande-flad-o28	/dagligvarer/husholdning-grej/kokkengrej/sauterpande-o32-cm	/dagligvarer/husholdning-grej/kokkengrej/gryde-med-lag-o20-cm	/dagligvarer/husholdning-grej/kokkengrej/sauterpande-o28-cm	/dagligvarer/husholdning-grej/kokkengrej/kasserolle-o16-cm	/dagligvarer/husholdning-grej/kokkengrej/knivsaet-opinel	/dagligvarer/husholdning-grej/kokkengrej/mac-keramisk-strygestal	/dagligvarer/husholdning-grej/kokkengrej/mac-chef-kokkekniv-21-cm	/dagligvarer/husholdning-grej/kokkengrej/fermenteringskrukke	/dagligvarer/husholdning-grej/kokkengrej/patentglas-1-l	/dagligvarer/husholdning-grej/kokkengrej/saltkar	/dagligvarer/husholdning-grej/kokkengrej/to-go-kop-stor	/dagligvarer/husholdning-grej/kokkengrej/universalskaal-o24
+parce_urls: <GET https://www.aarstiderne.com/dagligvarer/husholdning-grej/kokkengrej/universalskaal-o24> to: parse_product_details_pages
+------------------------------------------------------------ END
+
+START ------------------------------------------------------------
+Function: parse_product_subcategory_pages with url: <200 https://www.aarstiderne.com/dagligvarer/groent/smagsgivere-krydderurter>
+	/dagligvarer/groent/smagsgivere-krydderurter/dild-20g-u	/dagligvarer/groent/smagsgivere-krydderurter/bredbladet-persille-dk	/dagligvarer/groent/smagsgivere-krydderurter/purlog-i-potte-dk	/dagligvarer/groent/smagsgivere-krydderurter/salvie-20-g	/dagligvarer/groent/smagsgivere-krydderurter/mynte-20-g	/dagligvarer/groent/smagsgivere-krydderurter/basilikum-dk	/dagligvarer/groent/smagsgivere-krydderurter/karse	/dagligvarer/groent/smagsgivere-krydderurter/koriander-20g	/dagligvarer/groent/smagsgivere-krydderurter/koriander-potte-dk	/dagligvarer/groent/smagsgivere-krydderurter/timian-i-potte	/dagligvarer/groent/smagsgivere-krydderurter/rosmarin-20-g	/dagligvarer/groent/smagsgivere-krydderurter/oregano-20-g	/dagligvarer/groent/smagsgivere-krydderurter/kruspersille-20-g-dk	/dagligvarer/groent/smagsgivere-krydderurter/chili-mild-rod-3-stk	/dagligvarer/groent/smagsgivere-krydderurter/chili-mild-gron-stk-3-stk	/dagligvarer/groent/smagsgivere-krydderurter/bronzefennikel	/dagligvarer/groent/smagsgivere-krydderurter/ingefar-200-gr	/dagligvarer/groent/smagsgivere-krydderurter/citrongras	/dagligvarer/groent/smagsgivere-krydderurter/hvidlog
+parce_urls: <GET https://www.aarstiderne.com/dagligvarer/groent/smagsgivere-krydderurter/hvidlog> to: parse_product_details_pages
+------------------------------------------------------------ END
+
+START ------------------------------------------------------------
+Function: parse_product_subcategory_pages with url: <200 https://www.aarstiderne.com/dagligvarer/oel-vin/mousserende-dessertvin>
+	/dagligvarer/oel-vin/mousserende-dessertvin/quinta-da-valeira-portvin	/dagligvarer/oel-vin/mousserende-dessertvin/prosecco-penombra-brut	/dagligvarer/oel-vin/mousserende-dessertvin/cava-anne-marie-semi-sec	/dagligvarer/oel-vin/mousserende-dessertvin/ribosa-solbarvin	/dagligvarer/oel-vin/mousserende-dessertvin/pequenos-cava-stk	/dagligvarer/oel-vin/mousserende-dessertvin/rubarbo-rabarbervin
+parce_urls: <GET https://www.aarstiderne.com/dagligvarer/oel-vin/mousserende-dessertvin/rubarbo-rabarbervin> to: parse_product_details_pages
+------------------------------------------------------------ END
+
+START ------------------------------------------------------------
+Function: parse_product_subcategory_pages with url: <200 https://www.aarstiderne.com/dagligvarer/oel-vin/spiritus>
+	/dagligvarer/oel-vin/spiritus/glogg-rom-portvin	/dagligvarer/oel-vin/spiritus/bay-leaf-gin	/dagligvarer/oel-vin/spiritus/fionia-gin	/dagligvarer/oel-vin/spiritus/veneziano-spritz	/dagligvarer/oel-vin/spiritus/dill-anise-aquavit	/dagligvarer/oel-vin/spiritus/blond-gylden-akvavit	/dagligvarer/oel-vin/spiritus/mulberry-rose-aquavit
+parce_urls: <GET https://www.aarstiderne.com/dagligvarer/oel-vin/spiritus/mulberry-rose-aquavit> to: parse_product_details_pages
+------------------------------------------------------------ END
+
+START ------------------------------------------------------------
+Function: parse_product_subcategory_pages with url: <200 https://www.aarstiderne.com/dagligvarer/koed-fisk/retter-menuer>
+	/dagligvarer/koed-fisk/retter-menuer/mortensandkassen	/dagligvarer/koed-fisk/retter-menuer/indisk-bonneragout	/dagligvarer/koed-fisk/retter-menuer/boller-i-karry	/dagligvarer/koed-fisk/retter-menuer/gullasch	/dagligvarer/koed-fisk/retter-menuer/kartoffelmos-med-smor	/dagligvarer/koed-fisk/retter-menuer/honsefrikasse	/dagligvarer/koed-fisk/retter-menuer/hummerbisque	/dagligvarer/koed-fisk/retter-menuer/kartoffel-porresuppe
+parce_urls: <GET https://www.aarstiderne.com/dagligvarer/koed-fisk/retter-menuer/kartoffel-porresuppe> to: parse_product_details_pages
+------------------------------------------------------------ END
+
+START ------------------------------------------------------------
+Function: parse_product_subcategory_pages with url: <200 https://www.aarstiderne.com/dagligvarer/koed-fisk/paalaeg>
+	/dagligvarer/koed-fisk/paalaeg/honsesalat	/dagligvarer/koed-fisk/paalaeg/aggesalat	/dagligvarer/koed-fisk/paalaeg/hamburgerryg-skiveskaret	/dagligvarer/koed-fisk/paalaeg/rullepolse	/dagligvarer/koed-fisk/paalaeg/krydderfedt-charcuteri	/dagligvarer/koed-fisk/paalaeg/leverpostej-200-g	/dagligvarer/koed-fisk/paalaeg/kyllingekodpolse	/dagligvarer/koed-fisk/paalaeg/kartoffelspegepolse-200-g	/dagligvarer/koed-fisk/paalaeg/sdr-jysk-spegepolse-200-g	/dagligvarer/koed-fisk/paalaeg/sonderjysk-spegepolse-skiveskaret	/dagligvarer/koed-fisk/paalaeg/skinke-duroc-skiveskaret-100-g	/dagligvarer/koed-fisk/paalaeg/chorizo-stark-krydret-280-g	/dagligvarer/koed-fisk/paalaeg/fjordskinke-i-skiver	/dagligvarer/koed-fisk/paalaeg/olpolse-anker
+parce_urls: <GET https://www.aarstiderne.com/dagligvarer/koed-fisk/paalaeg/olpolse-anker> to: parse_product_details_pages
+------------------------------------------------------------ END
+
+START ------------------------------------------------------------
+Function: parse_product_subcategory_pages with url: <200 https://www.aarstiderne.com/dagligvarer/koed-fisk/fisk>
+	/dagligvarer/koed-fisk/fisk/ugens-torskefisk	/dagligvarer/koed-fisk/fisk/fiskefrikadeller-m-gront	/dagligvarer/koed-fisk/fisk/skalrejer-500-g	/dagligvarer/koed-fisk/fisk/stegte-sild-i-eddike-mn	/dagligvarer/koed-fisk/fisk/roget-makrel	/dagligvarer/koed-fisk/fisk/ansjoser-i-olivenolie	/dagligvarer/koed-fisk/fisk/tun-i-olivenolie-120g	/dagligvarer/koed-fisk/fisk/sardiner-i-olivenolie-190-g	/dagligvarer/koed-fisk/fisk/sardiner-i-olivenolie-120g	/dagligvarer/koed-fisk/fisk/makrelfileter-i-olivenolie	/dagligvarer/koed-fisk/fisk/tun-i-olivenolie-220-g
+parce_urls: <GET https://www.aarstiderne.com/dagligvarer/koed-fisk/fisk/tun-i-olivenolie-220-g> to: parse_product_details_pages
+------------------------------------------------------------ END
+
+START ------------------------------------------------------------
+Function: parse_product_subcategory_pages with url: <200 https://www.aarstiderne.com/dagligvarer/oel-vin/hvidvin-rose>
+	/dagligvarer/oel-vin/hvidvin-rose/hvidvin-nature-chardonnay	/dagligvarer/oel-vin/hvidvin-rose/hvidvin-penalba-lopez	/dagligvarer/oel-vin/hvidvin-rose/hvidvin-pinot-grigio	/dagligvarer/oel-vin/hvidvin-rose/orangevin-100-orange	/dagligvarer/oel-vin/hvidvin-rose/rosevin-damea-rosato	/dagligvarer/oel-vin/hvidvin-rose/lebenshilfe-rose	/dagligvarer/oel-vin/hvidvin-rose/rosevin-les-calanques	/dagligvarer/oel-vin/hvidvin-rose/margahl-rose	/dagligvarer/oel-vin/hvidvin-rose/margahl-rose-6-fl	/dagligvarer/oel-vin/hvidvin-rose/hvidvin-edelbauer-gruner-velt	/dagligvarer/oel-vin/hvidvin-rose/milhistorias-enrosado-orange	/dagligvarer/oel-vin/hvidvin-rose/hvidvin-wachenheimer-riesling	/dagligvarer/oel-vin/hvidvin-rose/hvidvin-organic-white	/dagligvarer/oel-vin/hvidvin-rose/kaufmann-riesling-trocken
+parce_urls: <GET https://www.aarstiderne.com/dagligvarer/oel-vin/hvidvin-rose/kaufmann-riesling-trocken> to: parse_product_details_pages
+------------------------------------------------------------ END
+
+START ------------------------------------------------------------
+Function: parse_product_subcategory_pages with url: <200 https://www.aarstiderne.com/dagligvarer/oel-vin/roedvin>
+	/dagligvarer/oel-vin/roedvin/glogg-rom-portvin	/dagligvarer/oel-vin/roedvin/rodvin-bob-singlar-rouge	/dagligvarer/oel-vin/roedvin/rodvin-castell-d-age-garnatxa	/dagligvarer/oel-vin/roedvin/rodvin-nature-pinot-noir	/dagligvarer/oel-vin/roedvin/rodvin-nature-syrah	/dagligvarer/oel-vin/roedvin/rodvin-torremilanos-crianza	/dagligvarer/oel-vin/roedvin/rodvin-highway-to-hell	/dagligvarer/oel-vin/roedvin/rodvin-penalba-lopez	/dagligvarer/oel-vin/roedvin/rodvin-tempranillo	/dagligvarer/oel-vin/roedvin/rodvin-valdifalco-lodolaia-syrah	/dagligvarer/oel-vin/roedvin/le-naturel	/dagligvarer/oel-vin/roedvin/rodvin-le-naturel	/dagligvarer/oel-vin/roedvin/margalh-rouge	/dagligvarer/oel-vin/roedvin/margalh-rouge-6-fl	/dagligvarer/oel-vin/roedvin/rodvin-montecastrillo	/dagligvarer/oel-vin/roedvin/olcaviana-merlot	/dagligvarer/oel-vin/roedvin/olcaviana-roed	/dagligvarer/oel-vin/roedvin/rodvin-cuvee-pinot-noir	/dagligvarer/oel-vin/roedvin/rodvin-castell-d-age-syrah	/dagligvarer/oel-vin/roedvin/rodvin-mas-de-restanques-cote	/dagligvarer/oel-vin/roedvin/rodvin-barret-petit-our	/dagligvarer/oel-vin/roedvin/gavekasse-5
+parce_urls: <GET https://www.aarstiderne.com/dagligvarer/oel-vin/roedvin/gavekasse-5> to: parse_product_details_pages
+------------------------------------------------------------ END
+
+START ------------------------------------------------------------
+Function: parse_product_category_pages with url: <200 https://www.aarstiderne.com/dagligvarer/kolonial>
+	/dagligvarer/kolonial	/dagligvarer/kolonial/bonner-linser-aerter	/dagligvarer/kolonial/ris-pasta	/dagligvarer/kolonial/mel	/dagligvarer/kolonial/kerner-fro	/dagligvarer/kolonial/gryn-grod-flager	/dagligvarer/kolonial/sukker-marmelade	/dagligvarer/kolonial/nodder-torret-frugt	/dagligvarer/kolonial/kaffe-te	/dagligvarer/kolonial/olie-eddike	/dagligvarer/kolonial/saucer-spread	/dagligvarer/kolonial/krydderier	/dagligvarer/kolonial/konserves	/dagligvarer/kolonial/babymad
+parce_urls: <GET https://www.aarstiderne.com/dagligvarer/kolonial/babymad> to: parse_product_subcategory_pages
+------------------------------------------------------------ END
+
+START ------------------------------------------------------------
+Function: parse_product_subcategory_pages with url: <200 https://www.aarstiderne.com/dagligvarer/kolonial/bonner-linser-aerter>
+	/dagligvarer/kolonial/bonner-linser-aerter/sorte-boenner	/dagligvarer/kolonial/bonner-linser-aerter/borlottibonner	/dagligvarer/kolonial/bonner-linser-aerter/kidneybonner-400-g	/dagligvarer/kolonial/bonner-linser-aerter/kogte-kidneybonner	/dagligvarer/kolonial/bonner-linser-aerter/hvide-bonner-400-g	/dagligvarer/kolonial/bonner-linser-aerter/kogte-hvide-bonner	/dagligvarer/kolonial/bonner-linser-aerter/kikarter	/dagligvarer/kolonial/bonner-linser-aerter/markarter	/dagligvarer/kolonial/bonner-linser-aerter/gronne-flakarter	/dagligvarer/kolonial/bonner-linser-aerter/rode-linser	/dagligvarer/kolonial/bonner-linser-aerter/belugalinser	/dagligvarer/kolonial/bonner-linser-aerter/mungbonner
+parce_urls: <GET https://www.aarstiderne.com/dagligvarer/kolonial/bonner-linser-aerter/mungbonner> to: parse_product_details_pages
+------------------------------------------------------------ END
+
+START ------------------------------------------------------------
+Function: parse_product_subcategory_pages with url: <200 https://www.aarstiderne.com/dagligvarer/kolonial/gryn-grod-flager>
+	/dagligvarer/kolonial/gryn-grod-flager/havregryn-finvalsede	/dagligvarer/kolonial/gryn-grod-flager/havregryn-grovvalsede	/dagligvarer/kolonial/gryn-grod-flager/musli	/dagligvarer/kolonial/gryn-grod-flager/granola	/dagligvarer/kolonial/gryn-grod-flager/kakao-granola	/dagligvarer/kolonial/gryn-grod-flager/cornflakes	/dagligvarer/kolonial/gryn-grod-flager/boghvedeflakes	/dagligvarer/kolonial/gryn-grod-flager/rugflager-800-g	/dagligvarer/kolonial/gryn-grod-flager/polentagryn
+parce_urls: <GET https://www.aarstiderne.com/dagligvarer/kolonial/gryn-grod-flager/polentagryn> to: parse_product_details_pages
+------------------------------------------------------------ END
+
+START ------------------------------------------------------------
+Function: parse_product_subcategory_pages with url: <200 https://www.aarstiderne.com/dagligvarer/kolonial/sukker-marmelade>
+	/dagligvarer/kolonial/sukker-marmelade/rorsukker-750-g	/dagligvarer/kolonial/sukker-marmelade/hindbarmarmelade	/dagligvarer/kolonial/sukker-marmelade/jordbarmarmelade	/dagligvarer/kolonial/sukker-marmelade/havtornmarmelade	/dagligvarer/kolonial/sukker-marmelade/ribsgele	/dagligvarer/kolonial/sukker-marmelade/akaciehonning	/dagligvarer/kolonial/sukker-marmelade/ahornsirup-250-ml	/dagligvarer/kolonial/sukker-marmelade/havtornsirup	/dagligvarer/kolonial/sukker-marmelade/hasselnoddecreme	/dagligvarer/kolonial/sukker-marmelade/lys-palagschokolade-53	/dagligvarer/kolonial/sukker-marmelade/mork-palagschokolade-85	/dagligvarer/kolonial/sukker-marmelade/honning	/dagligvarer/kolonial/sukker-marmelade/tavlehonning
+parce_urls: <GET https://www.aarstiderne.com/dagligvarer/kolonial/sukker-marmelade/tavlehonning> to: parse_product_details_pages
+------------------------------------------------------------ END
+
+START ------------------------------------------------------------
+Function: parse_product_subcategory_pages with url: <200 https://www.aarstiderne.com/dagligvarer/kolonial/kerner-fro>
+	/dagligvarer/kolonial/kerner-fro/graskarkerner	/dagligvarer/kolonial/kerner-fro/solsikkekerner-200g	/dagligvarer/kolonial/kerner-fro/pinjekerner-40-g	/dagligvarer/kolonial/kerner-fro/perlebyg	/dagligvarer/kolonial/kerner-fro/bulgur	/dagligvarer/kolonial/kerner-fro/couscous-fuldkorn	/dagligvarer/kolonial/kerner-fro/quinoa-hvid-dk	/dagligvarer/kolonial/kerner-fro/quinoa-blandet	/dagligvarer/kolonial/kerner-fro/hele-rugkerner-1-5-kg	/dagligvarer/kolonial/kerner-fro/knakket-rug-1-5-kg	/dagligvarer/kolonial/kerner-fro/birkes	/dagligvarer/kolonial/kerner-fro/sesamfro	/dagligvarer/kolonial/kerner-fro/horfro	/dagligvarer/kolonial/kerner-fro/chiafro	/dagligvarer/kolonial/kerner-fro/hampefro
+parce_urls: <GET https://www.aarstiderne.com/dagligvarer/kolonial/kerner-fro/hampefro> to: parse_product_details_pages
+------------------------------------------------------------ END
+
+START ------------------------------------------------------------
+Function: parse_product_subcategory_pages with url: <200 https://www.aarstiderne.com/dagligvarer/kolonial/ris-pasta>
+	/dagligvarer/kolonial/ris-pasta/hvide-jasminris	/dagligvarer/kolonial/ris-pasta/hvide-basmatiris	/dagligvarer/kolonial/ris-pasta/brune-basmatiris	/dagligvarer/kolonial/ris-pasta/risottoris	/dagligvarer/kolonial/ris-pasta/frisk-gnochetti	/dagligvarer/kolonial/ris-pasta/grodris	/dagligvarer/kolonial/ris-pasta/spaghetti-fuldkorn	/dagligvarer/kolonial/ris-pasta/penne	/dagligvarer/kolonial/ris-pasta/conchiglioni	/dagligvarer/kolonial/ris-pasta/semi-di-melone	/dagligvarer/kolonial/ris-pasta/frisk-bigoli-pasta	/dagligvarer/kolonial/ris-pasta/frisk-spaghetti-fuldkorn	/dagligvarer/kolonial/ris-pasta/ravioli-m-spinat-ricotta	/dagligvarer/kolonial/ris-pasta/gf-majspasta-fusilli	/dagligvarer/kolonial/ris-pasta/gf-majspasta-penne	/dagligvarer/kolonial/ris-pasta/lasagneplader-fuldkorn	/dagligvarer/kolonial/ris-pasta/fuldkornsnudler	/dagligvarer/kolonial/ris-pasta/risnudler-brune
+parce_urls: <GET https://www.aarstiderne.com/dagligvarer/kolonial/ris-pasta/risnudler-brune> to: parse_product_details_pages
+------------------------------------------------------------ END
+
+START ------------------------------------------------------------
+Function: parse_product_subcategory_pages with url: <200 https://www.aarstiderne.com/dagligvarer/kolonial/mel>
+	/dagligvarer/kolonial/mel/hvedemel	/dagligvarer/kolonial/mel/hvedemel-5-kg	/dagligvarer/kolonial/mel/hvedemel-tipo-00	/dagligvarer/kolonial/mel/rugmel-1-5-kg	/dagligvarer/kolonial/mel/rugmel-5-kg	/dagligvarer/kolonial/mel/svedjerug-1-2-kg	/dagligvarer/kolonial/mel/hvedemel-ekstra	/dagligvarer/kolonial/mel/mandelmel	/dagligvarer/kolonial/mel/speltmel-sigtet	/dagligvarer/kolonial/mel/olandshvedemel-fin-1-5-kg	/dagligvarer/kolonial/mel/olandshvedemel-fint-1-kg	/dagligvarer/kolonial/mel/olandshvedemel-fint-2-kg	/dagligvarer/kolonial/mel/olandshvedemel-groft	/dagligvarer/kolonial/mel/durummel	/dagligvarer/kolonial/mel/grahamsmel	/dagligvarer/kolonial/mel/majsmel	/dagligvarer/kolonial/mel/kikartemel-1-kg	/dagligvarer/kolonial/mel/gf-bagemix-til-pizzabund	/dagligvarer/kolonial/mel/bagemix-til-glutenfrit-altefrit-brod	/dagligvarer/kolonial/mel/rasp-400g	/dagligvarer/kolonial/mel/kokosmel-200g	/dagligvarer/kolonial/mel/bagepulver
+parce_urls: <GET https://www.aarstiderne.com/dagligvarer/kolonial/mel/bagepulver> to: parse_product_details_pages
+------------------------------------------------------------ END
+
+START ------------------------------------------------------------
+Function: parse_product_subcategory_pages with url: <200 https://www.aarstiderne.com/dagligvarer/kolonial/nodder-torret-frugt>
+	/dagligvarer/kolonial/nodder-torret-frugt/kastanjer	/dagligvarer/kolonial/nodder-torret-frugt/mandler-400g	/dagligvarer/kolonial/nodder-torret-frugt/mandler-150g	/dagligvarer/kolonial/nodder-torret-frugt/mandelmel	/dagligvarer/kolonial/nodder-torret-frugt/cashewnoedder-400g	/dagligvarer/kolonial/nodder-torret-frugt/cashewnodder-80-g	/dagligvarer/kolonial/nodder-torret-frugt/peanuts	/dagligvarer/kolonial/nodder-torret-frugt/valnoedder-400g	/dagligvarer/kolonial/nodder-torret-frugt/valnodder-150g	/dagligvarer/kolonial/nodder-torret-frugt/macadamianodder-150g	/dagligvarer/kolonial/nodder-torret-frugt/valnodder-med-skal-1-kg	/dagligvarer/kolonial/nodder-torret-frugt/hasselnodder-150g	/dagligvarer/kolonial/nodder-torret-frugt/nodder-med-skal-1-2-kg	/dagligvarer/kolonial/nodder-torret-frugt/macadamianodder	/dagligvarer/kolonial/nodder-torret-frugt/rosiner-250g	/dagligvarer/kolonial/nodder-torret-frugt/rosiner-sultanas-1-kg	/dagligvarer/kolonial/nodder-torret-frugt/morbar-sorte-200g	/dagligvarer/kolonial/nodder-torret-frugt/kokoschips	/dagligvarer/kolonial/nodder-torret-frugt/svesker-uden-sten	/dagligvarer/kolonial/nodder-torret-frugt/morbaer-hvide-200-g	/dagligvarer/kolonial/nodder-torret-frugt/toerrede-figner-500g	/dagligvarer/kolonial/nodder-torret-frugt/toerrede-abrikoser-600g
+parce_urls: <GET https://www.aarstiderne.com/dagligvarer/kolonial/nodder-torret-frugt/toerrede-abrikoser-600g> to: parse_product_details_pages
+------------------------------------------------------------ END
+
+START ------------------------------------------------------------
+Function: parse_product_subcategory_pages with url: <200 https://www.aarstiderne.com/dagligvarer/kolonial/olie-eddike>
+	/dagligvarer/kolonial/olie-eddike/oliva-hojiblanca-olivenolie	/dagligvarer/kolonial/olie-eddike/aarstidernes-olivenolie	/dagligvarer/kolonial/olie-eddike/olivenolie-500-ml	/dagligvarer/kolonial/olie-eddike/rapsolie-500-ml	/dagligvarer/kolonial/olie-eddike/ristet-sesamolie	/dagligvarer/kolonial/olie-eddike/avocadoolie	/dagligvarer/kolonial/olie-eddike/horfroolie	/dagligvarer/kolonial/olie-eddike/kokosolie	/dagligvarer/kolonial/olie-eddike/ghee	/dagligvarer/kolonial/olie-eddike/ablecidereddike-50-cl	/dagligvarer/kolonial/olie-eddike/ablecidereddike	/dagligvarer/kolonial/olie-eddike/ablecidereddike-hindbar	/dagligvarer/kolonial/olie-eddike/balsamisk-ableeddike	/dagligvarer/kolonial/olie-eddike/hvid-balsamicoeddike	/dagligvarer/kolonial/olie-eddike/riseddike-brun	/dagligvarer/kolonial/olie-eddike/olivenolie-ekstra-jomfru	/dagligvarer/kolonial/olie-eddike/gavekasse-4
+parce_urls: <GET https://www.aarstiderne.com/dagligvarer/kolonial/olie-eddike/gavekasse-4> to: parse_product_details_pages
+------------------------------------------------------------ END
+
+START ------------------------------------------------------------
+Function: parse_product_subcategory_pages with url: <200 https://www.aarstiderne.com/dagligvarer/kolonial/kaffe-te>
+	/dagligvarer/kolonial/kaffe-te/icecoffee-ready-to-mix	/dagligvarer/kolonial/kaffe-te/kaffe-hele-bonner	/dagligvarer/kolonial/kaffe-te/kaffe-hele-bonner-1-kg	/dagligvarer/kolonial/kaffe-te/kaffe-malet-400-g	/dagligvarer/kolonial/kaffe-te/espresso-corcasan	/dagligvarer/kolonial/kaffe-te/onsk-kaffe-mellemristet-250-g	/dagligvarer/kolonial/kaffe-te/oensk-kaffe-1-kg	/dagligvarer/kolonial/kaffe-te/kaffe-morkristet-corcasan-250g	/dagligvarer/kolonial/kaffe-te/kaffe-morkristet-corcasan-1-kg	/dagligvarer/kolonial/kaffe-te/instant-kaffe-mellemristet	/dagligvarer/kolonial/kaffe-te/instant-kaffe-koffeinfri	/dagligvarer/kolonial/kaffe-te/aarstidernes-gronne-te-80-g	/dagligvarer/kolonial/kaffe-te/emeyu-te-eight-butterflies	/dagligvarer/kolonial/kaffe-te/emeyu-te-endless-summer	/dagligvarer/kolonial/kaffe-te/emeyu-te-midnight-sun	/dagligvarer/kolonial/kaffe-te/emeyu-te-nordic-reflection	/dagligvarer/kolonial/kaffe-te/kakaopulver-150g
+parce_urls: <GET https://www.aarstiderne.com/dagligvarer/kolonial/kaffe-te/kakaopulver-150g> to: parse_product_details_pages
+------------------------------------------------------------ END
+
+START ------------------------------------------------------------
+Function: parse_product_subcategory_pages with url: <200 https://www.aarstiderne.com/dagligvarer/kolonial/krydderier>
+	/dagligvarer/kolonial/krydderier/grontsagsbouillon	/dagligvarer/kolonial/krydderier/havsalt	/dagligvarer/kolonial/krydderier/flagesalt	/dagligvarer/kolonial/krydderier/saltverk-birkeroget-salt	/dagligvarer/kolonial/krydderier/sorte-peberkorn	/dagligvarer/kolonial/krydderier/gomashio-krydderiblanding	/dagligvarer/kolonial/krydderier/napoli-krydderiblanding	/dagligvarer/kolonial/krydderier/istanbul-krydderiblanding	/dagligvarer/kolonial/krydderier/bali-krydderiblanding	/dagligvarer/kolonial/krydderier/bangkok-krydderiblanding	/dagligvarer/kolonial/krydderier/tandoori-krydderiblanding	/dagligvarer/kolonial/krydderier/bombay-krydderiblanding	/dagligvarer/kolonial/krydderier/buena-vista	/dagligvarer/kolonial/krydderier/five-spice-krydderiblanding	/dagligvarer/kolonial/krydderier/madraskarry	/dagligvarer/kolonial/krydderier/roget-bbq	/dagligvarer/kolonial/krydderier/spidskommen-knust	/dagligvarer/kolonial/krydderier/za-atar-krydderiblanding	/dagligvarer/kolonial/krydderier/gron-karrypasta	/dagligvarer/kolonial/krydderier/garam-masala-paste	/dagligvarer/kolonial/krydderier/tamarind-paste	/dagligvarer/kolonial/krydderier/wakame-tang	/dagligvarer/kolonial/krydderier/dulse-tang	/dagligvarer/kolonial/krydderier/laurbarblade	/dagligvarer/kolonial/krydderier/hel-kanel-50-g	/dagligvarer/kolonial/krydderier/nelliker-hele	/dagligvarer/kolonial/krydderier/vaniljestang	/dagligvarer/kolonial/krydderier/skaldyrsfond-200-ml	/dagligvarer/kolonial/krydderier/honsefond	/dagligvarer/kolonial/krydderier/kalvefond	/dagligvarer/kolonial/krydderier/grontsagsfond
+parce_urls: <GET https://www.aarstiderne.com/dagligvarer/kolonial/krydderier/grontsagsfond> to: parse_product_details_pages
+------------------------------------------------------------ END
+
+START ------------------------------------------------------------
+Function: parse_product_subcategory_pages with url: <200 https://www.aarstiderne.com/dagligvarer/kolonial/babymad>
+	/dagligvarer/kolonial/babymad/fersken-vaniljesmoothie	/dagligvarer/kolonial/babymad/fersken-vaniljesmoothie-5-stk	/dagligvarer/kolonial/babymad/kiwi-quinoasmoothie	/dagligvarer/kolonial/babymad/kiwi-quinoasmoothie-5-stk	/dagligvarer/kolonial/babymad/vege-middelhavsmaltid	/dagligvarer/kolonial/babymad/vege-middelhavsmaltid-6-stk	/dagligvarer/kolonial/babymad/vege-sod-kartoffelmaltid	/dagligvarer/kolonial/babymad/kylling-butternutmaltid	/dagligvarer/kolonial/babymad/kylling-butternutmaltid-6-stk	/dagligvarer/kolonial/babymad/kylling-mangomaltid	/dagligvarer/kolonial/babymad/kylling-mangomaltid-6-stk
+parce_urls: <GET https://www.aarstiderne.com/dagligvarer/kolonial/babymad/kylling-mangomaltid-6-stk> to: parse_product_details_pages
+------------------------------------------------------------ END
+
+START ------------------------------------------------------------
+Function: parse_product_subcategory_pages with url: <200 https://www.aarstiderne.com/dagligvarer/kolonial/konserves>
+	/dagligvarer/kolonial/konserves/syltet-rodkal-580-g	/dagligvarer/kolonial/konserves/kimchi	/dagligvarer/kolonial/konserves/pink-kraut	/dagligvarer/kolonial/konserves/fermenteret-salsa	/dagligvarer/kolonial/konserves/indisk-citronpickles	/dagligvarer/kolonial/konserves/kokosmalk-400-ml	/dagligvarer/kolonial/konserves/ribsgele	/dagligvarer/kolonial/konserves/ansjoser-i-olivenolie	/dagligvarer/kolonial/konserves/cherrytomatsauce	/dagligvarer/kolonial/konserves/mosede-tomater-500-ml	/dagligvarer/kolonial/konserves/tomater-med-basilikum-340-g	/dagligvarer/kolonial/konserves/tun-i-olivenolie-120g	/dagligvarer/kolonial/konserves/tomater-med-grontsager-340-g	/dagligvarer/kolonial/konserves/tomater-med-chili-340-g	/dagligvarer/kolonial/konserves/tomatpure-70-g	/dagligvarer/kolonial/konserves/makrelfileter-i-olivenolie	/dagligvarer/kolonial/konserves/soltorrede-tomater-100-g	/dagligvarer/kolonial/konserves/kapers-i-havsalt-35-g	/dagligvarer/kolonial/konserves/krydrede-sorte-oliven	/dagligvarer/kolonial/konserves/kalamata-oliven-uden-sten	/dagligvarer/kolonial/konserves/gronne-oliven-uden-sten	/dagligvarer/kolonial/konserves/oliven-kit-3x435-g	/dagligvarer/kolonial/konserves/sardiner-i-olivenolie-120g	/dagligvarer/kolonial/konserves/tun-i-olivenolie-220-g	/dagligvarer/kolonial/konserves/sardiner-i-olivenolie-190-g	/dagligvarer/kolonial/konserves/kokosmalk-165-ml	/dagligvarer/kolonial/konserves/citroner-i-saltlage	/dagligvarer/kolonial/konserves/kogte-hvide-asparges
+parce_urls: <GET https://www.aarstiderne.com/dagligvarer/kolonial/konserves/kogte-hvide-asparges> to: parse_product_details_pages
+------------------------------------------------------------ END
+
+START ------------------------------------------------------------
+Function: parse_product_subcategory_pages with url: <200 https://www.aarstiderne.com/dagligvarer/kolonial/saucer-spread>
+	/dagligvarer/kolonial/saucer-spread/bearnaisesauce-classic-180-g	/dagligvarer/kolonial/saucer-spread/hollandaisesauce-180-g	/dagligvarer/kolonial/saucer-spread/tomatketchup	/dagligvarer/kolonial/saucer-spread/hummus-200-g	/dagligvarer/kolonial/saucer-spread/bbq-sauce	/dagligvarer/kolonial/saucer-spread/dijonsennep	/dagligvarer/kolonial/saucer-spread/tapenade-af-artiskokker-185-g	/dagligvarer/kolonial/saucer-spread/sennep-sod-200-ml	/dagligvarer/kolonial/saucer-spread/sauce-tartare	/dagligvarer/kolonial/saucer-spread/aioli	/dagligvarer/kolonial/saucer-spread/pesto-rosso	/dagligvarer/kolonial/saucer-spread/oliventapenade-200-g	/dagligvarer/kolonial/saucer-spread/harissa	/dagligvarer/kolonial/saucer-spread/tomatrelish	/dagligvarer/kolonial/saucer-spread/hoisinsauce	/dagligvarer/kolonial/saucer-spread/tamari	/dagligvarer/kolonial/saucer-spread/shoyu-sojasauce	/dagligvarer/kolonial/saucer-spread/yuzu-ponzu	/dagligvarer/kolonial/saucer-spread/teriyaki-sauce	/dagligvarer/kolonial/saucer-spread/worchestershire-sauce	/dagligvarer/kolonial/saucer-spread/chilisauce-200-ml	/dagligvarer/kolonial/saucer-spread/brun-miso	/dagligvarer/kolonial/saucer-spread/hummus	/dagligvarer/kolonial/saucer-spread/hvid-miso	/dagligvarer/kolonial/saucer-spread/remoulade-vegansk	/dagligvarer/kolonial/saucer-spread/ingefar-lime-chutney	/dagligvarer/kolonial/saucer-spread/pesto-genovese	/dagligvarer/kolonial/saucer-spread/pesto-siciliano	/dagligvarer/kolonial/saucer-spread/tahin-med-salt	/dagligvarer/kolonial/saucer-spread/peanutbutter-creamy	/dagligvarer/kolonial/saucer-spread/peanutbutter-crunchy-rv	/dagligvarer/kolonial/saucer-spread/skaldyrsfond-200-ml	/dagligvarer/kolonial/saucer-spread/honsefond	/dagligvarer/kolonial/saucer-spread/kalvefond	/dagligvarer/kolonial/saucer-spread/grontsagsfond
+parce_urls: <GET https://www.aarstiderne.com/dagligvarer/kolonial/saucer-spread/grontsagsfond> to: parse_product_details_pages
+------------------------------------------------------------ END
+
+START ------------------------------------------------------------
+Function: parse_product_subcategory_pages with url: <200 https://www.aarstiderne.com/dagligvarer/oel-vin/oel>
+	/dagligvarer/oel-vin/oel/pilsner-aarstiderne	/dagligvarer/oel-vin/oel/himmelfryd-pilsner	/dagligvarer/oel-vin/oel/orbak-ipa	/dagligvarer/oel-vin/oel/cedro-citrus-berliner	/dagligvarer/oel-vin/oel/orbak-brown-ale	/dagligvarer/oel-vin/oel/orbak-fynsk-forar	/dagligvarer/oel-vin/oel/manestov-ipa	/dagligvarer/oel-vin/oel/orbak-weissbeer	/dagligvarer/oel-vin/oel/orbak-classic	/dagligvarer/oel-vin/oel/coteaux-nantais-cider	/dagligvarer/oel-vin/oel/cider-rainbow-child	/dagligvarer/oel-vin/oel/cider-cox-i-paren	/dagligvarer/oel-vin/oel/oerbaek-ipa-alkoholfri
+parce_urls: <GET https://www.aarstiderne.com/dagligvarer/oel-vin/oel/oerbaek-ipa-alkoholfri> to: parse_product_details_pages
+------------------------------------------------------------ END
+
+START ------------------------------------------------------------
+Function: parse_product_subcategory_pages with url: <200 https://www.aarstiderne.com/dagligvarer/koed-fisk/koed>
+	/dagligvarer/koed-fisk/koed/mortensandkassen	/dagligvarer/koed-fisk/koed/andelar-s-v-280g	/dagligvarer/koed-fisk/koed/and-14-uger-stor	/dagligvarer/koed-fisk/koed/wienerpolser	/dagligvarer/koed-fisk/koed/frankfurtere-med-grontsager	/dagligvarer/koed-fisk/koed/paprikapolser	/dagligvarer/koed-fisk/koed/ribeye	/dagligvarer/koed-fisk/koed/kalveculotte-1-kg	/dagligvarer/koed-fisk/koed/ugens-koed	/dagligvarer/koed-fisk/koed/flaskesteg-friland	/dagligvarer/koed-fisk/koed/ugens-kod-stor	/dagligvarer/koed-fisk/koed/kyllingelar-dk	/dagligvarer/koed-fisk/koed/kyllingebrystfilet	/dagligvarer/koed-fisk/koed/hel-kylling-1400	/dagligvarer/koed-fisk/koed/sous-vide-kyllingevinger	/dagligvarer/koed-fisk/koed/kyllingepolse-ramslog-ost-300g	/dagligvarer/koed-fisk/koed/kartoffelfrikadeller	/dagligvarer/koed-fisk/koed/skaftkotelet	/dagligvarer/koed-fisk/koed/pulled-pork	/dagligvarer/koed-fisk/koed/svin-five-spice-sous-vide	/dagligvarer/koed-fisk/koed/roget-bacon	/dagligvarer/koed-fisk/koed/bacon-i-skiver	/dagligvarer/koed-fisk/koed/kalve-lammefars	/dagligvarer/koed-fisk/koed/hakket-kalvekod-300-g	/dagligvarer/koed-fisk/koed/oksebryst-sous-vide	/dagligvarer/koed-fisk/koed/kyllingenuggets
+parce_urls: <GET https://www.aarstiderne.com/dagligvarer/koed-fisk/koed/kyllingenuggets> to: parse_product_details_pages
+------------------------------------------------------------ END
+
+START ------------------------------------------------------------
+Function: parse_product_subcategory_pages with url: <200 https://www.aarstiderne.com/dagligvarer/snacks-soede-sager/slik>
+	/dagligvarer/snacks-soede-sager/slik/hey-yum-magic-forest	/dagligvarer/snacks-soede-sager/slik/hey-yum-love-spring	/dagligvarer/snacks-soede-sager/slik/hey-yum-sour-flower	/dagligvarer/snacks-soede-sager/slik/lakridsruller	/dagligvarer/snacks-soede-sager/slik/lakridsstaenger	/dagligvarer/snacks-soede-sager/slik/hey-yum-triassic-garden	/dagligvarer/snacks-soede-sager/slik/sod-lakrids	/dagligvarer/snacks-soede-sager/slik/salt-lakrids
+parce_urls: <GET https://www.aarstiderne.com/dagligvarer/snacks-soede-sager/slik/salt-lakrids> to: parse_product_details_pages
+------------------------------------------------------------ END
+
+START ------------------------------------------------------------
+Function: parse_product_subcategory_pages with url: <200 https://www.aarstiderne.com/dagligvarer/snacks-soede-sager/kager-desserter>
+	/dagligvarer/snacks-soede-sager/kager-desserter/frys-selv-is-popseco	/dagligvarer/snacks-soede-sager/kager-desserter/crackers-havre	/dagligvarer/snacks-soede-sager/kager-desserter/crackers-havsalt	/dagligvarer/snacks-soede-sager/kager-desserter/riskiks-med-havsalt	/dagligvarer/snacks-soede-sager/kager-desserter/riskiks-med-sesam	/dagligvarer/snacks-soede-sager/kager-desserter/shortbread-cookies	/dagligvarer/snacks-soede-sager/kager-desserter/lemon-melt-cookies	/dagligvarer/snacks-soede-sager/kager-desserter/chocolate-ginger-cookies	/dagligvarer/snacks-soede-sager/kager-desserter/cookie-m-chokolade	/dagligvarer/snacks-soede-sager/kager-desserter/creme-brulee	/dagligvarer/snacks-soede-sager/kager-desserter/brunkagedej	/dagligvarer/snacks-soede-sager/kager-desserter/hvid-chokolade-citron	/dagligvarer/snacks-soede-sager/kager-desserter/smakagedej	/dagligvarer/snacks-soede-sager/kager-desserter/risengrod-u-sukker-500-g
+parce_urls: <GET https://www.aarstiderne.com/dagligvarer/snacks-soede-sager/kager-desserter/risengrod-u-sukker-500-g> to: parse_product_details_pages
+------------------------------------------------------------ END
+
+START ------------------------------------------------------------
+Function: parse_product_subcategory_pages with url: <200 https://www.aarstiderne.com/dagligvarer/mejeri/smor-aeg-haevemidler>
+	/dagligvarer/mejeri/smor-aeg-haevemidler/aeg-4-stk	/dagligvarer/mejeri/smor-aeg-haevemidler/gar	/dagligvarer/mejeri/smor-aeg-haevemidler/rugsurdej	/dagligvarer/mejeri/smor-aeg-haevemidler/smor	/dagligvarer/mejeri/smor-aeg-haevemidler/aeg-10-stk
+parce_urls: <GET https://www.aarstiderne.com/dagligvarer/mejeri/smor-aeg-haevemidler/aeg-10-stk> to: parse_product_details_pages
+------------------------------------------------------------ END
+
+START ------------------------------------------------------------
+Function: parse_product_subcategory_pages with url: <200 https://www.aarstiderne.com/dagligvarer/mejeri/ost>
+	/dagligvarer/mejeri/ost/samso-ost-45	/dagligvarer/mejeri/ost/goudan-ost	/dagligvarer/mejeri/ost/goudan-skiveost	/dagligvarer/mejeri/ost/kong-bars-ost	/dagligvarer/mejeri/ost/kong-bars-skiveost	/dagligvarer/mejeri/ost/hytteost-4-0	/dagligvarer/mejeri/ost/burrata-ost	/dagligvarer/mejeri/ost/mozzarella	/dagligvarer/mejeri/ost/ricotta-150-g	/dagligvarer/mejeri/ost/fetaost-150g	/dagligvarer/mejeri/ost/gedeost-i-rulle	/dagligvarer/mejeri/ost/haervejsost	/dagligvarer/mejeri/ost/parmesanost-1-kg	/dagligvarer/mejeri/ost/parmesan	/dagligvarer/mejeri/ost/hoost	/dagligvarer/mejeri/ost/pecorino-1-kg	/dagligvarer/mejeri/ost/manchego	/dagligvarer/mejeri/ost/gouda-revet
+parce_urls: <GET https://www.aarstiderne.com/dagligvarer/mejeri/ost/gouda-revet> to: parse_product_details_pages
+------------------------------------------------------------ END
+
+START ------------------------------------------------------------
+Function: parse_product_subcategory_pages with url: <200 https://www.aarstiderne.com/dagligvarer/snacks-soede-sager/nodder-chips>
+	/dagligvarer/snacks-soede-sager/nodder-chips/kastanjer	/dagligvarer/snacks-soede-sager/nodder-chips/mandler-400g	/dagligvarer/snacks-soede-sager/nodder-chips/chips-rosmarin	/dagligvarer/snacks-soede-sager/nodder-chips/mandler-150g	/dagligvarer/snacks-soede-sager/nodder-chips/chips-peber-og-salt	/dagligvarer/snacks-soede-sager/nodder-chips/mandelmel	/dagligvarer/snacks-soede-sager/nodder-chips/cashewnoedder-400g	/dagligvarer/snacks-soede-sager/nodder-chips/cashewnodder-80-g	/dagligvarer/snacks-soede-sager/nodder-chips/peanuts	/dagligvarer/snacks-soede-sager/nodder-chips/valnoedder-400g	/dagligvarer/snacks-soede-sager/nodder-chips/valnodder-150g	/dagligvarer/snacks-soede-sager/nodder-chips/macadamianodder-150g	/dagligvarer/snacks-soede-sager/nodder-chips/valnodder-med-skal-1-kg	/dagligvarer/snacks-soede-sager/nodder-chips/hasselnodder-150g	/dagligvarer/snacks-soede-sager/nodder-chips/nodder-med-skal-1-2-kg	/dagligvarer/snacks-soede-sager/nodder-chips/macadamianodder	/dagligvarer/snacks-soede-sager/nodder-chips/tortillachips-naturel	/dagligvarer/snacks-soede-sager/nodder-chips/morbar-sorte-200g	/dagligvarer/snacks-soede-sager/nodder-chips/kokoschips	/dagligvarer/snacks-soede-sager/nodder-chips/svesker-uden-sten	/dagligvarer/snacks-soede-sager/nodder-chips/morbaer-hvide-200-g	/dagligvarer/snacks-soede-sager/nodder-chips/toerrede-figner-500g	/dagligvarer/snacks-soede-sager/nodder-chips/toerrede-abrikoser-600g	/dagligvarer/snacks-soede-sager/nodder-chips/hazelnut-bite-box	/dagligvarer/snacks-soede-sager/nodder-chips/cocohagen-barista-box	/dagligvarer/snacks-soede-sager/nodder-chips/orange-bite-box	/dagligvarer/snacks-soede-sager/nodder-chips/cocohagen-cocoa-box	/dagligvarer/snacks-soede-sager/nodder-chips/triple-shop-box	/dagligvarer/snacks-soede-sager/nodder-chips/madpakkebidder-able	/dagligvarer/snacks-soede-sager/nodder-chips/madpakkebidder-jordbar	/dagligvarer/snacks-soede-sager/nodder-chips/madpakkebidder-kakao
+parce_urls: <GET https://www.aarstiderne.com/dagligvarer/snacks-soede-sager/nodder-chips/madpakkebidder-kakao> to: parse_product_details_pages
+------------------------------------------------------------ END
+
+START ------------------------------------------------------------
+Function: parse_product_subcategory_pages with url: <200 https://www.aarstiderne.com/dagligvarer/snacks-soede-sager/chokolade>
+	/dagligvarer/snacks-soede-sager/chokolade/hasselnodnougat	/dagligvarer/snacks-soede-sager/chokolade/julekalender-fyldt-chokolade	/dagligvarer/snacks-soede-sager/chokolade/chokoladekalender-summerbird	/dagligvarer/snacks-soede-sager/chokolade/winter-specialties-300-g	/dagligvarer/snacks-soede-sager/chokolade/julegrise-summerbird	/dagligvarer/snacks-soede-sager/chokolade/snowballs-summerbird	/dagligvarer/snacks-soede-sager/chokolade/christmas-collection-640-g	/dagligvarer/snacks-soede-sager/chokolade/marcipan	/dagligvarer/snacks-soede-sager/chokolade/elmelund-gavedase	/dagligvarer/snacks-soede-sager/chokolade/flodeboller-rovaniemi	/dagligvarer/snacks-soede-sager/chokolade/hasselnodder-mork-maelk	/dagligvarer/snacks-soede-sager/chokolade/flodeboller-classic	/dagligvarer/snacks-soede-sager/chokolade/hasselnodder-hvid-lakrids	/dagligvarer/snacks-soede-sager/chokolade/flodeboller-lakrids	/dagligvarer/snacks-soede-sager/chokolade/tapas-chokolade	/dagligvarer/snacks-soede-sager/chokolade/mork-chokolade-orange-knas	/dagligvarer/snacks-soede-sager/chokolade/chokolade-cornish-sea-salt	/dagligvarer/snacks-soede-sager/chokolade/hvid-chokolade-lakrids	/dagligvarer/snacks-soede-sager/chokolade/mork-chokolade-hindbar	/dagligvarer/snacks-soede-sager/chokolade/krammerhus-appelsin-ingefaer	/dagligvarer/snacks-soede-sager/chokolade/mork-chokolade-ingef-lemon	/dagligvarer/snacks-soede-sager/chokolade/lys-chokolade-karamel-knas	/dagligvarer/snacks-soede-sager/chokolade/rorepinde-mork	/dagligvarer/snacks-soede-sager/chokolade/rorepinde-lys	/dagligvarer/snacks-soede-sager/chokolade/krammerhus-kaffe-kokos	/dagligvarer/snacks-soede-sager/chokolade/hasselnodder-hindbaer	/dagligvarer/snacks-soede-sager/chokolade/krammerhus-citron-lakrids	/dagligvarer/snacks-soede-sager/chokolade/krammerhus-hindbar-lakrids	/dagligvarer/snacks-soede-sager/chokolade/chokolade-extra-dark	/dagligvarer/snacks-soede-sager/chokolade/hvid-chokolade-200-g	/dagligvarer/snacks-soede-sager/chokolade/chokoladeovertrak-200g	/dagligvarer/snacks-soede-sager/chokolade/mork-chokolade-70-peru-200-g	/dagligvarer/snacks-soede-sager/chokolade/mork-choko-66-200-g
+parce_urls: <GET https://www.aarstiderne.com/dagligvarer/snacks-soede-sager/chokolade/mork-choko-66-200-g> to: parse_product_details_pages
+------------------------------------------------------------ END
+
+START ------------------------------------------------------------
+Function: parse_product_subcategory_pages with url: <200 https://www.aarstiderne.com/dagligvarer/mejeri/syrnede-produkter>
+	/dagligvarer/mejeri/syrnede-produkter/minimalksyoghurt-naturel	/dagligvarer/mejeri/syrnede-produkter/yoghurt-pare-banan	/dagligvarer/mejeri/syrnede-produkter/skyr-1-kg	/dagligvarer/mejeri/syrnede-produkter/skyr-m-vanilje	/dagligvarer/mejeri/syrnede-produkter/graeskinspireret-yoghurt-10	/dagligvarer/mejeri/syrnede-produkter/tykmalk-m-acidophilus	/dagligvarer/mejeri/syrnede-produkter/creme-fraiche-18	/dagligvarer/mejeri/syrnede-produkter/creme-fraiche-38
+parce_urls: <GET https://www.aarstiderne.com/dagligvarer/mejeri/syrnede-produkter/creme-fraiche-38> to: parse_product_details_pages
+------------------------------------------------------------ END
+
+START ------------------------------------------------------------
+Function: parse_product_subcategory_pages with url: <200 https://www.aarstiderne.com/dagligvarer/mejeri/maelk-drikke>
+	/dagligvarer/mejeri/maelk-drikke/biodynamisk-malk-original	/dagligvarer/mejeri/maelk-drikke/biodynamisk-minimalk	/dagligvarer/mejeri/maelk-drikke/letmaelk	/dagligvarer/mejeri/maelk-drikke/minimaelk	/dagligvarer/mejeri/maelk-drikke/soedmaelk	/dagligvarer/mejeri/maelk-drikke/skummetmalk	/dagligvarer/mejeri/maelk-drikke/karnemalk	/dagligvarer/mejeri/maelk-drikke/laktosefri-minimaelk	/dagligvarer/mejeri/maelk-drikke/flode-1-4-l	/dagligvarer/mejeri/maelk-drikke/chokolademalk
+parce_urls: <GET https://www.aarstiderne.com/dagligvarer/mejeri/maelk-drikke/chokolademalk> to: parse_product_details_pages
+------------------------------------------------------------ END
+
+START ------------------------------------------------------------
+Function: parse_product_subcategory_pages with url: <200 https://www.aarstiderne.com/dagligvarer/broed/wienerbroed-soedt-broed>
+	/dagligvarer/broed/wienerbroed-soedt-broed/croissant	/dagligvarer/broed/wienerbroed-soedt-broed/kanelsnegle	/dagligvarer/broed/wienerbroed-soedt-broed/tebirkes-4-stk
+parce_urls: <GET https://www.aarstiderne.com/dagligvarer/broed/wienerbroed-soedt-broed/tebirkes-4-stk> to: parse_product_details_pages
+------------------------------------------------------------ END
+
+START ------------------------------------------------------------
+Function: parse_product_subcategory_pages with url: <200 https://www.aarstiderne.com/dagligvarer/broed/knaekbroed>
+	/dagligvarer/broed/knaekbroed/knakbrod-grovknacke	/dagligvarer/broed/knaekbroed/knakbrod-mellanknacke	/dagligvarer/broed/knaekbroed/knakbrod-vardshusknacke
+parce_urls: <GET https://www.aarstiderne.com/dagligvarer/broed/knaekbroed/knakbrod-vardshusknacke> to: parse_product_details_pages
+------------------------------------------------------------ END
+
+START ------------------------------------------------------------
+Function: parse_product_subcategory_pages with url: <200 https://www.aarstiderne.com/dagligvarer/broed/boller>
+	/dagligvarer/broed/boller/svedjerugboller	/dagligvarer/broed/boller/kruskaboller	/dagligvarer/broed/boller/surdejsboller	/dagligvarer/broed/boller/artisan-boller	/dagligvarer/broed/boller/skagenslap-boller
+parce_urls: <GET https://www.aarstiderne.com/dagligvarer/broed/boller/skagenslap-boller> to: parse_product_details_pages
+------------------------------------------------------------ END
+
+START ------------------------------------------------------------
+Function: parse_product_subcategory_pages with url: <200 https://www.aarstiderne.com/dagligvarer/groent/salat-bladgront>
+	/dagligvarer/groent/salat-bladgront/salat-salanova-gron	/dagligvarer/groent/salat-bladgront/iceberg-salat	/dagligvarer/groent/salat-bladgront/radicchio-tondo-rosso	/dagligvarer/groent/salat-bladgront/wasabina	/dagligvarer/groent/salat-bladgront/feldsalat	/dagligvarer/groent/salat-bladgront/rod-egebladssalat-dk	/dagligvarer/groent/salat-bladgront/rucola-bundt-50-g	/dagligvarer/groent/salat-bladgront/spinat-new-zealand	/dagligvarer/groent/salat-bladgront/babyspinat-60g
+parce_urls: <GET https://www.aarstiderne.com/dagligvarer/groent/salat-bladgront/babyspinat-60g> to: parse_product_details_pages
+------------------------------------------------------------ END
+
+START ------------------------------------------------------------
+Function: parse_product_subcategory_pages with url: <200 https://www.aarstiderne.com/dagligvarer/juice-saft/smoothies>
+	/dagligvarer/juice-saft/smoothies/greenie-spinat-ingefar	/dagligvarer/juice-saft/smoothies/greenie-rodbede-chili	/dagligvarer/juice-saft/smoothies/greenie-gulerod-peberfrugt
+parce_urls: <GET https://www.aarstiderne.com/dagligvarer/juice-saft/smoothies/greenie-gulerod-peberfrugt> to: parse_product_details_pages
+------------------------------------------------------------ END
+
+START ------------------------------------------------------------
+Function: parse_product_subcategory_pages with url: <200 https://www.aarstiderne.com/dagligvarer/groent/log-porrer>
+	/dagligvarer/groent/log-porrer/rodlog-60-dk	/dagligvarer/groent/log-porrer/roselog-amposta-i-net	/dagligvarer/groent/log-porrer/pibelog	/dagligvarer/groent/log-porrer/bananskalottelog-dk	/dagligvarer/groent/log-porrer/loegposen	/dagligvarer/groent/log-porrer/sort-hvidlog	/dagligvarer/groent/log-porrer/porre-stk-3-stk	/dagligvarer/groent/log-porrer/log-60-dk	/dagligvarer/groent/log-porrer/hvidlog
+parce_urls: <GET https://www.aarstiderne.com/dagligvarer/groent/log-porrer/hvidlog> to: parse_product_details_pages
+------------------------------------------------------------ END
+
+START ------------------------------------------------------------
+Function: parse_product_subcategory_pages with url: <200 https://www.aarstiderne.com/dagligvarer/groent/rodfrugter-kartofler>
+	/dagligvarer/groent/rodfrugter-kartofler/gulerodder-farvet-700-g-dk	/dagligvarer/groent/rodfrugter-kartofler/gulerodder-m-top	/dagligvarer/groent/rodfrugter-kartofler/snackgulerodder-200g-dk	/dagligvarer/groent/rodfrugter-kartofler/kartofler-1kg-dk	/dagligvarer/groent/rodfrugter-kartofler/bagekartofler-lose-5-stk	/dagligvarer/groent/rodfrugter-kartofler/sode-kartofler-dk-500-gr	/dagligvarer/groent/rodfrugter-kartofler/sode-kartofler-500-g	/dagligvarer/groent/rodfrugter-kartofler/pastinakker-dk	/dagligvarer/groent/rodfrugter-kartofler/jordskokker-dk	/dagligvarer/groent/rodfrugter-kartofler/kartofler-alouette-500g	/dagligvarer/groent/rodfrugter-kartofler/radiser-i-bundt	/dagligvarer/groent/rodfrugter-kartofler/rodbeder-kg	/dagligvarer/groent/rodfrugter-kartofler/rodbeder-lange-700-g-dk	/dagligvarer/groent/rodfrugter-kartofler/rodbeder-farvemix	/dagligvarer/groent/rodfrugter-kartofler/kartofler-bla-congo-dk-500g	/dagligvarer/groent/rodfrugter-kartofler/gulerodder-1-kg-dk	/dagligvarer/groent/rodfrugter-kartofler/knoldselleri
+parce_urls: <GET https://www.aarstiderne.com/dagligvarer/groent/rodfrugter-kartofler/knoldselleri> to: parse_product_details_pages
+------------------------------------------------------------ END
+
+START ------------------------------------------------------------
+Function: parse_product_subcategory_pages with url: <200 https://www.aarstiderne.com/dagligvarer/plantebaseret/retter-menuer>
+	/dagligvarer/plantebaseret/retter-menuer/ribollitasuppe	/dagligvarer/plantebaseret/retter-menuer/veggie-curry	/dagligvarer/plantebaseret/retter-menuer/tomatsuppe	/dagligvarer/plantebaseret/retter-menuer/graskarsuppe-600-g	/dagligvarer/plantebaseret/retter-menuer/risengrod-u-sukker-500-g
+parce_urls: <GET https://www.aarstiderne.com/dagligvarer/plantebaseret/retter-menuer/risengrod-u-sukker-500-g> to: parse_product_details_pages
+------------------------------------------------------------ END
+
+START ------------------------------------------------------------
+Function: parse_product_subcategory_pages with url: <200 https://www.aarstiderne.com/dagligvarer/groent/graskar-squash-aubergine>
+	/dagligvarer/groent/graskar-squash-aubergine/aubergine-180-250g	/dagligvarer/groent/graskar-squash-aubergine/squash	/dagligvarer/groent/graskar-squash-aubergine/butternut-squash-800-g	/dagligvarer/groent/graskar-squash-aubergine/squash-spaghetti-dk	/dagligvarer/groent/graskar-squash-aubergine/hokkaido-uchiki	/dagligvarer/groent/graskar-squash-aubergine/hokkaido-graskar-dk-400	/dagligvarer/groent/graskar-squash-aubergine/hokkaido-graskar-dk-700-g	/dagligvarer/groent/graskar-squash-aubergine/graskar-crown-prince-dk	/dagligvarer/groent/graskar-squash-aubergine/graskar-rondini
+parce_urls: <GET https://www.aarstiderne.com/dagligvarer/groent/graskar-squash-aubergine/graskar-rondini> to: parse_product_details_pages
+------------------------------------------------------------ END
+
+START ------------------------------------------------------------
+Function: parse_product_subcategory_pages with url: <200 https://www.aarstiderne.com/dagligvarer/groent/kaal>
+	/dagligvarer/groent/kaal/blomkal	/dagligvarer/groent/kaal/broccoli	/dagligvarer/groent/kaal/palmekal-i-bundt	/dagligvarer/groent/kaal/140068-kaalkassen	/dagligvarer/groent/kaal/rodkaal	/dagligvarer/groent/kaal/romanesco-str-8-dk	/dagligvarer/groent/kaal/gronkal-200g-dk	/dagligvarer/groent/kaal/hvidkal-dk	/dagligvarer/groent/kaal/spidskal-dk	/dagligvarer/groent/kaal/spidskal-rod-dk	/dagligvarer/groent/kaal/kinakaal-dk	/dagligvarer/groent/kaal/rosenkal-500-g	/dagligvarer/groent/kaal/savojkal-700g-dk
+parce_urls: <GET https://www.aarstiderne.com/dagligvarer/groent/kaal/savojkal-700g-dk> to: parse_product_details_pages
+------------------------------------------------------------ END
+
+START ------------------------------------------------------------
+Function: parse_product_subcategory_pages with url: <200 https://www.aarstiderne.com/dagligvarer/juice-saft/sodavand>
+	/dagligvarer/juice-saft/sodavand/sodavand-citrus	/dagligvarer/juice-saft/sodavand/sodavand-passion	/dagligvarer/juice-saft/sodavand/sodavand-rhubarb	/dagligvarer/juice-saft/sodavand/iste-mint-tea	/dagligvarer/juice-saft/sodavand/iste-rooibos-tea	/dagligvarer/juice-saft/sodavand/naturfrisk-lemon	/dagligvarer/juice-saft/sodavand/sodavand-berries	/dagligvarer/juice-saft/sodavand/naturfrisk-ginger-beer	/dagligvarer/juice-saft/sodavand/naturfrisk-tonic	/dagligvarer/juice-saft/sodavand/sodavand-elderflower	/dagligvarer/juice-saft/sodavand/naturfrisk-appelsin-25-cl	/dagligvarer/juice-saft/sodavand/naturfrisk-hindbarbrus	/dagligvarer/juice-saft/sodavand/naturfrisk-hyldebrus	/dagligvarer/juice-saft/sodavand/naturfrisk-ginger-ale	/dagligvarer/juice-saft/sodavand/naturfrisk-sportsbrus	/dagligvarer/juice-saft/sodavand/naturfrisk-cola-cool	/dagligvarer/juice-saft/sodavand/sodavand-ingefar
+parce_urls: <GET https://www.aarstiderne.com/dagligvarer/juice-saft/sodavand/sodavand-ingefar> to: parse_product_details_pages
+------------------------------------------------------------ END
+
+START ------------------------------------------------------------
+Function: parse_product_subcategory_pages with url: <200 https://www.aarstiderne.com/dagligvarer/groent/basisgront>
+	/dagligvarer/groent/basisgront/agurk-250-300-g	/dagligvarer/groent/basisgront/avocadoposen	/dagligvarer/groent/basisgront/roedpeberfrugtposen-stor	/dagligvarer/groent/basisgront/kiselkassen	/dagligvarer/groent/basisgront/guacamoleposen	/dagligvarer/groent/basisgront/bladsellerikassen	/dagligvarer/groent/basisgront/den-lille-tomatkasse	/dagligvarer/groent/basisgront/140068-kaalkassen	/dagligvarer/groent/basisgront/loegposen	/dagligvarer/groent/basisgront/svampekassen-1-kg	/dagligvarer/groent/basisgront/dogmekassen	/dagligvarer/groent/basisgront/efterarsgrontkassen	/dagligvarer/groent/basisgront/lille-gnavegroentkassen	/dagligvarer/groent/basisgront/snackagurk-3-stk	/dagligvarer/groent/basisgront/pimento-padron	/dagligvarer/groent/basisgront/snackpeber-mix	/dagligvarer/groent/basisgront/avocado-bacon-umoden-2-stk	/dagligvarer/groent/basisgront/avocado-formodnet-2-stk	/dagligvarer/groent/basisgront/avocado-umoden-2-stk	/dagligvarer/groent/basisgront/gron-peberfrugt	/dagligvarer/groent/basisgront/peberfrugt-gul-2-stk	/dagligvarer/groent/basisgront/peberfrugt-palermo-rod-2-stk	/dagligvarer/groent/basisgront/peberfrugt-rod-2-stk
+parce_urls: <GET https://www.aarstiderne.com/dagligvarer/groent/basisgront/peberfrugt-rod-2-stk> to: parse_product_details_pages
+------------------------------------------------------------ END
+
+START ------------------------------------------------------------
+Function: parse_product_subcategory_pages with url: <200 https://www.aarstiderne.com/dagligvarer/plantebaseret/frisk-pasta-polenta>
+	/dagligvarer/plantebaseret/frisk-pasta-polenta/veganske-dumplings	/dagligvarer/plantebaseret/frisk-pasta-polenta/frisk-gnochetti	/dagligvarer/plantebaseret/frisk-pasta-polenta/polenta-forkogt
+parce_urls: <GET https://www.aarstiderne.com/dagligvarer/plantebaseret/frisk-pasta-polenta/polenta-forkogt> to: parse_product_details_pages
+------------------------------------------------------------ END
+
+START ------------------------------------------------------------
+Function: parse_product_subcategory_pages with url: <200 https://www.aarstiderne.com/dagligvarer/juice-saft/saft-lemonade>
+	/dagligvarer/juice-saft/saft-lemonade/hyldeblomstdrik	/dagligvarer/juice-saft/saft-lemonade/lemonade-stk	/dagligvarer/juice-saft/saft-lemonade/lemonade-6-fl	/dagligvarer/juice-saft/saft-lemonade/tranebarsaft
+parce_urls: <GET https://www.aarstiderne.com/dagligvarer/juice-saft/saft-lemonade/tranebarsaft> to: parse_product_details_pages
+------------------------------------------------------------ END
+
+START ------------------------------------------------------------
+Function: parse_product_subcategory_pages with url: <200 https://www.aarstiderne.com/dagligvarer/husholdning-grej/baby-born>
+	/dagligvarer/husholdning-grej/baby-born/bleer-str-n	/dagligvarer/husholdning-grej/baby-born/bleer-str-1	/dagligvarer/husholdning-grej/baby-born/bleer-str-2	/dagligvarer/husholdning-grej/baby-born/bleer-str-3	/dagligvarer/husholdning-grej/baby-born/bleer-str-4	/dagligvarer/husholdning-grej/baby-born/bleer-str-5	/dagligvarer/husholdning-grej/baby-born/vadservietter	/dagligvarer/husholdning-grej/baby-born/ammeindlag
+parce_urls: <GET https://www.aarstiderne.com/dagligvarer/husholdning-grej/baby-born/ammeindlag> to: parse_product_details_pages
+------------------------------------------------------------ END
+
+START ------------------------------------------------------------
+Function: parse_product_subcategory_pages with url: <200 https://www.aarstiderne.com/dagligvarer/husholdning-grej/borddaekning>
+	/dagligvarer/husholdning-grej/borddaekning/skal-o15-cm-groen	/dagligvarer/husholdning-grej/borddaekning/krus-m-hank-groen	/dagligvarer/husholdning-grej/borddaekning/krus-m-hank-gul	/dagligvarer/husholdning-grej/borddaekning/skal-o15-cm-gul	/dagligvarer/husholdning-grej/borddaekning/fad-o34-cm-groen	/dagligvarer/husholdning-grej/borddaekning/tallerken-o19-cm-groen	/dagligvarer/husholdning-grej/borddaekning/tallerken-o27-cm-groen
+parce_urls: <GET https://www.aarstiderne.com/dagligvarer/husholdning-grej/borddaekning/tallerken-o27-cm-groen> to: parse_product_details_pages
+------------------------------------------------------------ END
+
+START ------------------------------------------------------------
+Function: parse_product_subcategory_pages with url: <200 https://www.aarstiderne.com/dagligvarer/frugt/baer-druer>
+	/dagligvarer/frugt/baer-druer/druer-gronne-stenfri	/dagligvarer/frugt/baer-druer/druer-rode-stenfri	/dagligvarer/frugt/baer-druer/druer-gron-rod-stenfri
+parce_urls: <GET https://www.aarstiderne.com/dagligvarer/frugt/baer-druer/druer-gron-rod-stenfri> to: parse_product_details_pages
+------------------------------------------------------------ END
+
+START ------------------------------------------------------------
+Function: parse_product_subcategory_pages with url: <200 https://www.aarstiderne.com/dagligvarer/frugt/blandede-frugtkasser>
+	/dagligvarer/frugt/blandede-frugtkasser/avlernes-frugtkasse	/dagligvarer/frugt/blandede-frugtkasser/juice-selv-abler	/dagligvarer/frugt/blandede-frugtkasser/frugtkassen	/dagligvarer/frugt/blandede-frugtkasser/stor-frugtkasse	/dagligvarer/frugt/blandede-frugtkasser/ekstra-stor-frugtkasse	/dagligvarer/frugt/blandede-frugtkasser/den-groenne-frugtkasse	/dagligvarer/frugt/blandede-frugtkasser/mixkassen	/dagligvarer/frugt/blandede-frugtkasser/eksotisk-frugtkasse	/dagligvarer/frugt/blandede-frugtkasser/stor-mixkasse
+parce_urls: <GET https://www.aarstiderne.com/dagligvarer/frugt/blandede-frugtkasser/stor-mixkasse> to: parse_product_details_pages
+------------------------------------------------------------ END
+
+START ------------------------------------------------------------
+Function: parse_product_subcategory_pages with url: <200 https://www.aarstiderne.com/dagligvarer/plantebaseret/smorbart>
+	/dagligvarer/plantebaseret/smorbart/hummus-200-g	/dagligvarer/plantebaseret/smorbart/tapenade-af-artiskokker-185-g	/dagligvarer/plantebaseret/smorbart/plantepostej	/dagligvarer/plantebaseret/smorbart/pesto-rosso	/dagligvarer/plantebaseret/smorbart/oliventapenade-200-g	/dagligvarer/plantebaseret/smorbart/harissa	/dagligvarer/plantebaseret/smorbart/hummus	/dagligvarer/plantebaseret/smorbart/remoulade-vegansk	/dagligvarer/plantebaseret/smorbart/pesto-siciliano
+parce_urls: <GET https://www.aarstiderne.com/dagligvarer/plantebaseret/smorbart/pesto-siciliano> to: parse_product_details_pages
+------------------------------------------------------------ END
+
+START ------------------------------------------------------------
+Function: parse_product_subcategory_pages with url: <200 https://www.aarstiderne.com/dagligvarer/plantebaseret/plantedrikke>
+	/dagligvarer/plantebaseret/plantedrikke/plantedrik	/dagligvarer/plantebaseret/plantedrikke/mandeldrik-usodet-gf-vegan-1-l	/dagligvarer/plantebaseret/plantedrikke/havredrik-barista	/dagligvarer/plantebaseret/plantedrikke/risdrik-natural	/dagligvarer/plantebaseret/plantedrikke/havre-cuisine	/dagligvarer/plantebaseret/plantedrikke/ris-cuisine	/dagligvarer/plantebaseret/plantedrikke/soja-cuisine	/dagligvarer/plantebaseret/plantedrikke/syrnet-kokos-naturel	/dagligvarer/plantebaseret/plantedrikke/syrnet-kokos-citro-berga	/dagligvarer/plantebaseret/plantedrikke/syrnet-kokos-mango-marac	/dagligvarer/plantebaseret/plantedrikke/syrnet-kokos-morke-bar	/dagligvarer/plantebaseret/plantedrikke/syrnet-havre-naturel	/dagligvarer/plantebaseret/plantedrikke/syrnet-havre-blaba-vanil	/dagligvarer/plantebaseret/plantedrikke/syrnet-havre-fersk-passi	/dagligvarer/plantebaseret/plantedrikke/syrnet-cashew-naturel
+parce_urls: <GET https://www.aarstiderne.com/dagligvarer/plantebaseret/plantedrikke/syrnet-cashew-naturel> to: parse_product_details_pages
+------------------------------------------------------------ END
+
+START ------------------------------------------------------------
+Function: parse_product_subcategory_pages with url: <200 https://www.aarstiderne.com/dagligvarer/husholdning-grej/personlig-pleje>
+	/dagligvarer/husholdning-grej/personlig-pleje/bodywash-meraki	/dagligvarer/husholdning-grej/personlig-pleje/bodylotion-meraki	/dagligvarer/husholdning-grej/personlig-pleje/shampoo-yroli	/dagligvarer/husholdning-grej/personlig-pleje/conditioner-yroli	/dagligvarer/husholdning-grej/personlig-pleje/handsabe-meraki	/dagligvarer/husholdning-grej/personlig-pleje/handsabe-rosmarin	/dagligvarer/husholdning-grej/personlig-pleje/haandsaebe-citrus	/dagligvarer/husholdning-grej/personlig-pleje/handcreme-meraki	/dagligvarer/husholdning-grej/personlig-pleje/bambustandborste-voksen	/dagligvarer/husholdning-grej/personlig-pleje/bambustandborste-barn	/dagligvarer/husholdning-grej/personlig-pleje/menstruationskop-a	/dagligvarer/husholdning-grej/personlig-pleje/menstruationskop-b	/dagligvarer/husholdning-grej/personlig-pleje/hygiejnebind-normal	/dagligvarer/husholdning-grej/personlig-pleje/hygiejnebind-nat	/dagligvarer/husholdning-grej/personlig-pleje/tamponer	/dagligvarer/husholdning-grej/personlig-pleje/ammeindlag
+parce_urls: <GET https://www.aarstiderne.com/dagligvarer/husholdning-grej/personlig-pleje/ammeindlag> to: parse_product_details_pages
+------------------------------------------------------------ END
+
+START ------------------------------------------------------------
+Function: parse_product_subcategory_pages with url: <200 https://www.aarstiderne.com/dagligvarer/frugt/eksotiske-frugter>
+	/dagligvarer/frugt/eksotiske-frugter/dragefrugt	/dagligvarer/frugt/eksotiske-frugter/dragefrugter-i-kasse	/dagligvarer/frugt/eksotiske-frugter/figner-friske-250-g	/dagligvarer/frugt/eksotiske-frugter/friske-figner-2-kg	/dagligvarer/frugt/eksotiske-frugter/bananer-farve-3-5-stk	/dagligvarer/frugt/eksotiske-frugter/eksotisk-frugtkasse	/dagligvarer/frugt/eksotiske-frugter/cherimoya-1-stk	/dagligvarer/frugt/eksotiske-frugter/mangoposen	/dagligvarer/frugt/eksotiske-frugter/kokosnod	/dagligvarer/frugt/eksotiske-frugter/ananas	/dagligvarer/frugt/eksotiske-frugter/passionsfrugter-4stk	/dagligvarer/frugt/eksotiske-frugter/kiwi-4-stk	/dagligvarer/frugt/eksotiske-frugter/rode-kiwibar	/dagligvarer/frugt/eksotiske-frugter/mango-300-360-g	/dagligvarer/frugt/eksotiske-frugter/granatable
+parce_urls: <GET https://www.aarstiderne.com/dagligvarer/frugt/eksotiske-frugter/granatable> to: parse_product_details_pages
+------------------------------------------------------------ END
+
+START ------------------------------------------------------------
+Function: parse_product_subcategory_pages with url: <200 https://www.aarstiderne.com/dagligvarer/frugt/citrusfrugter>
+	/dagligvarer/frugt/citrusfrugter/clementiner-mioro	/dagligvarer/frugt/citrusfrugter/appelsinposen	/dagligvarer/frugt/citrusfrugter/clementiner-i-net-1-kg	/dagligvarer/frugt/citrusfrugter/appelsiner-4-stk	/dagligvarer/frugt/citrusfrugter/sweetie-250-300-g-2-stk	/dagligvarer/frugt/citrusfrugter/grapefrugter-2-stk	/dagligvarer/frugt/citrusfrugter/citroner-gron	/dagligvarer/frugt/citrusfrugter/citronposen	/dagligvarer/frugt/citrusfrugter/yuzu-180-g	/dagligvarer/frugt/citrusfrugter/lime-3-stk	/dagligvarer/frugt/citrusfrugter/bergamotte	/dagligvarer/frugt/citrusfrugter/clementinkassen	/dagligvarer/frugt/citrusfrugter/citroner
+parce_urls: <GET https://www.aarstiderne.com/dagligvarer/frugt/citrusfrugter/citroner> to: parse_product_details_pages
+------------------------------------------------------------ END
+
+START ------------------------------------------------------------
+Function: parse_product_subcategory_pages with url: <200 https://www.aarstiderne.com/dagligvarer/plantebaseret/fars-boffer-tofu>
+	/dagligvarer/plantebaseret/fars-boffer-tofu/falafelfars-m-squash	/dagligvarer/plantebaseret/fars-boffer-tofu/gf-falafelmix	/dagligvarer/plantebaseret/fars-boffer-tofu/vegansk-dellefars	/dagligvarer/plantebaseret/fars-boffer-tofu/veganske-frikadeller	/dagligvarer/plantebaseret/fars-boffer-tofu/svampeboffer	/dagligvarer/plantebaseret/fars-boffer-tofu/tofu-naturel	/dagligvarer/plantebaseret/fars-boffer-tofu/tofu-chili-citrongras	/dagligvarer/plantebaseret/fars-boffer-tofu/veganske-burgerboffer	/dagligvarer/plantebaseret/fars-boffer-tofu/tofu-roget	/dagligvarer/plantebaseret/fars-boffer-tofu/tempeh-classic	/dagligvarer/plantebaseret/fars-boffer-tofu/tempeh-roget	/dagligvarer/plantebaseret/fars-boffer-tofu/tampeh-teriyaki	/dagligvarer/plantebaseret/fars-boffer-tofu/tampeh-koreansk	/dagligvarer/plantebaseret/fars-boffer-tofu/dild-dellen
+parce_urls: <GET https://www.aarstiderne.com/dagligvarer/plantebaseret/fars-boffer-tofu/dild-dellen> to: parse_product_details_pages
+------------------------------------------------------------ END
+
+START ------------------------------------------------------------
+Function: parse_product_subcategory_pages with url: <200 https://www.aarstiderne.com/dagligvarer/juice-saft/juice-most>
+	/dagligvarer/juice-saft/juice-most/frankly-gulerod-appelsin	/dagligvarer/juice-saft/juice-most/frankly-rodbe-able-citron	/dagligvarer/juice-saft/juice-most/frankly-appelsin	/dagligvarer/juice-saft/juice-most/frankly-able	/dagligvarer/juice-saft/juice-most/frankly-juice-m-agurk	/dagligvarer/juice-saft/juice-most/frankly-juice-m-gulerod	/dagligvarer/juice-saft/juice-most/frankly-juice-m-rodbede	/dagligvarer/juice-saft/juice-most/frankly-juice-m-peberfrugt	/dagligvarer/juice-saft/juice-most/frankly-gurkemejeshot-stor	/dagligvarer/juice-saft/juice-most/frankly-ingefar-rodbedeshot-stor	/dagligvarer/juice-saft/juice-most/frankly-ingefarshot-stor	/dagligvarer/juice-saft/juice-most/frankly-ingefarshot-lille	/dagligvarer/juice-saft/juice-most/klementinjuice	/dagligvarer/juice-saft/juice-most/klementinjuice-ks	/dagligvarer/juice-saft/juice-most/appelsinjuice	/dagligvarer/juice-saft/juice-most/appelsinjuice-6fl	/dagligvarer/juice-saft/juice-most/grapefrugtjuice	/dagligvarer/juice-saft/juice-most/grapefrugtjuice-ks	/dagligvarer/juice-saft/juice-most/druejuice	/dagligvarer/juice-saft/juice-most/coteaux-nantais-oko-aeblejuice	/dagligvarer/juice-saft/juice-most/able-hindbarjuice-stk	/dagligvarer/juice-saft/juice-most/able-blabarjuice-stk	/dagligvarer/juice-saft/juice-most/able-solbarjuice-stk	/dagligvarer/juice-saft/juice-most/ablebrus	/dagligvarer/juice-saft/juice-most/aeblejuice-med-brus	/dagligvarer/juice-saft/juice-most/able-blabarbrus	/dagligvarer/juice-saft/juice-most/aeble-blaabaerjuice-med-brus	/dagligvarer/juice-saft/juice-most/able-hindbarbrus	/dagligvarer/juice-saft/juice-most/aeble-hindbaer-juice-med-brus	/dagligvarer/juice-saft/juice-most/allesoe-aeblemost	/dagligvarer/juice-saft/juice-most/dansk-aeblemost-3-l	/dagligvarer/juice-saft/juice-most/tomatjuice-1-l	/dagligvarer/juice-saft/juice-most/frankly-juicekassen
+parce_urls: <GET https://www.aarstiderne.com/dagligvarer/juice-saft/juice-most/frankly-juicekassen> to: parse_product_details_pages
 ------------------------------------------------------------ END
