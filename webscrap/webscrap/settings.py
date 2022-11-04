@@ -18,21 +18,22 @@ NEWSPIDER_MODULE = 'webscrap.spiders'
 FEEDS = {
     'data.json': {
         'format': 'json', 
-        'overwrite': True,
-        'encoding': 'utf8'},
+        'overwrite': False,
+        'encoding': 'UTF-8'},
 
     #'data.html': {
         #'format': 'html', 
         #'overwrite': True,
-        #'encoding': 'utf8'},
+        #'encoding': 'UTF-8'},
 
     'log.jsonlines': {
         'format': 'jsonlines', 
         'overwrite': True,
-        'encoding': 'utf8'}
+        'encoding': 'UTF-8'}
 }
 
-FEED_EXPORT_ENCODING = 'utf-8'
+FEED_EXPORT_ENCODING = 'UTF-8'
+
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent

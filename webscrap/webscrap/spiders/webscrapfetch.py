@@ -9,6 +9,7 @@ from scrapy.selector import Selector
 from scrapy.crawler import CrawlerProcess
 import json
 from urllib.parse import urljoin
+import datetime
 
 def save_to_log_file(file_name, parce_func, start_urls, start_url, parce_urls, parce_to):
     with open(file_name, "a") as flog:
@@ -224,17 +225,19 @@ class ExtractUrls(scrapy.Spider):
             items['Aarstidernes_anbefalers_opskriftens_link']= response.css('div.bundle > header.bundle__header > div.bundle__header--left > p a::attr(href)').getall()
             #yield items
                 
-            request= response.follow( url=nextpage_metadata_link, callback=self.parse_product_company_metadata_pages ) # Output will be: <GET https://www.aarstiderne.com/om-aarstiderne> (referer: None)
+            request= response.follow( url=nextpage_metadata_link, callback=self.parse_product_company_metadata_pages_1 ) # Output will be: <GET https://www.aarstiderne.com/om-aarstiderne> (referer: None)
             request.meta['items'] = items #By calling .meta, we can pass our item object into the callback.
 
             yield request
 
         # Save information to log file and print print
-        save_to_log_file('log.jsonlines', "parse_aarstidernes_anbefalers_detail_pages", nextpage_metadata_links, response, request, "parse_product_company_metadata_pages")
+        save_to_log_file('log.jsonlines', "parse_aarstidernes_anbefalers_detail_pages", nextpage_metadata_links, response, request, "parse_product_company_metadata_pages_1")
 
-    def parse_product_company_metadata_pages(self, response): # response from <GET https://www.aarstiderne.com/om-aarstiderne> 
+    
+    
+    def parse_product_company_metadata_pages_1(self, response): # response from <GET https://www.aarstiderne.com/om-aarstiderne> 
         # link for going to next pages
-        nextpage_finalpage_links = ['/om-aarstiderne/innovation-og-produktudvikling']
+        nextpage_finalpage_links = ['/om-aarstiderne/baeredygtighed-og-miljoe']
         #['/om-aarstiderne/baeredygtighed-og-miljoe', '/om-aarstiderne/innovation-og-produktudvikling'] # use how to select multiple nth in css selector
         # response.css('div.products-bg > section > article > nav > div:nth-child(4-5) > a::attr(href)').getall() 
         # # Output will be: ['/om-aarstiderne/baeredygtighed-og-miljoe', '/om-aarstiderne/innovation-og-produktudvikling']
@@ -243,12 +246,51 @@ class ExtractUrls(scrapy.Spider):
 
         for nextpage_finalpage_link in nextpage_finalpage_links:
             items['Aarstidernes_kundeløfters']= response.css('ol.footer-promises__list  li::text').getall()
-            items['Aarstidernes_innovation_ogproduktudvikling']= response.css('div.products-bg > section > article > nav > div:nth-child(5) > a::attr(href)').getall()
-            items['Aarstidernes_innovation_ogproduktudvikling_details']= response.css('div.products-bg > section > article > nav > div:nth-child(5) > a > h3::text').getall()
-            ###items['Aarstidernes_innovation_ogproduktudvikling_details']= response.css('section.article > article > ul li > a > div > div *::text').getall()
-            items['Aarstidernes_bæredygtighed_ogmiljø']= response.css('div.products-bg > section > article > nav > div:nth-child(4) > a::attr(href)').getall() #should extract with chaining
-            items['Aarstidernes_ibæredygtighed_ogmiljø_details']= response.css('div.products-bg > section > article > nav > div:nth-child(4) > a > h3::text').getall()
-            ###items['Aarstidernes_ibæredygtighed_ogmiljø_details']= response.css('section.article > article > ul li > a > div > div *::text').getall()
+                
+            request= response.follow( url=nextpage_finalpage_link, callback=self.parse_product_company_metadata_pages_2 ) # Output will be: <GET https://www.aarstiderne.com/om-aarstiderne/baeredygtighed-og-miljoe> (referer: None)
+            request.meta['items'] = items #By calling .meta, we can pass our item object into the callback.
+            yield request
+        
+        # Save information to log file and print print
+        save_to_log_file('log.jsonlines', "parse_product_company_metadata_pages_1", nextpage_finalpage_links, response, request, "parse_product_company_metadata_pages_2")
+
+
+    
+    def parse_product_company_metadata_pages_2(self, response): # response from <GET https://www.aarstiderne.com/om-aarstiderne/baeredygtighed-og-miljoe>
+        # link for going to next pages
+        nextpage_finalpage_links = ['/om-aarstiderne/innovation-og-produktudvikling']
+        
+        items = response.meta['items'] #Get the item we passed from scrape()
+
+        for nextpage_finalpage_link in nextpage_finalpage_links:
+            
+            items['Aarstidernes_bæredygtighed_ogmiljø']= list(map(lambda x: x.strip() , response.css('div.products-bg > section > article > nav div > a > h2 *::text').getall()))
+            items['Aarstidernes_ibæredygtighed_ogmiljø_details']= response.css('div.products-bg > section > article > nav div > a > div *::text').getall()
+
+            #items['Aarstidernes_innovation_ogproduktudvikling']= response.css('section.article > article > ul  li >a > div > h2 *::text').getall()
+            #items['Aarstidernes_innovation_ogproduktudvikling_details']= response.css('section.article > article > ul  li >a > div > div *::text').getall()
+            
+            #yield items
+                
+            request= response.follow( url=nextpage_finalpage_link, callback=self.parse_product_company_metadata_pages_3 ) # Output will be: <GET https://www.aarstiderne.com/om-aarstiderne/innovation-og-produktudvikling> (referer: None)
+            request.meta['items'] = items #By calling .meta, we can pass our item object into the callback.
+            yield request
+        
+        # Save information to log file and print print
+        save_to_log_file('log.jsonlines', "parse_product_company_metadata_pages_2", nextpage_finalpage_links, response, request, "parse_product_company_metadata_pages_3")
+    
+    
+    def parse_product_company_metadata_pages_3(self, response): # response from <GET https://www.aarstiderne.com/om-aarstiderne/innovation-og-produktudvikling>
+        # link for going to next pages
+        nextpage_finalpage_links = ['/om-aarstiderne/baggrund-og-tal/aarstidernes-5-loefter']
+        
+        items = response.meta['items'] #Get the item we passed from scrape()
+
+        for nextpage_finalpage_link in nextpage_finalpage_links:
+
+            items['Aarstidernes_innovation_ogproduktudvikling']= response.css('section.article > article > ul  li >a > div > h2 *::text').getall()
+            items['Aarstidernes_innovation_ogproduktudvikling_details']= response.css('section.article > article > ul  li >a > div > div *::text').getall()
+            
             #yield items
                 
             request= response.follow( url=nextpage_finalpage_link, callback=self.parse_data_save_pages ) # Output will be: <GET https://www.aarstiderne.com/om-aarstiderne/baggrund-og-tal/aarstidernes-5-loefter> (referer: None)
@@ -256,15 +298,16 @@ class ExtractUrls(scrapy.Spider):
             yield request
         
         # Save information to log file and print print
-        save_to_log_file('log.jsonlines', "parse_product_company_metadata_pages", nextpage_finalpage_links, response, request, "parse_data_save_pages")
+        save_to_log_file('log.jsonlines', "parse_product_company_metadata_pages_3", nextpage_finalpage_links, response, request, "parse_data_save_pages")
 
 
+    
     def parse_data_save_pages(self, response): # Response from: <GET https://www.aarstiderne.com/om-aarstiderne/baggrund-og-tal/aarstidernes-5-loefter>
         #Get the item we passed from scrape()
         items = response.meta['items'] 
 
         # Finally save all the yield items to the file
-        json_file= 'data.json'
+        json_file= 'backup.json'
         with open(json_file, "wb") as fout:
             print(items)
             print("*" * 50)
@@ -273,10 +316,10 @@ class ExtractUrls(scrapy.Spider):
             print("It reaches to data saving function-after dump")
             print("Type of items:", type(items))
             #print("Type of Lines:", type(lines)) 
-            #fout.writelines("Start to save data")
-            #fout.writelines(lines)
+            #fout.write("\n" + lines + "\n")
             print("Data has been saved to data.json file")
             print("*" * 50)
+
 
         yield items 
         

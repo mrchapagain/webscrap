@@ -44,11 +44,23 @@ parce_urls: <GET https://www.aarstiderne.com/dagligvarer/anbefalinger/hokkaidosu
 START ------------------------------------------------------------
 Function: parse_aarstidernes_anbefalers_detail_pages with url: <200 https://www.aarstiderne.com/dagligvarer/anbefalinger/hokkaidosuppe>
 	/om-aarstiderne
-parce_urls: <GET https://www.aarstiderne.com/om-aarstiderne> to: parse_product_company_metadata_pages
+parce_urls: <GET https://www.aarstiderne.com/om-aarstiderne> to: parse_product_company_metadata_pages_1
 ------------------------------------------------------------ END
 
 START ------------------------------------------------------------
-Function: parse_product_company_metadata_pages with url: <200 https://www.aarstiderne.com/om-aarstiderne>
+Function: parse_product_company_metadata_pages_1 with url: <200 https://www.aarstiderne.com/om-aarstiderne>
+	/om-aarstiderne/baeredygtighed-og-miljoe
+parce_urls: <GET https://www.aarstiderne.com/om-aarstiderne/baeredygtighed-og-miljoe> to: parse_product_company_metadata_pages_2
+------------------------------------------------------------ END
+
+START ------------------------------------------------------------
+Function: parse_product_company_metadata_pages_2 with url: <200 https://www.aarstiderne.com/om-aarstiderne/baeredygtighed-og-miljoe>
 	/om-aarstiderne/innovation-og-produktudvikling
-parce_urls: <GET https://www.aarstiderne.com/om-aarstiderne/innovation-og-produktudvikling> to: parse_data_save_pages
+parce_urls: <GET https://www.aarstiderne.com/om-aarstiderne/innovation-og-produktudvikling> to: parse_product_company_metadata_pages_3
+------------------------------------------------------------ END
+
+START ------------------------------------------------------------
+Function: parse_product_company_metadata_pages_3 with url: <200 https://www.aarstiderne.com/om-aarstiderne/innovation-og-produktudvikling>
+	/om-aarstiderne/baggrund-og-tal/aarstidernes-5-loefter
+parce_urls: <GET https://www.aarstiderne.com/om-aarstiderne/baggrund-og-tal/aarstidernes-5-loefter> to: parse_data_save_pages
 ------------------------------------------------------------ END

@@ -26,8 +26,15 @@ class WebscrapItem(scrapy.Item):
     product_prices= scrapy.Field()
     product_images= scrapy.Field()
        
-    #Aarstidernes_kundeløfters= scrapy.Field()
-    #Aarstidernes_anbefalers= scrapy.Field()
-    #Aarstidernes_anbefalers_descriptions=scrapy.Field()
-    #Aarstidernes_anbefalers_opskriftens= scrapy.Field()
-    #Aarstidernes_anbefalers_links= scrapy.Field()
+    Aarstidernes_anbefalers= scrapy.Field()
+    Aarstidernes_anbefalers_links= scrapy.Field()
+    #####Aarstidernes_anbefalers_opskriftens_promoimage= scrapy.Field()
+
+    Aarstidernes_anbefalers_descriptions=scrapy.Field()
+    Aarstidernes_anbefalers_opskriftens_link= scrapy.Field()
+    
+    Aarstidernes_kundeløfters= scrapy.Field()
+    Aarstidernes_innovation_ogproduktudvikling= scrapy.Field()
+    Aarstidernes_innovation_ogproduktudvikling_details= scrapy.Field()
+    Aarstidernes_bæredygtighed_ogmiljø = scrapy.Field()
+    Aarstidernes_ibæredygtighed_ogmiljø_details= scrapy.Field()
