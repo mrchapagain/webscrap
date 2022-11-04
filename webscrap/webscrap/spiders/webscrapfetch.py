@@ -189,7 +189,7 @@ class ExtractUrls(scrapy.Spider):
     def parse_aarstidernes_anbefalers_pages(self, response): # Response from: <GET https://www.aarstiderne.com/dagligvarer/anbefalinger> 
         # link for going to next pages
         nextpage_Aarstidernes_anbefalers_links = ['/dagligvarer/anbefalinger/hokkaidosuppe']
-        #response.css('section.bundle-overview > ul> li > a::attr(href)').getall() 
+        #response.css('ul.bundle-overview__list li > a::attr(href)').getall()
         # # Output will be: ['/dagligvarer/anbefalinger/hokkaidosuppe', '/dagligvarer/anbefalinger/pizza-bla-congo', '/dagligvarer/anbefalinger/pizza-sod-kartoffel', '/dagligvarer/anbefalinger/hjemmelavet-frugtyoghurt', '/dagligvarer/anbefalinger/aarstidernes-lemonade', '/dagligvarer/anbefalinger/grillede-log', '/dagligvarer/anbefalinger/arroz-rejer-chorizo', '/dagligvarer/anbefalinger/fladbroed-med-hummus', '/dagligvarer/anbefalinger/svamperisotto', '/dagligvarer/anbefalinger/breakfast-sandwich', '/dagligvarer/anbefalinger/salade-nicoise', '/dagligvarer/anbefalinger/spaghetti-puttanesca', '/dagligvarer/anbefalinger/bibimbap-tempeh-kimchi', '/dagligvarer/anbefalinger/cocktails-gin', '/dagligvarer/anbefalinger/gron-juice', '/dagligvarer/anbefalinger/linsefars', '/dagligvarer/anbefalinger/pakoras', '/dagligvarer/anbefalinger/bag-selv-kit', '/dagligvarer/anbefalinger/bag-selv-rugbrod', '/dagligvarer/anbefalinger/tomatsalat-med-burrata', '/dagligvarer/anbefalinger/okonomiyaki', '/dagligvarer/anbefalinger/omelet-med-krautsalat', '/dagligvarer/anbefalinger/mexi-middag', '/dagligvarer/anbefalinger/sylt-selv-pickles']
         
         items = response.meta['items'] #Get the item we passed from scrape()
@@ -197,8 +197,8 @@ class ExtractUrls(scrapy.Spider):
         for nextpage_Aarstidernes_anbefalers_link in nextpage_Aarstidernes_anbefalers_links:
             ##items = response.meta['items'] #Get the item we passed from scrape()
 
-            items['Aarstidernes_anbefalers']= response.css('ul.bundle-overview__list li::attr(data-alias)').getall()
-            items['Aarstidernes_anbefalers_links']= response.css('ul.bundle-overview__list li > a::attr(href)').getall()
+            items['Aarstidernes_anbefalers_avilable']= response.css('ul.bundle-overview__list li::attr(data-alias)').getall()
+
             #####items['Aarstidernes_anbefalers_opskriftens_promoimage']= response.css('ul.bundle-overview__list li::attr(style)').get() # Output should be like:
             # now: 'background-image: url(/media/2095/jbk_anbefaling_hokkaidosuppe_primaert_2020_3053.jpg?crop=0,0,0,0&cropmode=percentage&width=900&height=675); background-color: #cf6227'
             # shouls be like: https://www.aarstiderne.com/media/2095/jbk_anbefaling_hokkaidosuppe_primaert_2020_3053.jpg
@@ -223,8 +223,11 @@ class ExtractUrls(scrapy.Spider):
 
         for nextpage_metadata_link in nextpage_metadata_links:
             ##items = response.meta['items'] #Get the item we passed from scrape()
-            items['Aarstidernes_anbefalers_descriptions']= response.css('div.bundle__header--left > div.bundle__description > div p::text').getall()
-            items['Aarstidernes_anbefalers_opskriftens_link']= response.css('div.bundle > header.bundle__header > div.bundle__header--left > p a::attr(href)').getall()
+            items['Aarstidernes_anbefaler']= response.css('#main > div > div.bundle > header > div.bundle__header--left > h1::text').get()
+            items['Aarstidernes_anbefalers_description']= response.css('div.bundle__header--left > div.bundle__description > div p::text').getall()
+            items['Aarstidernes_anbefalers_opskriftens_link']= urljoin('https://www.aarstiderne.com', response.css('div.bundle > header.bundle__header > div.bundle__header--left > p a::attr(href)').get()) 
+            items['Aarstidernes_anbefalers_opskriftens_ingredients_list']= response.css('#main > div > div.bundle > div.basket__list  div  > div > div.basket__col-text >a >h3::text').getall()
+            items['Aarstidernes_anbefalers_opskriftens_ingredient']= list(map(lambda x: x.strip() ,response.css('#main > div > div.bundle > div.basket__list > div:nth-child(1) > div > div.basket__col-text *::text').getall()))
             #yield items
                 
             request= response.follow( url=nextpage_metadata_link, callback=self.parse_product_company_metadata_pages_1 ) # Output will be: <GET https://www.aarstiderne.com/om-aarstiderne> (referer: None)
@@ -241,13 +244,14 @@ class ExtractUrls(scrapy.Spider):
         # link for going to next pages
         nextpage_finalpage_links = ['/om-aarstiderne/baeredygtighed-og-miljoe']
         #['/om-aarstiderne/baeredygtighed-og-miljoe', '/om-aarstiderne/innovation-og-produktudvikling'] # use how to select multiple nth in css selector
-        # response.css('div.products-bg > section > article > nav > div:nth-child(4-5) > a::attr(href)').getall() 
+        # response.css('div.products-bg > section > article > nav > div:nth-child(4, 5) > a::attr(href)').getall() 
         # # Output will be: ['/om-aarstiderne/baeredygtighed-og-miljoe', '/om-aarstiderne/innovation-og-produktudvikling']
 
         items = response.meta['items'] #Get the item we passed from scrape()
 
         for nextpage_finalpage_link in nextpage_finalpage_links:
             items['Aarstidernes_kundeløfters']= response.css('ol.footer-promises__list  li::text').getall()
+            items['Aarstidernes_fødevarestrategier_list']= list(map(lambda x: x.strip(), response.css('div.products-bg > section > article > nav  div > a > h2::text').getall()[3:5]))
                 
             request= response.follow( url=nextpage_finalpage_link, callback=self.parse_product_company_metadata_pages_2 ) # Output will be: <GET https://www.aarstiderne.com/om-aarstiderne/baeredygtighed-og-miljoe> (referer: None)
             request.meta['items'] = items #By calling .meta, we can pass our item object into the callback.
@@ -265,7 +269,8 @@ class ExtractUrls(scrapy.Spider):
         items = response.meta['items'] #Get the item we passed from scrape()
 
         for nextpage_finalpage_link in nextpage_finalpage_links:
-            
+
+            items['Aarstidernes_fødevarestrategi'] = response.css('#body > div.products-bg > section > header > h1::text').get()            
             items['Aarstidernes_bæredygtighed_ogmiljø']= list(map(lambda x: x.strip() , response.css('div.products-bg > section > article > nav div > a > h2 *::text').getall()))
             items['Aarstidernes_ibæredygtighed_ogmiljø_details']= response.css('div.products-bg > section > article > nav div > a > div *::text').getall()
 
