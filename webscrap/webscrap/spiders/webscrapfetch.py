@@ -48,7 +48,7 @@ class ExtractUrls(scrapy.Spider):
         # Save information to log file and print print
         save_to_log_file('log.jsonlines', "start_requests", start_urls, 'www.aarstiderne.com', request, "parse_frontpage_to_tabnavigation_page")
     
-    def parse_frontpage_to_tabnavigation_page(self, response):
+    def parse_frontpage_to_tabnavigation_page(self, response): # Response from: <GET https://www.aarstiderne.com>
         # link for going to next pages from top nav-link
         next_page_from_topnavs = ['/dagligvarer'] 
         # response.css('nav.topnav > ul.topnav__list > li > a::attr(href)').getall() 
@@ -58,24 +58,23 @@ class ExtractUrls(scrapy.Spider):
         items= WebscrapItem()
 
         for next_page_from_topnav in next_page_from_topnavs:
-            if next_page_from_topnav == "/dagligvarer":
-                #call back item-dict object for saving data
-                ##items= response.meta['items'] 
+            #call back item-dict object for saving data
+            ##items= response.meta['items'] 
 
-                # start to save data in item-dictionary object
-                items['food_groups']= list(map(lambda x: x.strip() , response.css('nav#topnav > ul > li > a::text').getall()))
-                #yield items
+            # start to save data in item-dictionary object
+            items['food_groups_avilable']= list(map(lambda x: x.strip() , response.css('nav#topnav > ul > li > a::text').getall()))
+            #yield items
     
-                request= response.follow( url=next_page_from_topnav, callback=self.parse_foodgroup_pages ) # output will be: <GET https://www.aarstiderne.com/dagligvarer> (referer: None)
-                request.meta['items'] = items #By calling .meta, we can pass our item object into the callback.
+            request= response.follow( url=next_page_from_topnav, callback=self.parse_foodgroup_pages ) # output will be: <GET https://www.aarstiderne.com/dagligvarer> (referer: None)
+            request.meta['items'] = items #By calling .meta, we can pass our item object into the callback.
 
-                yield request
+            yield request
 
         # Save information to log file and print print
         save_to_log_file('log.jsonlines', "parse_frontpage_to_tabnavigation_page", next_page_from_topnavs, response, request, "parse_foodgroup_pages")
         
     
-    def parse_foodgroup_pages(self, response):
+    def parse_foodgroup_pages(self, response): # Response from: <GET https://www.aarstiderne.com/dagligvarer>
         # link for going to next pages
         nextpage_category_links = ['/dagligvarer/frugt']
         # response.css('div.prd-cats-nav__lst a::attr(href)').getall() 
@@ -96,8 +95,9 @@ class ExtractUrls(scrapy.Spider):
             ##items= response.meta['items'] 
 
             # save data to item objects
-            items['food_categories']= response.css('section.prd-cats-nav > div.prd-cats-nav__lst a > h3::text').getall()
-            items['food_images']= response.css('section.prd-cats-nav > div.prd-cats-nav__lst > a > img::attr(src)').getall()
+            items['food_group']= response.css('section.products-banner > div > div.products-banner__texts > h1::text').getall()
+            items['food_categories_avilable']= response.css('#main > div.products-container > section.prd-cats-nav > div.prd-cats-nav__lst a > h3::text').getall()
+            items['food_categories_images']= response.css('#main > div.products-container > section.prd-cats-nav > div.prd-cats-nav__lst > a > img::attr(src)').getall()
             #yield items
  
             request= response.follow( url=nextpage_category_link, callback=self.parse_product_category_pages ) # output will be: <GET https://www.aarstiderne.com/dagligvarer/frugt> (referer: None)
@@ -109,7 +109,7 @@ class ExtractUrls(scrapy.Spider):
         save_to_log_file('log.jsonlines', "parse_foodgroup_pages", nextpage_category_links, response, request, "parse_product_category_pages")
 
     
-    def parse_product_category_pages(self, response):
+    def parse_product_category_pages(self, response): # Responsefrom <GET https://www.aarstiderne.com/dagligvarer/frugt>
         # link for going to next pages
         nextpage_product_subcategory_links = ['/dagligvarer/frugt/frugtkasser']
         #response.css('div.products > div.category-slider > a::attr(href)').getall() 
@@ -119,7 +119,8 @@ class ExtractUrls(scrapy.Spider):
         for nextpage_product_subcategory_link in nextpage_product_subcategory_links:#[1:]
             ##items = response.meta['items'] #Get the item we passed from scrape()
             # save data to item objects
-            items['food_sub_categories']= response.css('div.products > div.category-slider > a::text').getall()
+            items['food_categorie']= response.css('#main > div > div.products > h1::text').get()
+            items['food_sub_categories_avilable']= response.css('div.products > div.category-slider > a::text').getall()
             #yield items
 
             request= response.follow( url=nextpage_product_subcategory_link, callback=self.parse_product_subcategory_pages ) # Output will be: <GET https://www.aarstiderne.com/dagligvarer/frugt/frugtkasser> (referer: None)
@@ -131,7 +132,7 @@ class ExtractUrls(scrapy.Spider):
         save_to_log_file('log.jsonlines', "parse_product_category_pages", nextpage_product_subcategory_links, response, request, "parse_product_subcategory_pages")
 
 
-    def parse_product_subcategory_pages(self, response):
+    def parse_product_subcategory_pages(self, response): # Response from: <GET https://www.aarstiderne.com/dagligvarer/frugt/frugtkasser>
         # link for going to next pages
         nextpage_product_detail_links = ['/dagligvarer/frugt/frugtkasser/dragefrugter-i-kasse']
         #response.css('main#main > div > div.products > div.product-sections > section > a::attr(href)').getall() 
@@ -141,7 +142,8 @@ class ExtractUrls(scrapy.Spider):
 
         for nextpage_product_detail_link in nextpage_product_detail_links:
             ##items = response.meta['items'] #Get the item we passed from scrape()
-            items['product_names']= response.css('div.product-sections > section.product-list > a > div.product-list__layout > header > h2::text').getall()
+            items['food_sub_categorie']= response.css('#main > div > div.products > div.category-slider > a.category-slider__item.selected::text').get()
+            items['product_names_avilable']= response.css('#main > div > div.products > div.product-sections > section  a > div.product-list__layout > header > h2::text').getall()
             #yield items
                  
             request= response.follow( url=nextpage_product_detail_link, callback=self.parse_product_details_pages ) # Output will be: <GET https://www.aarstiderne.com/dagligvarer/frugt/frugtkasser/dragefrugter-i-kasse> (referer: None)
@@ -164,13 +166,13 @@ class ExtractUrls(scrapy.Spider):
         for nextpage_Aarstidernes_anbefalers_link in nextpage_Aarstidernes_anbefalers_links:
             ##items = response.meta['items'] #Get the item we passed from scrape()
             # start to saving dat in items object
-            items['product_names_tocheck']= response.css('div.products > div > div.product-details__actions > div > header > h1::text').get()
-            items['product_amounts']= response.css('div.products > div > div.product-details__actions > div > div:nth-child(4) >p::text').get()
-            items['product_short_descriptions']= response.css('div.products > div > div.product-details__actions > div > div:nth-child(5) > p > span::text').get()
-            items['product_descriptions']= response.css('div#product-details-section-description > div > div:nth-child(3) > p:nth-child(2)::text').get()
-            items['product_aboutproducts']= response.css('div#product-details-section-description > div > div:nth-child(3) > *::text').getall() 
-            items['product_prices']= response.css('div.product-list__layout > div.product-list__numbers > span:nth-child(1) > span.price::text').extract()
-            items['product_images']= response.css('div#product-details-section-description > div > div.product-details__image > img::attr(src)').get()
+            items['product_name']= response.css('div.products > div > div.product-details__actions > div > header > h1::text').get()
+            items['product_amount']= response.css('div.products > div > div.product-details__actions > div > div:nth-child(4) >p::text').get()
+            items['product_short_description']= response.css('div.products > div > div.product-details__actions > div > div:nth-child(5) > p > span::text').get()
+            items['product_description']= response.css('div#product-details-section-description > div > div:nth-child(3) > p:nth-child(2)::text').get()
+            items['product_aboutproduct']= response.css('div#product-details-section-description > div > div:nth-child(3) > *::text').getall() 
+            items['product_price']= response.css('#main > div > div > div.products > div > div.product-details__actions > div > div.product-details__action-jackson > div.product-details__prices > div:nth-child(1) > span.price::text').get()
+            items['product_image']= response.css('div#product-details-section-description > div > div.product-details__image > img::attr(src)').get()
             #yield items
             
             

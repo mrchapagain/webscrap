@@ -7,18 +7,24 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
+
+
 BOT_NAME = 'webscrap'
 
 SPIDER_MODULES = ['webscrap.spiders']
 NEWSPIDER_MODULE = 'webscrap.spiders'
 
 #Export as JSON Feed
-#FEED_FORMAT = "json"
-#FEED_URI = "data.json"
+FEED_FORMAT = "json"
+FEED_URI = "data.json"
+
 FEEDS = {
     'data.json': {
         'format': 'json', 
         'overwrite': False,
+        #'indent': 4,
+        #'store_empty': True,
+        #'fields': None,
         'encoding': 'UTF-8'},
 
     #'data.html': {

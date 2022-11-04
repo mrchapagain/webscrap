@@ -9,22 +9,25 @@ import scrapy
 class WebscrapItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    food_groups= scrapy.Field()
-
-    food_categories= scrapy.Field()
-    food_images= scrapy.Field()
-
-    food_sub_categories= scrapy.Field()
+    food_groups_avilable= scrapy.Field()
     
-    product_names= scrapy.Field()
+    food_group= scrapy.Field()
+    food_categories_avilable= scrapy.Field()
+    food_categories_images= scrapy.Field()
 
-    product_names_tocheck= scrapy.Field()
-    product_amounts= scrapy.Field()
-    product_short_descriptions= scrapy.Field()
-    product_descriptions= scrapy.Field()
-    product_aboutproducts= scrapy.Field()
-    product_prices= scrapy.Field()
-    product_images= scrapy.Field()
+    food_categorie= scrapy.Field()
+    food_sub_categories_avilable= scrapy.Field()
+    
+    food_sub_categorie= scrapy.Field()
+    product_names_avilable= scrapy.Field()
+
+    product_name= scrapy.Field()
+    product_amount= scrapy.Field()
+    product_short_description= scrapy.Field()
+    product_description= scrapy.Field()
+    product_aboutproduct= scrapy.Field()
+    product_price= scrapy.Field()
+    product_image= scrapy.Field()
        
     Aarstidernes_anbefalers= scrapy.Field()
     Aarstidernes_anbefalers_links= scrapy.Field()
