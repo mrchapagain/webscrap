@@ -1,86 +1,87 @@
-START ************************* New data started to register at: 2022-11-04 22:26:39.642268 *************************
+START ************************* New data started to register at: 2022-11-07 20:56:01.929644 *************************
 {
-	"food_groups_avilable": [
-		"M\u00e5ltidskasser",
-		"V\u00e6lg-Selv Retter",
-		"Dagligvarer",
-		"Jul",
-		"Mortensaften"
-	],
-	"food_group": [
-		"Dagligvarer"
-	],
-	"food_categories_avilable": [
-		"Frugt",
-		"Gr\u00f8nt",
-		"Plantebaseret",
-		"K\u00f8d & Fisk",
-		"Mejeri",
-		"Br\u00f8d",
-		"Kolonial",
-		"Snacks & S\u00f8de sager",
-		"Juice, Saft & Sodavand",
-		"\u00d8l, Vin & Spiritus",
-		"Husholdning & Grej",
-		"B\u00f8ger"
-	],
-	"food_categories_images": [
-		"https://assetsv2.aarstiderne.com/pim/category/frugt-2738-90-90-50.PNG",
-		"https://assetsv2.aarstiderne.com/pim/category/groent-2739-90-90-50.PNG",
-		"https://assetsv2.aarstiderne.com/pim/category/plantebaseret-2744-90-90-50.PNG",
-		"https://assetsv2.aarstiderne.com/pim/category/koed-fisk-2741-90-90-50.PNG",
-		"https://assetsv2.aarstiderne.com/pim/category/mejeri-2742-90-90-50.PNG",
-		"https://assetsv2.aarstiderne.com/pim/category/broed-2737-90-90-50.PNG",
-		"https://assetsv2.aarstiderne.com/pim/category/kolonial-2740-90-90-50.PNG",
-		"https://assetsv2.aarstiderne.com/pim/category/snacks-soede-sager-3510-90-90-50.PNG",
-		"https://assetsv2.aarstiderne.com/pim/category/juice-saft-2749-90-90-50.PNG",
-		"https://assetsv2.aarstiderne.com/pim/category/oel-vin-2747-90-90-50.PNG",
-		"https://assetsv2.aarstiderne.com/pim/category/husholdning-grej-2748-90-90-50.PNG",
-		"https://assetsv2.aarstiderne.com/pim/category/boger-2751-90-90-50.PNG"
-	],
-	"food_categorie": "Frugt",
-	"food_sub_categories_avilable": [
-		"Alle",
-		"Frugtkasser",
-		"\u00c6bler, p\u00e6rer & bananer",
-		"B\u00e6r & druer",
-		"Citrusfrugter",
-		"Eksotiske frugter",
-		"Store frugtkasser"
-	],
-	"food_sub_categorie": "Frugtkasser",
-	"product_names_avilable": [
-		"Dragefrugter i kasse",
-		"Friske figner i kasse",
-		"Avlernes FrugtKasse",
-		"\u00c6bleKassen",
-		"Fej\u00f8Kassen",
-		"AppelsinPosen",
-		"Eksotisk FrugtKasse",
-		"MangoPosen",
-		"CitronPosen",
-		"ClementinKassen"
-	],
-	"product_name": "Dragefrugter i kasse",
-	"product_amount": null,
-	"product_short_description": "Tropiske frugter, ogs\u00e5 kendt som 'pitahaya', dyrket i Spanien",
-	"product_description": "\u00d8kologiske dragefrugter fra Spanien i kasse, min. 1,5 kg.",
-	"product_aboutproduct": [
-		"Om varen",
-		"\u00d8kologiske dragefrugter fra Spanien i kasse, min. 1,5 kg.",
-		"Med sin markante lyser\u00f8de farve og gr\u00f8nne, flammelignende blade ligner dragefrugten n\u00e6sten noget fra et eventyr. Indeni er den bl\u00f8d, s\u00f8d, mild og saftig, og smager lidt som en mellemting mellem en p\u00e6re og en kiwi.\u00a0",
-		"Pitahaya-planten stammer oprindeligt fra Mellemamerika, og dyrkes i dag overvejende i Syd\u00f8stasien og Australien. Derfor er vi ogs\u00e5 ekstra stolte af\u00a0at kunne hente \u00f8kologiske dragefrugter hjem fra det sydlige Spanien\u00a0\u2013 n\u00e6rmere bestemt Andalusien, hvor vores gode ven Pepe Montiel og hans barnebarn Javier dyrker\u00a0dragefrugter\u00a0side om side med andre eksotiske godter som papaya og passionsfrugter.\u00a0",
-		"Pepe og Javier dyrker flere forskellige sorter af 'pitahaya', og du finder b\u00e5de frugter med hvidt, m\u00f8rke- og lyser\u00f8dt frugtk\u00f8d i din kasse (alle tre smager fantastisk, skulle vi hilse og sige!).",
-		"Anvendelse",
-		"Dragefrugter har absolut mest smag, n\u00e5r de yderste blade p\u00e5 frugten er ved at blive t\u00f8rre. Er bladene helt friske og gr\u00f8nne, n\u00e5r du modtager frugten, s\u00e5 vent en dag eller to med at spise den.",
-		"Selve frugten er utroligt nem at spise: Bare halver frugten p\u00e5 langs, sk\u00e6r to snit p\u00e5 kryds ned i frugtk\u00f8det, \"vip\" frugten op og fri af sin skal, og spis!",
-		"Ellers er dragefrugter ogs\u00e5 gode i smoothies, bowls, frugtsalater og andre desserter, ligesom de kan bruges i salsaer og salater.",
-		"Opbevaring",
-		"Kan opbevares p\u00e5 k\u00f8kkenbordet. Helt modne dragefrugter b\u00f8r opbevares p\u00e5 k\u00f8l."
-	],
-	"product_price": "195",
-	"product_image": "https://assetsv2.aarstiderne.com/product/dragefrugter-i-kasse-3712-750-750-30.PNG",
-	"Aarstidernes_anbefalers_avilable": [
+	"time_stamp": "2022-11-07 20:55:53.346644",
+	"site_details": {
+		"name_of_site": "Astdn",
+		"food_groups_avilable": [
+			"M\u00e5ltidskasser",
+			"V\u00e6lg-Selv Retter",
+			"Dagligvarer",
+			"Jul"
+		]
+	},
+	"food_groups_details": {
+		"food_group_navn": [
+			"Dagligvarer"
+		],
+		"food_categories_avilable": [
+			"Frugt",
+			"Gr\u00f8nt",
+			"Plantebaseret",
+			"K\u00f8d & Fisk",
+			"Mejeri",
+			"Br\u00f8d",
+			"Kolonial",
+			"Snacks & S\u00f8de sager",
+			"Juice, Saft & Sodavand",
+			"\u00d8l, Vin & Spiritus",
+			"Husholdning & Grej",
+			"B\u00f8ger"
+		]
+	},
+	"food_categories_details": {
+		"food_categories_navn": "Frugt",
+		"food_categories_images_url": "https://assetsv2.aarstiderne.com/pim/category/frugt-2738-90-90-50.PNG",
+		"food_categories_images_file": "frugt-2738-90-90-50.PNG",
+		"food_categories_images_download": "frugt-2738-90-90-50.PNG",
+		"food_sub_categories_avilable": [
+			"Alle",
+			"Frugtkasser",
+			"\u00c6bler, p\u00e6rer & bananer",
+			"B\u00e6r & druer",
+			"Citrusfrugter",
+			"Eksotiske frugter",
+			"Store frugtkasser"
+		]
+	},
+	"food_sub_categories_details": {
+		"food_sub_categorie_navn": "Frugtkasser",
+		"product_details_avilable": [
+			"Dragefrugter i kasse",
+			"Friske figner i kasse",
+			"Avlernes FrugtKasse",
+			"\u00c6bleKassen",
+			"Fej\u00f8Kassen",
+			"CitrusKassen",
+			"AppelsinPosen",
+			"ClementinKassen",
+			"Eksotisk FrugtKasse",
+			"MangoPosen",
+			"CitronPosen"
+		]
+	},
+	"product_details": {
+		"product_name": "Dragefrugter i kasse",
+		"product_short_description": "Tropiske frugter, ogs\u00e5 kendt som 'pitahaya', dyrket i Spanien",
+		"product_description": "\u00d8kologiske dragefrugter fra Spanien i kasse, min. 1,5 kg.",
+		"product_aboutproduct": [
+			"Om varen",
+			"\u00d8kologiske dragefrugter fra Spanien i kasse, min. 1,5 kg.",
+			"Med sin markante lyser\u00f8de farve og gr\u00f8nne, flammelignende blade ligner dragefrugten n\u00e6sten noget fra et eventyr. Indeni er den bl\u00f8d, s\u00f8d, mild og saftig, og smager lidt som en mellemting mellem en p\u00e6re og en kiwi.\u00a0",
+			"Pitahaya-planten stammer oprindeligt fra Mellemamerika, og dyrkes i dag overvejende i Syd\u00f8stasien og Australien. Derfor er vi ogs\u00e5 ekstra stolte af\u00a0at kunne hente \u00f8kologiske dragefrugter hjem fra det sydlige Spanien\u00a0\u2013 n\u00e6rmere bestemt Andalusien, hvor vores gode ven Pepe Montiel og hans barnebarn Javier dyrker\u00a0dragefrugter\u00a0side om side med andre eksotiske godter som papaya og passionsfrugter.\u00a0",
+			"Pepe og Javier dyrker flere forskellige sorter af 'pitahaya', og du finder b\u00e5de frugter med hvidt, m\u00f8rke- og lyser\u00f8dt frugtk\u00f8d i din kasse (alle tre smager fantastisk, skulle vi hilse og sige!).",
+			"Anvendelse",
+			"Dragefrugter har absolut mest smag, n\u00e5r de yderste blade p\u00e5 frugten er ved at blive t\u00f8rre. Er bladene helt friske og gr\u00f8nne, n\u00e5r du modtager frugten, s\u00e5 vent en dag eller to med at spise den.",
+			"Selve frugten er utroligt nem at spise: Bare halver frugten p\u00e5 langs, sk\u00e6r to snit p\u00e5 kryds ned i frugtk\u00f8det, \"vip\" frugten op og fri af sin skal, og spis!",
+			"Ellers er dragefrugter ogs\u00e5 gode i smoothies, bowls, frugtsalater og andre desserter, ligesom de kan bruges i salsaer og salater.",
+			"Opbevaring",
+			"Kan opbevares p\u00e5 k\u00f8kkenbordet. Helt modne dragefrugter b\u00f8r opbevares p\u00e5 k\u00f8l."
+		],
+		"product_price": "195",
+		"product_image_url": "https://assetsv2.aarstiderne.com/product/dragefrugter-i-kasse-3712-750-750-30.PNG",
+		"product_image_file": "dragefrugter-i-kasse-3712-750-750-30.PNG"
+	},
+	"Astdns_anbefalers_avilable": [
 		"hokkaidosuppe",
 		"pizza-bla-congo",
 		"pizza-sod-kartoffel",
@@ -106,76 +107,83 @@ START ************************* New data started to register at: 2022-11-04 22:2
 		"mexi-middag",
 		"sylt-selv-pickles"
 	],
-	"Aarstidernes_anbefaler": "Hokkaidosuppe",
-	"Aarstidernes_anbefalers_description": [
-		"Efter\u00e5ret er over os. Derfor har vi sendt Morten i udek\u00f8kkenet for at lave en varmende ret,\u00a0der passer perfekt til det danske efter\u00e5rsvejr.",
-		"F\u00f8lg opskriften for en perfekt cremet asiatisk-inspireret hokkaidosuppe,\u00a0og f\u00e5 tips og tricks til gode m\u00e5der at toppe dine purerede supper p\u00e5 i videoen her til h\u00f8jre.",
-		"Du finder alt, hvad du ellers skal bruge herunder. Indk\u00f8bsforslag og opskrift passer til 4 personer."
-	],
-	"Aarstidernes_anbefalers_opskriftens_link": "https://www.aarstiderne.com/media/2100/aarstiderne_hokkaidosuppe_v2_2020.pdf",
-	"Aarstidernes_anbefalers_opskriftens_ingredients_list": [
-		"Kokosm\u00e6lk",
-		"Gr\u00f8ntsagsbouillon",
-		"Hokkaido-gr\u00e6skar",
-		"Porre",
-		"Koriander",
-		"Surdejsbr\u00f8d",
-		"Lime",
-		"Chili, r\u00f8d",
-		"Hvidl\u00f8g"
-	],
-	"Aarstidernes_anbefalers_opskriftens_ingredient": [
-		"",
-		"",
-		"Kokosm\u00e6lk",
-		"",
-		"",
-		"Aarstidernes\u00a0kokosm\u00e6lk, til\u00a0sammenkogte retter, desserter mm.",
-		"",
-		"400 ml",
-		""
-	],
-	"Aarstidernes_kundel\u00f8fters": [
+	"Astdns_anbefalers_details": {
+		"anbefalers_navn": "Hokkaidosuppe",
+		"anbefalers_description": [
+			"Efter\u00e5ret er over os. Derfor har vi sendt Morten i udek\u00f8kkenet for at lave en varmende ret,\u00a0der passer perfekt til det danske efter\u00e5rsvejr.",
+			"F\u00f8lg opskriften for en perfekt cremet asiatisk-inspireret hokkaidosuppe,\u00a0og f\u00e5 tips og tricks til gode m\u00e5der at toppe dine purerede supper p\u00e5 i videoen her til h\u00f8jre.",
+			"Du finder alt, hvad du ellers skal bruge herunder. Indk\u00f8bsforslag og opskrift passer til 4 personer."
+		],
+		"anbefalers_opskriftens_url": "https://www.aarstiderne.com/media/2100/aarstiderne_hokkaidosuppe_v2_2020.pdf",
+		"anbefalers_opskriftens_file": "aarstiderne_hokkaidosuppe_v2_2020.pdf",
+		"anbefalers_opskriftens_ingredients": {
+			"ingredients_name": [
+				"Kokosm\u00e6lk",
+				"Gr\u00f8ntsagsbouillon",
+				"Hokkaido-gr\u00e6skar",
+				"Porre",
+				"Koriander",
+				"Surdejsbr\u00f8d",
+				"Lime",
+				"Chili, r\u00f8d",
+				"Hvidl\u00f8g"
+			],
+			"ingredients_detail": [
+				"Aarstidernes\u00a0kokosm\u00e6lk, til\u00a0sammenkogte retter, desserter mm.",
+				"",
+				"400 ml"
+			]
+		}
+	},
+	"Astdns_kundel\u00f8fters": [
 		"Vi forpligter os til at vores CO2-regnskab altid er i balance",
 		"Vi forpligter os til at alle vores leverand\u00f8rer er i CO2-balance i 2025",
 		"Vi forpligter os til at levere 100% \u00f8kologisk mad, ud fra 80/20-princippet",
 		"Vi forpligter os til at hj\u00e6lpe vores kunder med at blive en del af l\u00f8sningen",
 		"Vi forpligter os til at g\u00f8re det, vi siger "
 	],
-	"Aarstidernes_f\u00f8devarestrategier_list": [
+	"Astdns_f\u00f8devarestrategier_list": [
 		"B\u00e6redygtighed og milj\u00f8",
 		"Innovation og produktudvikling"
 	],
-	"Aarstidernes_f\u00f8devarestrategi": "B\u00e6redygtighed og milj\u00f8",
-	"Aarstidernes_b\u00e6redygtighed_ogmilj\u00f8": [
-		"F\u00f8devarer og klima",
-		"100% \u00f8kologi",
-		"Transport",
-		"Emballage og tryksager",
-		"Vores verdensm\u00e5l",
-		"CO\u2082-regnskaber"
-	],
-	"Aarstidernes_ib\u00e6redygtighed_ogmilj\u00f8_details": [
-		"Mere gr\u00f8nt, mindre svind - og den rigtige balance mellem danske og udenlandske varer",
-		"Vores mad er 100% \u00f8kologisk. S\u00e5dan har det altid v\u00e6ret, og s\u00e5dan vil det altid v\u00e6re.",
-		"L\u00e6s om vores no-fly policy, og hvordan varerne finder vej til kasserne.\u00a0",
-		"Genbrug af kasser, milj\u00f8venligt papir og om hvordan, du kan sortere emballagen.",
-		"L\u00e6s hvilke verdensm\u00e5l, vi is\u00e6r arbejder med\u00a0og bliv klogere p\u00e5, hvordan vi aktivt arbejder med dem.",
-		"I Aarstiderne har vi fulgt vores CO",
-		"2",
-		"-udledninger n\u00f8je siden 2007. Vi\u00a0laver\u00a0CO",
-		"2-",
-		"regnskaber og arbejder \u00e5r for \u00e5r aktivt for at nedbringe dem."
-	],
-	"Aarstidernes_innovation_ogproduktudvikling": [
-		"Fermentering",
-		"Det Gr\u00f8nne V\u00e6rksted",
-		"Planteproteiner"
-	],
-	"Aarstidernes_innovation_ogproduktudvikling_details": [
-		"Fermentering er kulminationen af tid, sted og kultur.\u00a0",
-		"Bliv klogere p\u00e5 de mange sp\u00e6ndende initiativer i\u00a0Det Gr\u00f8nne V\u00e6rksted.",
-		"Bliv klogere p\u00e5 proteiner fra plantekost."
-	]
+	"Astdns_f\u00f8devarestrategier": {
+		"f\u00f8devarestrategi_navn": "Innovation og produktudvikling",
+		"b\u00e6redygtighed_ogmilj\u00f8": {
+			"b\u00e6redygtighed_ogmilj\u00f8_actions": [
+				"F\u00f8devarer og klima",
+				"100% \u00f8kologi",
+				"Transport",
+				"Emballage og tryksager",
+				"Vores verdensm\u00e5l",
+				"CO\u2082-regnskaber"
+			],
+			"ib\u00e6redygtighed_ogmilj\u00f8_details": [
+				"Mere gr\u00f8nt, mindre svind - og den rigtige balance mellem danske og udenlandske varer",
+				"Vores mad er 100% \u00f8kologisk. S\u00e5dan har det altid v\u00e6ret, og s\u00e5dan vil det altid v\u00e6re.",
+				"L\u00e6s om vores no-fly policy, og hvordan varerne finder vej til kasserne.\u00a0",
+				"Genbrug af kasser, milj\u00f8venligt papir og om hvordan, du kan sortere emballagen.",
+				"L\u00e6s hvilke verdensm\u00e5l, vi is\u00e6r arbejder med\u00a0og bliv klogere p\u00e5, hvordan vi aktivt arbejder med dem.",
+				"I Aarstiderne har vi fulgt vores CO",
+				"2",
+				"-udledninger n\u00f8je siden 2007. Vi\u00a0laver\u00a0CO",
+				"2-",
+				"regnskaber og arbejder \u00e5r for \u00e5r aktivt for at nedbringe dem."
+			]
+		},
+		"innovation_ogproduktudvikling": {
+			"b\u00e6redygtighed_ogmilj\u00f8_actions": {},
+			"ib\u00e6redygtighed_ogmilj\u00f8_details": {},
+			"innovation_ogproduktudvikling_actions": [
+				"Fermentering",
+				"Det Gr\u00f8nne V\u00e6rksted",
+				"Planteproteiner"
+			],
+			"innovation_ogproduktudvikling_details": [
+				"Fermentering er kulminationen af tid, sted og kultur.\u00a0",
+				"Bliv klogere p\u00e5 de mange sp\u00e6ndende initiativer i\u00a0Det Gr\u00f8nne V\u00e6rksted.",
+				"Bliv klogere p\u00e5 proteiner fra plantekost."
+			]
+		}
+	}
 }
-************************* Data finished to register at: 2022-11-04 22:26:39.642268 ************************* END
+************************* Data finished to register at: 2022-11-07 20:56:01.929644 ************************* END
