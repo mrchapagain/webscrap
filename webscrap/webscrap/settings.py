@@ -101,12 +101,14 @@ ROBOTSTXT_OBEY = True
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-    'webscrap.pipelines.WebscrapPipeline': 300,
+    #'webscrap.pipelines.WebscrapPipeline': 300,
     'webscrap.pipelines.MyImagesPipeline':300,
     #"webscrap.pipelines.ImagesPipeline": 800,
     #'webscrap.pipelines.FilesPipeline': 1,
 }
-ITEM_STORE = 'C:/Users/Bruger/Desktop/WebScraping/webscrap/data/image_files'
+ITEM_STORE = '.data/data.json'
+IMAGE_STORE = '.data/images/'
+#<IMAGES_STORE>/full/<image_id>.jpg
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html

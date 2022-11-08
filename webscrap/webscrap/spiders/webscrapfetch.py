@@ -13,24 +13,24 @@ import datetime
 
 def save_to_log_file(file_name, parce_func, start_urls, start_url, parce_urls, parce_to, items_output=None):
     with open(file_name, "a") as flog:
-        flog.writelines("\n" + "START ------------------------------------------------------------" + "\n")
-        flog.writelines(f"Function: {parce_func} with url: {start_url}" + "\n")
+        flog.writelines("\n" "START ------------------------------------------------------------" "\n")
+        flog.writelines(f"Function: {parce_func} with url: {start_url}" "\n")
         flog.writelines("\t" + i for i in start_urls) #map(lambda x: 'https://www.aarstiderne.com' + x + "\n", start_url)
-        flog.writelines("\n" + f"parce_urls: {parce_urls} to: {parce_to}"+ "\n")
-        flog.writelines('\n' + f"Actual output from the function: '\n'+{items_output}"+ '\n')
-        flog.writelines("------------------------------------------------------------ END" + "\n")
+        flog.writelines("\n" f"parce_urls: {parce_urls} to: {parce_to}" "\n")
+        flog.writelines('\n' f"Actual output from the function: '\n'{items_output}" '\n')
+        flog.writelines("------------------------------------------------------------ END" "\n")
         
     # print to track what has been send to next page to scrap
-    print("\n" + "START ------------------------------------------------------------")
+    print("\n" "START ------------------------------------------------------------")
     print(f"{file_name} saved at: {parce_func}")
     print(f"START url: {start_url} at: {parce_func}")
     print(f"parce_urls: {parce_urls} to: {parce_to}") 
-    print("------------------------------------------------------------ END" + "\n")
+    print("------------------------------------------------------------ END" "\n")
 
 class ExtractUrls(scrapy.Spider):
     # This name must be unique always
     name = "webscrapfetch"     
-    custom_settings = {'FEED_URI' : 'C:/Users/Bruger/Desktop/WebScraping/webscrap/data/'}  #location of file          
+    custom_settings = {'FEED_URI' : './data/'}  #location of file          
   
     # Function which will be invoked
     def start_requests(self):
@@ -113,7 +113,7 @@ class ExtractUrls(scrapy.Spider):
             items['food_categories_details']= {'food_categories_navn':{}, 'food_categories_images_url':{}, 'food_categories_images_file':{}, 'food_categories_images_download':{}, 'food_sub_categories_avilable':{}}
 
             items['food_categories_details']['food_categories_images_url']= response.css('#main > div.products-container > section.prd-cats-nav > div.prd-cats-nav__lst > a > img::attr(src)').get()
-            items['food_categories_details']['food_categories_images_url']= items['image_urls']
+            items['image_urls']= items['food_categories_details']['food_categories_images_url']
             items['food_categories_details']['food_categories_images_file']= response.css('#main > div.products-container > section.prd-cats-nav > div.prd-cats-nav__lst > a > img::attr(src)').get().split("/")[-1]
             items['food_categories_details']['food_categories_images_download']= response.css('#main > div.products-container > section.prd-cats-nav > div.prd-cats-nav__lst > a > img::attr(src)').get().split("/")[-1] #requests.get(items['food_categories_images_url'])
             #yield items
@@ -280,7 +280,7 @@ class ExtractUrls(scrapy.Spider):
             items['Astdns_kundeløfters']= response.css('ol.footer-promises__list  li::text').getall()
 
             items['Astdns_fødevarestrategier_list']= list(map(lambda x: x.strip(), response.css('div.products-bg > section > article > nav  div > a > h2::text').getall()[3:5]))
-            items['Astdns_fødevarestrategier'] = {'fødevarestrategi_navn':{}, 'bæredygtighed_ogmiljø':{'bæredygtighed_ogmiljø_actions':{}, 'ibæredygtighed_ogmiljø_details': {}}, 'innovation_ogproduktudvikling': {'bæredygtighed_ogmiljø_actions':{}, 'ibæredygtighed_ogmiljø_details':{}}}
+            items['Astdns_fødevarestrategier'] = {'bæredygtighed_ogmiljø':{'fødevarestrategi_navn1':{}, 'bæredygtighed_ogmiljø_actions':{}, 'bæredygtighed_ogmiljø_details': {}}, 'innovation_ogproduktudvikling': {'fødevarestrategi_navn2':{}, 'bæredygtighed_ogmiljø_actions':{}, 'bæredygtighed_ogmiljø_details':{}}}
             
             request= response.follow( url=nextpage_finalpage_link, callback=self.parse_product_company_metadata_pages_2 ) # Output will be: <GET https://www.aarstiderne.com/om-aarstiderne/baeredygtighed-og-miljoe> (referer: None)
             request.meta['items'] = items #By calling .meta, we can pass our item object into the callback.
@@ -299,9 +299,9 @@ class ExtractUrls(scrapy.Spider):
 
         for nextpage_finalpage_link in nextpage_finalpage_links:
                       
-            items['Astdns_fødevarestrategier']['fødevarestrategi_navn'] = response.css('#body > div.products-bg > section > header > h1::text').get()  
+            items['Astdns_fødevarestrategier']['bæredygtighed_ogmiljø']['fødevarestrategi_navn1'] = response.css('#body > div.products-bg > section > header > h1::text').get()  
             items['Astdns_fødevarestrategier']['bæredygtighed_ogmiljø']['bæredygtighed_ogmiljø_actions']= list(map(lambda x: x.strip() , response.css('div.products-bg > section > article > nav div > a > h2 *::text').getall()))
-            items['Astdns_fødevarestrategier']['bæredygtighed_ogmiljø']['ibæredygtighed_ogmiljø_details']= response.css('div.products-bg > section > article > nav div > a > div *::text').getall()
+            items['Astdns_fødevarestrategier']['bæredygtighed_ogmiljø']['bæredygtighed_ogmiljø_details']= response.css('div.products-bg > section > article > nav div > a > div *::text').getall()
 
             #items['Aarstidernes_innovation_ogproduktudvikling']= response.css('section.article > article > ul  li >a > div > h2 *::text').getall()
             #items['Aarstidernes_innovation_ogproduktudvikling_details']= response.css('section.article > article > ul  li >a > div > div *::text').getall()
@@ -324,7 +324,7 @@ class ExtractUrls(scrapy.Spider):
 
         for nextpage_finalpage_link in nextpage_finalpage_links:
 
-            items['Astdns_fødevarestrategier']['fødevarestrategi_navn']= response.css('#body > section > header > h2::text').get() 
+            items['Astdns_fødevarestrategier']['innovation_ogproduktudvikling']['fødevarestrategi_navn2']= response.css('#body > section > header > h2::text').get() 
             items['Astdns_fødevarestrategier']['innovation_ogproduktudvikling']['innovation_ogproduktudvikling_actions']= response.css('section.article > article > ul  li >a > div > h2 *::text').getall()
             items['Astdns_fødevarestrategier']['innovation_ogproduktudvikling']['innovation_ogproduktudvikling_details']= response.css('section.article > article > ul  li >a > div > div *::text').getall()
             

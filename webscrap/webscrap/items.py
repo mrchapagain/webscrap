@@ -60,9 +60,10 @@ class WebscrapItem(scrapy.Item):
     Astdns_fødevarestrategier_list= scrapy.Field()
 
     Astdns_fødevarestrategier= scrapy.Field()
-    fødevarestrategi_navn= scrapy.Field()
+    fødevarestrategi_navn1= scrapy.Field()
+    fødevarestrategi_navn2= scrapy.Field()
     innovation_ogproduktudvikling_actions= scrapy.Field()
     innovation_ogproduktudvikling_details= scrapy.Field()
 
     bæredygtighed_ogmiljø_actions = scrapy.Field()
-    ibæredygtighed_ogmiljø_details= scrapy.Field()
+    bæredygtighed_ogmiljø_details= scrapy.Field()
