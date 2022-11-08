@@ -17,7 +17,7 @@ def save_to_log_file(file_name, parce_func, start_urls, start_url, parce_urls, p
         flog.writelines(f"Function: {parce_func} with url: {start_url}" + "\n")
         flog.writelines("\t" + i for i in start_urls) #map(lambda x: 'https://www.aarstiderne.com' + x + "\n", start_url)
         flog.writelines("\n" + f"parce_urls: {parce_urls} to: {parce_to}"+ "\n")
-        flog.writelines("\n" + f"Actual output from the function: \n{items_output}"+ "\n")
+        flog.writelines('\n' + f"Actual output from the function: '\n'+{items_output}"+ '\n')
         flog.writelines("------------------------------------------------------------ END" + "\n")
         
     # print to track what has been send to next page to scrap
@@ -30,7 +30,7 @@ def save_to_log_file(file_name, parce_func, start_urls, start_url, parce_urls, p
 class ExtractUrls(scrapy.Spider):
     # This name must be unique always
     name = "webscrapfetch"     
-    custom_settings = {'FEED_URI' : '//webscrap/data_backup.json'}  #location of file          
+    custom_settings = {'FEED_URI' : 'C:/Users/Bruger/Desktop/WebScraping/webscrap/data/'}  #location of file          
   
     # Function which will be invoked
     def start_requests(self):
@@ -47,7 +47,7 @@ class ExtractUrls(scrapy.Spider):
             yield request
 
         # Save information to log file and print print
-        save_to_log_file('log.jsonlines', "start_requests", start_urls, 'www.aarstiderne.com', request, "parse_frontpage_to_tabnavigation_page")
+        save_to_log_file('log.jsonlines', "start_requests", start_urls, 'www.aarstiderne.com', request, "parse_frontpage_to_tabnavigation_page", None)
     
     def parse_frontpage_to_tabnavigation_page(self, response): # Response from: <GET https://www.aarstiderne.com>
         # link for going to next pages from top nav-link
@@ -65,8 +65,10 @@ class ExtractUrls(scrapy.Spider):
             # start to save data in item-dictionary object
             # First need to creat empty nested dictionary
             items['time_stamp'] = str(datetime.datetime.now())
+            items['image_urls']={}
             
             items['site_details']={'name_of_site': {}, 'food_groups_avilable':{}}
+            
             items['site_details']['name_of_site']= "Astdn"
             items['site_details']['food_groups_avilable']= list(map(lambda x: x.strip() , response.css('nav#topnav > ul > li > a::text').getall()))
 
@@ -111,8 +113,9 @@ class ExtractUrls(scrapy.Spider):
             items['food_categories_details']= {'food_categories_navn':{}, 'food_categories_images_url':{}, 'food_categories_images_file':{}, 'food_categories_images_download':{}, 'food_sub_categories_avilable':{}}
 
             items['food_categories_details']['food_categories_images_url']= response.css('#main > div.products-container > section.prd-cats-nav > div.prd-cats-nav__lst > a > img::attr(src)').get()
-            items['food_categories_details']['food_categories_images_file']= items['food_categories_details']['food_categories_images_url'].split("/")[-1]
-            items['food_categories_details']['food_categories_images_download']= items['food_categories_details']['food_categories_images_url'].split("/")[-1] #requests.get(items['food_categories_images_url'])
+            items['food_categories_details']['food_categories_images_url']= items['image_urls']
+            items['food_categories_details']['food_categories_images_file']= response.css('#main > div.products-container > section.prd-cats-nav > div.prd-cats-nav__lst > a > img::attr(src)').get().split("/")[-1]
+            items['food_categories_details']['food_categories_images_download']= response.css('#main > div.products-container > section.prd-cats-nav > div.prd-cats-nav__lst > a > img::attr(src)').get().split("/")[-1] #requests.get(items['food_categories_images_url'])
             #yield items
  
             request= response.follow( url=nextpage_category_link, callback=self.parse_product_category_pages ) # output will be: <GET https://www.aarstiderne.com/dagligvarer/frugt> (referer: None)
@@ -219,9 +222,10 @@ class ExtractUrls(scrapy.Spider):
             ##items = response.meta['items'] #Get the item we passed from scrape()
 
             items['Astdns_anbefalers_avilable']= response.css('ul.bundle-overview__list li::attr(data-alias)').getall()
-            items['Astdns_anbefalers_details']= {'anbefalers_navn':{}, 'anbefalers_description':{}, 'anbefalers_opskriftens_url':{}, 'anbefalers_opskriftens_file':{}, 'anbefalers_opskriftens_ingredients':{'ingredients_name':{}, 'ingredients_detail':{}}}
 
-            #####items['Aarstidernes_anbefalers_opskriftens_promoimage']= response.css('ul.bundle-overview__list li::attr(style)').get() # Output should be like:
+            items['Astdns_anbefalers_details']= {'anbefalers_navn':{}, 'anbefalers_promoimage':{}, 'anbefalers_description':{}, 'anbefalers_opskriftens_url':{}, 'anbefalers_opskriftens_file':{}, 'anbefalers_opskriftens_ingredients':{'ingredients_name':{}, 'ingredients_detail':{}}}
+
+            items['anbefalers_promoimage']= response.css('ul.bundle-overview__list li::attr(style)').get() # Output should be like:
             # now: 'background-image: url(/media/2095/jbk_anbefaling_hokkaidosuppe_primaert_2020_3053.jpg?crop=0,0,0,0&cropmode=percentage&width=900&height=675); background-color: #cf6227'
             # shouls be like: https://www.aarstiderne.com/media/2095/jbk_anbefaling_hokkaidosuppe_primaert_2020_3053.jpg
             #yield items

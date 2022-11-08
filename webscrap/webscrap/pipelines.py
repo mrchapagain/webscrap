@@ -5,8 +5,13 @@
 
 
 # useful for handling different item types with a single interface
-from scrapy.pipelines.files import FilesPipeline
+import os
+from urllib.parse import urlparse
+from scrapy.pipelines.images import ImagesPipeline
+import scrapy
+from scrapy.exceptions import DropItem
 from itemadapter import ItemAdapter
+
 import json
 import pandas as pd
 import datetime
@@ -29,10 +34,21 @@ class WebscrapPipeline:
     def close_spider(self, spider):
         self.file.close()
 
+class MyImagesPipeline(ImagesPipeline):
+    
+    def get_media_requests(self, item, info):
+        for image_url in item['image_urls']:
+            yield scrapy.Request(image_url)
 
+    def item_completed(self, results, item, info):
+        image_paths = [x['path'] for ok, x in results if ok]
+        if not image_paths:
+            raise DropItem("Item contains no images")
+        adapter = ItemAdapter(item)
+        adapter['image_paths'] = image_paths
+        return item
 
-"""class ImagesPipeline:
-    def process_item(self, item, spider):   
+"""def process_item(self, item, spider):   
 
         for file_url in item['food_categories_images_url']:
             req= requests.get(file_url)
