@@ -11,43 +11,34 @@
 
 BOT_NAME = 'webscrap'
 
-SPIDER_MODULES = ['webscrap.spiders']
+SPIDER_MODULES = 'webscrap.spiders'#['webscrap.spiders']
 NEWSPIDER_MODULE = 'webscrap.spiders'
 
+#FEED_EXPORT_FIELDS= ["image_urls"]
 
 #Export as JSON Feed
 FEED_FORMAT = "json"
+# Name of the file where data extracted is stored
 FEED_URI = "data.json"
+
+
 
 FEEDS = {
     'data.json': {
         'format': 'json', 
         'overwrite': False,
-        #'indent': 4,
-        #'store_empty': True,
-        #'fields': None,
-        'encoding': 'UTF-8'},
-    'data': {
-        'format': 'PNG', 
-        'overwrite': False,
-        #'indent': 4,
-        #'store_empty': True,
-        #'fields': None,
-        #'encoding': 'UTF-8'
-        },
-
-    #'data.html': {
-        #'format': 'html', 
-        #'overwrite': True,
-        #'encoding': 'UTF-8'},
+        'indent': 4,
+        'store_empty': True,
+        'fields': None,
+        'encoding': 'utf-8'},
 
     'log.jsonlines': {
         'format': 'jsonlines', 
         'overwrite': True,
-        'encoding': 'UTF-8'}
+        'encoding': 'utf-8'}
 }
 
-FEED_EXPORT_ENCODING = 'UTF-8'
+FEED_EXPORT_ENCODING = 'utf-8'
 
 
 
@@ -63,7 +54,7 @@ ROBOTSTXT_OBEY = True
 # Configure a delay for requests for the same website (default: 0)
 # See https://docs.scrapy.org/en/latest/topics/settings.html#download-delay
 # See also autothrottle settings and docs
-#DOWNLOAD_DELAY = 3
+DOWNLOAD_DELAY = 2
 # The download delay setting will honor only one of:
 #CONCURRENT_REQUESTS_PER_DOMAIN = 16
 #CONCURRENT_REQUESTS_PER_IP = 16
@@ -101,13 +92,12 @@ ROBOTSTXT_OBEY = True
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-    #'webscrap.pipelines.WebscrapPipeline': 300,
-    'webscrap.pipelines.MyImagesPipeline':300,
-    #"webscrap.pipelines.ImagesPipeline": 800,
+    'webscrap.pipelines.WebscrapPipeline': 800,
+    #"webscrap.pipelines.CustomImagesPipeline": 1,
     #'webscrap.pipelines.FilesPipeline': 1,
 }
-ITEM_STORE = '.data/data.json'
-IMAGE_STORE = '.data/images/'
+ITEM_STORE = 'data'
+#IMAGE_STORE = 'images'
 #<IMAGES_STORE>/full/<image_id>.jpg
 
 # Enable and configure the AutoThrottle extension (disabled by default)
@@ -131,4 +121,14 @@ IMAGE_STORE = '.data/images/'
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 
+
+
+
+"""IMAGES_THUMBS = {
+    'small': (50, 50),
+    'big': (260, 260),
+}
+
+
+IMAGES_EXPIRES = 2  # 2 days of delay for image expiration (default:90 days)"""
 

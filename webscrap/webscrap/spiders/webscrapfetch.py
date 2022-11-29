@@ -11,8 +11,8 @@ import json
 from urllib.parse import urljoin
 import datetime
 
-def save_to_log_file(file_name, parce_func, start_urls, start_url, parce_urls, parce_to, items_output=None):
-    with open(file_name, "a") as flog:
+def save_to_log_file(file_name, parce_func, start_urls, start_url, parce_urls, parce_to, items_output=None, image=None):
+    with open(file_name, "w", encoding='utf-8') as flog:
         flog.writelines("\n" "START ------------------------------------------------------------" "\n")
         flog.writelines(f"Function: {parce_func} with url: {start_url}" "\n")
         flog.writelines("\t" + i for i in start_urls) #map(lambda x: 'https://www.aarstiderne.com' + x + "\n", start_url)
@@ -30,7 +30,8 @@ def save_to_log_file(file_name, parce_func, start_urls, start_url, parce_urls, p
 class ExtractUrls(scrapy.Spider):
     # This name must be unique always
     name = "webscrapfetch"     
-    custom_settings = {'FEED_URI' : './data/'}  #location of file          
+
+    #custom_settings = {'FEEDS': { 'data.json': { 'format': 'json',}}}#location of file       
   
     # Function which will be invoked
     def start_requests(self):
@@ -54,6 +55,7 @@ class ExtractUrls(scrapy.Spider):
         next_page_from_topnavs = ['/dagligvarer'] 
         # response.css('nav.topnav > ul.topnav__list > li > a::attr(href)').getall() 
         # output will be: ['/find-din-maaltidskasse', '/vaelg-selv-retter', '/dagligvarer', '/jul-1', '/mortensaften']
+        #new output will be: ['Måltidskasser', 'Vælg-Selv Retter', 'Dagligvarer', 'Jul', 'Nytår']
 
         #Initiate item class (defined in items.py) to save data as dictionary format
         items= WebscrapItem()
@@ -65,8 +67,7 @@ class ExtractUrls(scrapy.Spider):
             # start to save data in item-dictionary object
             # First need to creat empty nested dictionary
             items['time_stamp'] = str(datetime.datetime.now())
-            items['image_urls']={}
-            
+                   
             items['site_details']={'name_of_site': {}, 'food_groups_avilable':{}}
             
             items['site_details']['name_of_site']= "Astdn"
@@ -91,12 +92,6 @@ class ExtractUrls(scrapy.Spider):
         # response.css('div.prd-cats-nav__lst a::attr(href)').getall() 
         # # output will be: ['/dagligvarer/frugt', '/dagligvarer/groent', '/dagligvarer/plantebaseret', '/dagligvarer/koed-fisk', '/dagligvarer/mejeri', '/dagligvarer/broed', '/dagligvarer/kolonial', '/dagligvarer/snacks-soede-sager', '/dagligvarer/juice-saft', '/dagligvarer/oel-vin', '/dagligvarer/husholdning-grej', '/dagligvarer/boger', '/jordens-bedste-koebmand/anbefalinger', '/dagligvarer/anbefalinger/hokkaidosuppe', '/dagligvarer/anbefalinger/pizza-bla-congo']
 
-        #"""html_file= 'data.html'# to yield the initial response as HTML file and save it in HTML file
-        #with open (html_file, "wb") as fout:
-            #print("*" * 100)
-            #fout.write(response.body)
-            #print("*" * 100)"""
-
         #call back item-dict object for saving data
         items= response.meta['items'] 
 
@@ -113,9 +108,22 @@ class ExtractUrls(scrapy.Spider):
             items['food_categories_details']= {'food_categories_navn':{}, 'food_categories_images_url':{}, 'food_categories_images_file':{}, 'food_categories_images_download':{}, 'food_sub_categories_avilable':{}}
 
             items['food_categories_details']['food_categories_images_url']= response.css('#main > div.products-container > section.prd-cats-nav > div.prd-cats-nav__lst > a > img::attr(src)').get()
-            items['image_urls']= items['food_categories_details']['food_categories_images_url']
             items['food_categories_details']['food_categories_images_file']= response.css('#main > div.products-container > section.prd-cats-nav > div.prd-cats-nav__lst > a > img::attr(src)').get().split("/")[-1]
-            items['food_categories_details']['food_categories_images_download']= response.css('#main > div.products-container > section.prd-cats-nav > div.prd-cats-nav__lst > a > img::attr(src)').get().split("/")[-1] #requests.get(items['food_categories_images_url'])
+            #items['food_categories_details']['food_categories_images_download']= requests.get(response.css('#main > div.products-container > section.prd-cats-nav > div.prd-cats-nav__lst > a > img::attr(src)').get())
+            #response.css('#main > div.products-container > section.prd-cats-nav > div.prd-cats-nav__lst > a > img::attr(src)').get().split("/")[-1] #requests.get(items['food_categories_images_url'])
+            
+            items['image_urls']= ['https://assetsv2.aarstiderne.com/pim/category/frugt-2738-90-90-50.PNG']
+            items['image_name']= ['frugt-2738-90-90-50.PNG']
+            items['images']= items['images'].update(items['image_urls'])
+            img_data= requests.get(items['images'][0])
+            if img_data.status_code==200:
+                fp = open('image.png', 'ab')
+                fp.write(img_data.content)
+                fp.close()
+
+            #image_file='image.jpg'
+            #with open(image_file, 'ab') as handler:
+                #handler.append(img_data)
             #yield items
  
             request= response.follow( url=nextpage_category_link, callback=self.parse_product_category_pages ) # output will be: <GET https://www.aarstiderne.com/dagligvarer/frugt> (referer: None)
@@ -225,7 +233,8 @@ class ExtractUrls(scrapy.Spider):
 
             items['Astdns_anbefalers_details']= {'anbefalers_navn':{}, 'anbefalers_promoimage':{}, 'anbefalers_description':{}, 'anbefalers_opskriftens_url':{}, 'anbefalers_opskriftens_file':{}, 'anbefalers_opskriftens_ingredients':{'ingredients_name':{}, 'ingredients_detail':{}}}
 
-            items['anbefalers_promoimage']= response.css('ul.bundle-overview__list li::attr(style)').get() # Output should be like:
+            items['Astdns_anbefalers_details']['anbefalers_promoimage']= ['https://www.aarstiderne.com/media/2095/jbk_anbefaling_hokkaidosuppe_primaert_2020_3053.jpg']
+            #response.css('ul.bundle-overview__list li::attr(style)').get() # Output should be like:
             # now: 'background-image: url(/media/2095/jbk_anbefaling_hokkaidosuppe_primaert_2020_3053.jpg?crop=0,0,0,0&cropmode=percentage&width=900&height=675); background-color: #cf6227'
             # shouls be like: https://www.aarstiderne.com/media/2095/jbk_anbefaling_hokkaidosuppe_primaert_2020_3053.jpg
             #yield items
@@ -254,7 +263,7 @@ class ExtractUrls(scrapy.Spider):
             items['Astdns_anbefalers_details']['anbefalers_opskriftens_url']= urljoin('https://www.aarstiderne.com', response.css('div.bundle > header.bundle__header > div.bundle__header--left > p a::attr(href)').get())
             items['Astdns_anbefalers_details']['anbefalers_opskriftens_file']= items['Astdns_anbefalers_details']['anbefalers_opskriftens_url'].split("/")[-1]
             items['Astdns_anbefalers_details']['anbefalers_opskriftens_ingredients']['ingredients_name']= response.css('#main > div > div.bundle > div.basket__list  div  > div > div.basket__col-text >a >h3::text').getall()
-            items['Astdns_anbefalers_details']['anbefalers_opskriftens_ingredients']['ingredients_detail']= list(map(lambda x: x.strip() ,response.css('#main > div > div.bundle > div.basket__list > div:nth-child(1) > div > div.basket__col-text *::text').getall()[5:8]))
+            items['Astdns_anbefalers_details']['anbefalers_opskriftens_ingredients']['ingredients_detail']= list(map(lambda x: x.strip(), response.css('#main > div > div.bundle > div.basket__list > div:nth-child(1) > div > div.basket__col-text *::text').getall()[5:8]))
             #yield items
                 
             request= response.follow( url=nextpage_metadata_link, callback=self.parse_product_company_metadata_pages_1 ) # Output will be: <GET https://www.aarstiderne.com/om-aarstiderne> (referer: None)
@@ -280,7 +289,7 @@ class ExtractUrls(scrapy.Spider):
             items['Astdns_kundeløfters']= response.css('ol.footer-promises__list  li::text').getall()
 
             items['Astdns_fødevarestrategier_list']= list(map(lambda x: x.strip(), response.css('div.products-bg > section > article > nav  div > a > h2::text').getall()[3:5]))
-            items['Astdns_fødevarestrategier'] = {'bæredygtighed_ogmiljø':{'fødevarestrategi_navn1':{}, 'bæredygtighed_ogmiljø_actions':{}, 'bæredygtighed_ogmiljø_details': {}}, 'innovation_ogproduktudvikling': {'fødevarestrategi_navn2':{}, 'bæredygtighed_ogmiljø_actions':{}, 'bæredygtighed_ogmiljø_details':{}}}
+            items['Astdns_fødevarestrategier'] = {'bæredygtighed_ogmiljø':{'fødevarestrategi_navn1':{}, 'bæredygtighed_ogmiljø_actions':{}, 'bæredygtighed_ogmiljø_details': {}}, 'innovation_ogproduktudvikling': {'fødevarestrategi_navn2':{}, 'innovation_ogproduktudvikling_actions':{}, 'innovation_ogproduktudvikling_details':{}}}
             
             request= response.follow( url=nextpage_finalpage_link, callback=self.parse_product_company_metadata_pages_2 ) # Output will be: <GET https://www.aarstiderne.com/om-aarstiderne/baeredygtighed-og-miljoe> (referer: None)
             request.meta['items'] = items #By calling .meta, we can pass our item object into the callback.

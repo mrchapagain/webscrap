@@ -5,87 +5,82 @@
 
 
 # useful for handling different item types with a single interface
-import os
-from urllib.parse import urlparse
 from scrapy.pipelines.images import ImagesPipeline
+from slugify import slugify
 import scrapy
 from scrapy.exceptions import DropItem
-from itemadapter import ItemAdapter
 
 import json
-import pandas as pd
 import datetime
 import requests
 
-class WebscrapPipeline:
+"""class WebscrapPipeline:
     def process_item(self, item, spider):       
-       
         # calling dumps to create json data.
         lines=json.dumps(dict(item), ensure_ascii=True,  indent= '\t')
 
         time_stamp= datetime.datetime.now()
         self.file.writelines(f'START ************************* New data started to register at: {time_stamp} *************************') 
-        self.file.write("\n" + lines + "\n")
+        self.file.write("\n" + lines + '\n')
         self.file.writelines(f'************************* Data finished to register at: {time_stamp} ************************* END')
- 
+
     def open_spider(self, spider):
-        self.file = open('data.json', 'a')
+        self.file = open('data.json', 'a', encoding='utf-8')
+ 
+    def close_spider(self, spider):
+        self.file.close()
+ """
+
+
+
+
+class WebscrapPipeline:    
+    def process_item(self, item, spider):
+        dict={}
+        
+        for key, val in item.items():
+            dict[key]=val
+        return dict
+
+            #self.file.write("\n" + key + '\n')
+
+    def open_spider(self, spider):
+        self.file = open('data.json', 'a', encoding='utf-8')
  
     def close_spider(self, spider):
         self.file.close()
 
-class MyImagesPipeline(ImagesPipeline):
+    #Have a look and test this
+    """person_dict = {"name": "Bob",
+    "languages": ["English", "French"],
+    "married": True,
+    "age": 32
+    }
+
+    with open('person.txt', 'w') as json_file:
+        json.dump(person_dict, json_file)"""
+ 
+
+
+"""class CustomImagesPipeline(ImagesPipeline):
     
+    def file_path(self, request, response=None, info=None,*, item=None):
+        file_name= slugify("string", max_length=200)
+        return f'full/{file_name}.jpg'
+        
     def get_media_requests(self, item, info):
-        for image_url in item['image_urls']:
-            yield scrapy.Request(image_url)
-
-    def item_completed(self, results, item, info):
-        image_paths = [x['path'] for ok, x in results if ok]
-        if not image_paths:
-            raise DropItem("Item contains no images")
-        adapter = ItemAdapter(item)
-        adapter['image_paths'] = image_paths
-        return item
-
-"""def process_item(self, item, spider):   
-
-        for file_url in item['food_categories_images_url']:
-            req= requests.get(file_url)
-            self.file.write(req.content)
-
- 
-    def open_spider(self, spider):
-        self.file = open('data.PNG', 'wb')
- 
-    def close_spider(self, spider):
-        self.file.close()"""
-
-
-
-
+            for file_url in item['image_urls']:
+                req= requests.get(file_url)
+                return req"""
+  
 """class FilesPipeline:
     def process_item(self, item, spider):      
         for file_url in item['food_categories_images_url']:
             req= requests.get(file_url)
             self.file.write(req.content)
-
  
     def open_spider(self, spider):
         self.file = open('data.PDF', 'wb')
  
     def close_spider(self, spider):
         self.file.close()"""
-
-
-"""class DownfilesPipeline(FilesPipeline):
-    def file_path(self, response, spider):
-        file_url=response['food_categories_images_url']
-        file_name= 'aarstiderne_hokkaidosuppe_v2_2020.pdf' #response['food_categories_images_file']
-        req= 'https://www.aarstiderne.com/media/2100/aarstiderne_hokkaidosuppe_v2_2020.pdf'#requests.get(file_url)
-        file_path= f'//WebScraping/webscrap/files/'
-        with open(file_path, "wb") as f:
-            f.write(req.content)
-            f.write("check")
-
-DownfilesPipeline()"""

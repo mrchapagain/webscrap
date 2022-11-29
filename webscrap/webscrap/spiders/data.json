@@ -1,0 +1,599 @@
+[
+{
+    "time_stamp": "2022-11-28 16:04:19.112383",
+    "site_details": {
+        "name_of_site": "Astdn",
+        "food_groups_avilable": [
+            "Måltidskasser",
+            "Vælg-Selv Retter",
+            "Dagligvarer",
+            "Jul",
+            "Nytår"
+        ]
+    },
+    "food_groups_details": {
+        "food_group_navn": [
+            "Dagligvarer"
+        ],
+        "food_categories_avilable": [
+            "Frugt",
+            "Grønt",
+            "Plantebaseret",
+            "Kød & Fisk",
+            "Mejeri",
+            "Brød",
+            "Kolonial",
+            "Snacks & Søde sager",
+            "Juice, Saft & Sodavand",
+            "Øl, Vin & Spiritus",
+            "Husholdning & Grej",
+            "Bøger"
+        ]
+    },
+    "food_categories_details": {
+        "food_categories_navn": "Frugt",
+        "food_categories_images_url": "https://assetsv2.aarstiderne.com/pim/category/frugt-2738-90-90-50.PNG",
+        "food_categories_images_file": "frugt-2738-90-90-50.PNG",
+        "food_categories_images_download": {},
+        "food_sub_categories_avilable": [
+            "Alle",
+            "Frugtkasser",
+            "Æbler, pærer & bananer",
+            "Bær & druer",
+            "Citrusfrugter",
+            "Eksotiske frugter",
+            "Store frugtkasser"
+        ]
+    },
+    "image_urls": [
+        "https://assetsv2.aarstiderne.com/pim/category/frugt-2738-90-90-50.PNG"
+    ],
+    "image_name": [
+        "frugt-2738-90-90-50.PNG"
+    ],
+    "food_sub_categories_details": {
+        "food_sub_categorie_navn": "Frugtkasser",
+        "product_details_avilable": [
+            "Dragefrugter i kasse",
+            "Avlernes FrugtKasse",
+            "ÆbleKassen",
+            "FejøKassen",
+            "AppelsinPosen",
+            "Eksotisk FrugtKasse",
+            "MangoPosen",
+            "CitronPosen",
+            "ClementinKassen",
+            "CitrusKassen"
+        ]
+    },
+    "product_details": {
+        "product_name": "Dragefrugter i kasse",
+        "product_short_description": null,
+        "product_description": "Økologiske dragefrugter fra Spanien i kasse, min. 1,5 kg.",
+        "product_aboutproduct": [
+            "Om varen",
+            "Økologiske dragefrugter fra Spanien i kasse, min. 1,5 kg.",
+            "Med sin markante lyserøde farve og grønne, flammelignende blade ligner dragefrugten næsten noget fra et eventyr. Indeni er den blød, sød, mild og saftig, og smager lidt som en mellemting mellem en pære og en kiwi. ",
+            "Pitahaya-planten stammer oprindeligt fra Mellemamerika, og dyrkes i dag overvejende i Sydøstasien og Australien. Derfor er vi også ekstra stolte af at kunne hente økologiske dragefrugter hjem fra det sydlige Spanien – nærmere bestemt Andalusien, hvor vores gode ven Pepe Montiel og hans barnebarn Javier dyrker dragefrugter side om side med andre eksotiske godter som papaya og passionsfrugter. ",
+            "Pepe og Javier dyrker flere forskellige sorter af 'pitahaya', og du finder både frugter med hvidt, mørke- og lyserødt frugtkød i din kasse (alle tre smager fantastisk, skulle vi hilse og sige!).",
+            "Anvendelse",
+            "Dragefrugter har absolut mest smag, når de yderste blade på frugten er ved at blive tørre. Er bladene helt friske og grønne, når du modtager frugten, så vent en dag eller to med at spise den.",
+            "Selve frugten er utroligt nem at spise: Bare halver frugten på langs, skær to snit på kryds ned i frugtkødet, \"vip\" frugten op og fri af sin skal, og spis!",
+            "Ellers er dragefrugter også gode i smoothies, bowls, frugtsalater og andre desserter, ligesom de kan bruges i salsaer og salater.",
+            "Opbevaring",
+            "Kan opbevares på køkkenbordet. Helt modne dragefrugter bør opbevares på køl."
+        ],
+        "product_price": "195",
+        "product_image_url": "https://assetsv2.aarstiderne.com/product/dragefrugter-i-kasse-3712-750-750-30.PNG",
+        "product_image_file": "dragefrugter-i-kasse-3712-750-750-30.PNG"
+    },
+    "Astdns_anbefalers_avilable": [
+        "hokkaidosuppe",
+        "aebleskiver",
+        "ableglogg",
+        "honsekodssuppe",
+        "svamperisotto",
+        "bag-selv-rugbrod",
+        "cocktails-aquavit",
+        "pizza-bla-congo",
+        "grillede-log",
+        "sylt-selv-pickles",
+        "spaghetti-puttanesca",
+        "fladbroed-med-hummus",
+        "hjemmelavet-frugtyoghurt",
+        "pizza-sod-kartoffel",
+        "arroz-rejer-chorizo",
+        "bag-selv-kit",
+        "cocktails-gin",
+        "salade-nicoise",
+        "gron-juice",
+        "breakfast-sandwich",
+        "bibimbap-tempeh-kimchi",
+        "okonomiyaki",
+        "pakoras",
+        "omelet-med-krautsalat",
+        "mexi-middag",
+        "linsefars"
+    ],
+    "Astdns_anbefalers_details": {
+        "anbefalers_navn": "Hokkaidosuppe",
+        "anbefalers_promoimage": [
+            "https://www.aarstiderne.com/media/2095/jbk_anbefaling_hokkaidosuppe_primaert_2020_3053.jpg"
+        ],
+        "anbefalers_description": [
+            "Efteråret er over os. Derfor har vi sendt Morten i udekøkkenet for at lave en varmende ret, der passer perfekt til det danske efterårsvejr.",
+            "Følg opskriften for en perfekt cremet asiatisk-inspireret hokkaidosuppe, og få tips og tricks til gode måder at toppe dine purerede supper på i videoen her til højre.",
+            "Du finder alt, hvad du ellers skal bruge herunder. Indkøbsforslag og opskrift passer til 4 personer."
+        ],
+        "anbefalers_opskriftens_url": "https://www.aarstiderne.com/media/2100/aarstiderne_hokkaidosuppe_v2_2020.pdf",
+        "anbefalers_opskriftens_file": "aarstiderne_hokkaidosuppe_v2_2020.pdf",
+        "anbefalers_opskriftens_ingredients": {
+            "ingredients_name": [
+                "Kokosmælk",
+                "Grøntsagsbouillon",
+                "Hokkaido-græskar",
+                "Hvidløg",
+                "Surdejsbrød",
+                "Chili, rød",
+                "Lime",
+                "Koriander",
+                "Porre"
+            ],
+            "ingredients_detail": [
+                "Aarstidernes kokosmælk, til sammenkogte retter, desserter mm.",
+                "",
+                "400 ml"
+            ]
+        }
+    },
+    "Astdns_kundeløfters": [
+        "Vi forpligter os til at vores CO2-regnskab altid er i balance",
+        "Vi forpligter os til at alle vores leverandører er i CO2-balance i 2025",
+        "Vi forpligter os til at levere 100% økologisk mad, ud fra 80/20-princippet",
+        "Vi forpligter os til at hjælpe vores kunder med at blive en del af løsningen",
+        "Vi forpligter os til at gøre det, vi siger "
+    ],
+    "Astdns_fødevarestrategier_list": [
+        "Bæredygtighed og miljø",
+        "Innovation og produktudvikling"
+    ],
+    "Astdns_fødevarestrategier": {
+        "bæredygtighed_ogmiljø": {
+            "fødevarestrategi_navn1": "Bæredygtighed og miljø",
+            "bæredygtighed_ogmiljø_actions": [
+                "Fødevarer og klima",
+                "100% økologi",
+                "Transport",
+                "Emballage og tryksager",
+                "Vores verdensmål",
+                "CO₂-regnskaber"
+            ],
+            "bæredygtighed_ogmiljø_details": [
+                "Mere grønt, mindre svind - og den rigtige balance mellem danske og udenlandske varer",
+                "Vores mad er 100% økologisk. Sådan har det altid været, og sådan vil det altid være.",
+                "Læs om vores no-fly policy, og hvordan varerne finder vej til kasserne. ",
+                "Genbrug af kasser, miljøvenligt papir og om hvordan, du kan sortere emballagen.",
+                "Læs hvilke verdensmål, vi især arbejder med og bliv klogere på, hvordan vi aktivt arbejder med dem.",
+                "I Aarstiderne har vi fulgt vores CO",
+                "2",
+                "-udledninger nøje siden 2007. Vi laver CO",
+                "2-",
+                "regnskaber og arbejder år for år aktivt for at nedbringe dem."
+            ]
+        },
+        "innovation_ogproduktudvikling": {
+            "fødevarestrategi_navn2": "Innovation og produktudvikling",
+            "innovation_ogproduktudvikling_actions": [
+                "Fermentering",
+                "Det Grønne Værksted",
+                "Planteproteiner"
+            ],
+            "innovation_ogproduktudvikling_details": [
+                "Fermentering er kulminationen af tid, sted og kultur. ",
+                "Bliv klogere på de mange spændende initiativer i Det Grønne Værksted.",
+                "Bliv klogere på proteiner fra plantekost."
+            ]
+        }
+    }
+}
+][
+{
+    "time_stamp": "2022-11-28 17:52:06.336730",
+    "site_details": {
+        "name_of_site": "Astdn",
+        "food_groups_avilable": [
+            "Måltidskasser",
+            "Vælg-Selv Retter",
+            "Dagligvarer",
+            "Jul",
+            "Nytår"
+        ]
+    },
+    "food_groups_details": {
+        "food_group_navn": [
+            "Dagligvarer"
+        ],
+        "food_categories_avilable": [
+            "Frugt",
+            "Grønt",
+            "Plantebaseret",
+            "Kød & Fisk",
+            "Mejeri",
+            "Brød",
+            "Kolonial",
+            "Snacks & Søde sager",
+            "Juice, Saft & Sodavand",
+            "Øl, Vin & Spiritus",
+            "Husholdning & Grej",
+            "Bøger"
+        ]
+    },
+    "food_categories_details": {
+        "food_categories_navn": "Frugt",
+        "food_categories_images_url": "https://assetsv2.aarstiderne.com/pim/category/frugt-2738-90-90-50.PNG",
+        "food_categories_images_file": "frugt-2738-90-90-50.PNG",
+        "food_categories_images_download": {},
+        "food_sub_categories_avilable": [
+            "Alle",
+            "Frugtkasser",
+            "Æbler, pærer & bananer",
+            "Bær & druer",
+            "Citrusfrugter",
+            "Eksotiske frugter",
+            "Store frugtkasser"
+        ]
+    },
+    "image_urls": [
+        "https://assetsv2.aarstiderne.com/pim/category/frugt-2738-90-90-50.PNG"
+    ],
+    "image_name": [
+        "frugt-2738-90-90-50.PNG"
+    ],
+    "food_sub_categories_details": {
+        "food_sub_categorie_navn": "Frugtkasser",
+        "product_details_avilable": [
+            "Dragefrugter i kasse",
+            "Avlernes FrugtKasse",
+            "ÆbleKassen",
+            "FejøKassen",
+            "AppelsinPosen",
+            "ClementinKassen",
+            "Eksotisk FrugtKasse",
+            "MangoPosen",
+            "CitrusKassen",
+            "CitronPosen"
+        ]
+    },
+    "product_details": {
+        "product_name": "Dragefrugter i kasse",
+        "product_short_description": null,
+        "product_description": "Økologiske dragefrugter fra Spanien i kasse, min. 1,5 kg.",
+        "product_aboutproduct": [
+            "Om varen",
+            "Økologiske dragefrugter fra Spanien i kasse, min. 1,5 kg.",
+            "Med sin markante lyserøde farve og grønne, flammelignende blade ligner dragefrugten næsten noget fra et eventyr. Indeni er den blød, sød, mild og saftig, og smager lidt som en mellemting mellem en pære og en kiwi. ",
+            "Pitahaya-planten stammer oprindeligt fra Mellemamerika, og dyrkes i dag overvejende i Sydøstasien og Australien. Derfor er vi også ekstra stolte af at kunne hente økologiske dragefrugter hjem fra det sydlige Spanien – nærmere bestemt Andalusien, hvor vores gode ven Pepe Montiel og hans barnebarn Javier dyrker dragefrugter side om side med andre eksotiske godter som papaya og passionsfrugter. ",
+            "Pepe og Javier dyrker flere forskellige sorter af 'pitahaya', og du finder både frugter med hvidt, mørke- og lyserødt frugtkød i din kasse (alle tre smager fantastisk, skulle vi hilse og sige!).",
+            "Anvendelse",
+            "Dragefrugter har absolut mest smag, når de yderste blade på frugten er ved at blive tørre. Er bladene helt friske og grønne, når du modtager frugten, så vent en dag eller to med at spise den.",
+            "Selve frugten er utroligt nem at spise: Bare halver frugten på langs, skær to snit på kryds ned i frugtkødet, \"vip\" frugten op og fri af sin skal, og spis!",
+            "Ellers er dragefrugter også gode i smoothies, bowls, frugtsalater og andre desserter, ligesom de kan bruges i salsaer og salater.",
+            "Opbevaring",
+            "Kan opbevares på køkkenbordet. Helt modne dragefrugter bør opbevares på køl."
+        ],
+        "product_price": "195",
+        "product_image_url": "https://assetsv2.aarstiderne.com/product/dragefrugter-i-kasse-3712-750-750-30.PNG",
+        "product_image_file": "dragefrugter-i-kasse-3712-750-750-30.PNG"
+    },
+    "Astdns_anbefalers_avilable": [
+        "hokkaidosuppe",
+        "aebleskiver",
+        "ableglogg",
+        "honsekodssuppe",
+        "svamperisotto",
+        "bag-selv-rugbrod",
+        "cocktails-aquavit",
+        "pizza-bla-congo",
+        "grillede-log",
+        "sylt-selv-pickles",
+        "spaghetti-puttanesca",
+        "fladbroed-med-hummus",
+        "hjemmelavet-frugtyoghurt",
+        "pizza-sod-kartoffel",
+        "arroz-rejer-chorizo",
+        "bag-selv-kit",
+        "cocktails-gin",
+        "salade-nicoise",
+        "gron-juice",
+        "breakfast-sandwich",
+        "bibimbap-tempeh-kimchi",
+        "okonomiyaki",
+        "pakoras",
+        "omelet-med-krautsalat",
+        "mexi-middag",
+        "linsefars"
+    ],
+    "Astdns_anbefalers_details": {
+        "anbefalers_navn": "Hokkaidosuppe",
+        "anbefalers_promoimage": [
+            "https://www.aarstiderne.com/media/2095/jbk_anbefaling_hokkaidosuppe_primaert_2020_3053.jpg"
+        ],
+        "anbefalers_description": [
+            "Efteråret er over os. Derfor har vi sendt Morten i udekøkkenet for at lave en varmende ret, der passer perfekt til det danske efterårsvejr.",
+            "Følg opskriften for en perfekt cremet asiatisk-inspireret hokkaidosuppe, og få tips og tricks til gode måder at toppe dine purerede supper på i videoen her til højre.",
+            "Du finder alt, hvad du ellers skal bruge herunder. Indkøbsforslag og opskrift passer til 4 personer."
+        ],
+        "anbefalers_opskriftens_url": "https://www.aarstiderne.com/media/2100/aarstiderne_hokkaidosuppe_v2_2020.pdf",
+        "anbefalers_opskriftens_file": "aarstiderne_hokkaidosuppe_v2_2020.pdf",
+        "anbefalers_opskriftens_ingredients": {
+            "ingredients_name": [
+                "Kokosmælk",
+                "Grøntsagsbouillon",
+                "Hokkaido-græskar",
+                "Koriander",
+                "Porre",
+                "Surdejsbrød",
+                "Chili, rød",
+                "Lime",
+                "Hvidløg"
+            ],
+            "ingredients_detail": [
+                "Aarstidernes kokosmælk, til sammenkogte retter, desserter mm.",
+                "",
+                "400 ml"
+            ]
+        }
+    },
+    "Astdns_kundeløfters": [
+        "Vi forpligter os til at vores CO2-regnskab altid er i balance",
+        "Vi forpligter os til at alle vores leverandører er i CO2-balance i 2025",
+        "Vi forpligter os til at levere 100% økologisk mad, ud fra 80/20-princippet",
+        "Vi forpligter os til at hjælpe vores kunder med at blive en del af løsningen",
+        "Vi forpligter os til at gøre det, vi siger "
+    ],
+    "Astdns_fødevarestrategier_list": [
+        "Bæredygtighed og miljø",
+        "Innovation og produktudvikling"
+    ],
+    "Astdns_fødevarestrategier": {
+        "bæredygtighed_ogmiljø": {
+            "fødevarestrategi_navn1": "Bæredygtighed og miljø",
+            "bæredygtighed_ogmiljø_actions": [
+                "Fødevarer og klima",
+                "100% økologi",
+                "Transport",
+                "Emballage og tryksager",
+                "Vores verdensmål",
+                "CO₂-regnskaber"
+            ],
+            "bæredygtighed_ogmiljø_details": [
+                "Mere grønt, mindre svind - og den rigtige balance mellem danske og udenlandske varer",
+                "Vores mad er 100% økologisk. Sådan har det altid været, og sådan vil det altid være.",
+                "Læs om vores no-fly policy, og hvordan varerne finder vej til kasserne. ",
+                "Genbrug af kasser, miljøvenligt papir og om hvordan, du kan sortere emballagen.",
+                "Læs hvilke verdensmål, vi især arbejder med og bliv klogere på, hvordan vi aktivt arbejder med dem.",
+                "I Aarstiderne har vi fulgt vores CO",
+                "2",
+                "-udledninger nøje siden 2007. Vi laver CO",
+                "2-",
+                "regnskaber og arbejder år for år aktivt for at nedbringe dem."
+            ]
+        },
+        "innovation_ogproduktudvikling": {
+            "fødevarestrategi_navn2": "Innovation og produktudvikling",
+            "innovation_ogproduktudvikling_actions": [
+                "Fermentering",
+                "Det Grønne Værksted",
+                "Planteproteiner"
+            ],
+            "innovation_ogproduktudvikling_details": [
+                "Fermentering er kulminationen af tid, sted og kultur. ",
+                "Bliv klogere på de mange spændende initiativer i Det Grønne Værksted.",
+                "Bliv klogere på proteiner fra plantekost."
+            ]
+        }
+    }
+}
+][
+{
+    "time_stamp": "2022-11-28 17:54:40.493730",
+    "site_details": {
+        "name_of_site": "Astdn",
+        "food_groups_avilable": [
+            "Måltidskasser",
+            "Vælg-Selv Retter",
+            "Dagligvarer",
+            "Jul",
+            "Nytår"
+        ]
+    },
+    "food_groups_details": {
+        "food_group_navn": [
+            "Dagligvarer"
+        ],
+        "food_categories_avilable": [
+            "Frugt",
+            "Grønt",
+            "Plantebaseret",
+            "Kød & Fisk",
+            "Mejeri",
+            "Brød",
+            "Kolonial",
+            "Snacks & Søde sager",
+            "Juice, Saft & Sodavand",
+            "Øl, Vin & Spiritus",
+            "Husholdning & Grej",
+            "Bøger"
+        ]
+    },
+    "food_categories_details": {
+        "food_categories_navn": "Frugt",
+        "food_categories_images_url": "https://assetsv2.aarstiderne.com/pim/category/frugt-2738-90-90-50.PNG",
+        "food_categories_images_file": "frugt-2738-90-90-50.PNG",
+        "food_categories_images_download": {},
+        "food_sub_categories_avilable": [
+            "Alle",
+            "Frugtkasser",
+            "Æbler, pærer & bananer",
+            "Bær & druer",
+            "Citrusfrugter",
+            "Eksotiske frugter",
+            "Store frugtkasser"
+        ]
+    },
+    "image_urls": [
+        "https://assetsv2.aarstiderne.com/pim/category/frugt-2738-90-90-50.PNG"
+    ],
+    "image_name": [
+        "frugt-2738-90-90-50.PNG"
+    ],
+    "food_sub_categories_details": {
+        "food_sub_categorie_navn": "Frugtkasser",
+        "product_details_avilable": [
+            "Dragefrugter i kasse",
+            "Avlernes FrugtKasse",
+            "ÆbleKassen",
+            "FejøKassen",
+            "AppelsinPosen",
+            "ClementinKassen",
+            "Eksotisk FrugtKasse",
+            "MangoPosen",
+            "CitrusKassen",
+            "CitronPosen"
+        ]
+    },
+    "product_details": {
+        "product_name": "Dragefrugter i kasse",
+        "product_short_description": null,
+        "product_description": "Økologiske dragefrugter fra Spanien i kasse, min. 1,5 kg.",
+        "product_aboutproduct": [
+            "Om varen",
+            "Økologiske dragefrugter fra Spanien i kasse, min. 1,5 kg.",
+            "Med sin markante lyserøde farve og grønne, flammelignende blade ligner dragefrugten næsten noget fra et eventyr. Indeni er den blød, sød, mild og saftig, og smager lidt som en mellemting mellem en pære og en kiwi. ",
+            "Pitahaya-planten stammer oprindeligt fra Mellemamerika, og dyrkes i dag overvejende i Sydøstasien og Australien. Derfor er vi også ekstra stolte af at kunne hente økologiske dragefrugter hjem fra det sydlige Spanien – nærmere bestemt Andalusien, hvor vores gode ven Pepe Montiel og hans barnebarn Javier dyrker dragefrugter side om side med andre eksotiske godter som papaya og passionsfrugter. ",
+            "Pepe og Javier dyrker flere forskellige sorter af 'pitahaya', og du finder både frugter med hvidt, mørke- og lyserødt frugtkød i din kasse (alle tre smager fantastisk, skulle vi hilse og sige!).",
+            "Anvendelse",
+            "Dragefrugter har absolut mest smag, når de yderste blade på frugten er ved at blive tørre. Er bladene helt friske og grønne, når du modtager frugten, så vent en dag eller to med at spise den.",
+            "Selve frugten er utroligt nem at spise: Bare halver frugten på langs, skær to snit på kryds ned i frugtkødet, \"vip\" frugten op og fri af sin skal, og spis!",
+            "Ellers er dragefrugter også gode i smoothies, bowls, frugtsalater og andre desserter, ligesom de kan bruges i salsaer og salater.",
+            "Opbevaring",
+            "Kan opbevares på køkkenbordet. Helt modne dragefrugter bør opbevares på køl."
+        ],
+        "product_price": "195",
+        "product_image_url": "https://assetsv2.aarstiderne.com/product/dragefrugter-i-kasse-3712-750-750-30.PNG",
+        "product_image_file": "dragefrugter-i-kasse-3712-750-750-30.PNG"
+    },
+    "Astdns_anbefalers_avilable": [
+        "hokkaidosuppe",
+        "aebleskiver",
+        "ableglogg",
+        "honsekodssuppe",
+        "svamperisotto",
+        "bag-selv-rugbrod",
+        "cocktails-aquavit",
+        "pizza-bla-congo",
+        "grillede-log",
+        "sylt-selv-pickles",
+        "spaghetti-puttanesca",
+        "fladbroed-med-hummus",
+        "hjemmelavet-frugtyoghurt",
+        "pizza-sod-kartoffel",
+        "arroz-rejer-chorizo",
+        "bag-selv-kit",
+        "cocktails-gin",
+        "salade-nicoise",
+        "gron-juice",
+        "breakfast-sandwich",
+        "bibimbap-tempeh-kimchi",
+        "okonomiyaki",
+        "pakoras",
+        "omelet-med-krautsalat",
+        "mexi-middag",
+        "linsefars"
+    ],
+    "Astdns_anbefalers_details": {
+        "anbefalers_navn": "Hokkaidosuppe",
+        "anbefalers_promoimage": [
+            "https://www.aarstiderne.com/media/2095/jbk_anbefaling_hokkaidosuppe_primaert_2020_3053.jpg"
+        ],
+        "anbefalers_description": [
+            "Efteråret er over os. Derfor har vi sendt Morten i udekøkkenet for at lave en varmende ret, der passer perfekt til det danske efterårsvejr.",
+            "Følg opskriften for en perfekt cremet asiatisk-inspireret hokkaidosuppe, og få tips og tricks til gode måder at toppe dine purerede supper på i videoen her til højre.",
+            "Du finder alt, hvad du ellers skal bruge herunder. Indkøbsforslag og opskrift passer til 4 personer."
+        ],
+        "anbefalers_opskriftens_url": "https://www.aarstiderne.com/media/2100/aarstiderne_hokkaidosuppe_v2_2020.pdf",
+        "anbefalers_opskriftens_file": "aarstiderne_hokkaidosuppe_v2_2020.pdf",
+        "anbefalers_opskriftens_ingredients": {
+            "ingredients_name": [
+                "Kokosmælk",
+                "Grøntsagsbouillon",
+                "Hokkaido-græskar",
+                "Koriander",
+                "Porre",
+                "Surdejsbrød",
+                "Chili, rød",
+                "Lime",
+                "Hvidløg"
+            ],
+            "ingredients_detail": [
+                "Aarstidernes kokosmælk, til sammenkogte retter, desserter mm.",
+                "",
+                "400 ml"
+            ]
+        }
+    },
+    "Astdns_kundeløfters": [
+        "Vi forpligter os til at vores CO2-regnskab altid er i balance",
+        "Vi forpligter os til at alle vores leverandører er i CO2-balance i 2025",
+        "Vi forpligter os til at levere 100% økologisk mad, ud fra 80/20-princippet",
+        "Vi forpligter os til at hjælpe vores kunder med at blive en del af løsningen",
+        "Vi forpligter os til at gøre det, vi siger "
+    ],
+    "Astdns_fødevarestrategier_list": [
+        "Bæredygtighed og miljø",
+        "Innovation og produktudvikling"
+    ],
+    "Astdns_fødevarestrategier": {
+        "bæredygtighed_ogmiljø": {
+            "fødevarestrategi_navn1": "Bæredygtighed og miljø",
+            "bæredygtighed_ogmiljø_actions": [
+                "Fødevarer og klima",
+                "100% økologi",
+                "Transport",
+                "Emballage og tryksager",
+                "Vores verdensmål",
+                "CO₂-regnskaber"
+            ],
+            "bæredygtighed_ogmiljø_details": [
+                "Mere grønt, mindre svind - og den rigtige balance mellem danske og udenlandske varer",
+                "Vores mad er 100% økologisk. Sådan har det altid været, og sådan vil det altid være.",
+                "Læs om vores no-fly policy, og hvordan varerne finder vej til kasserne. ",
+                "Genbrug af kasser, miljøvenligt papir og om hvordan, du kan sortere emballagen.",
+                "Læs hvilke verdensmål, vi især arbejder med og bliv klogere på, hvordan vi aktivt arbejder med dem.",
+                "I Aarstiderne har vi fulgt vores CO",
+                "2",
+                "-udledninger nøje siden 2007. Vi laver CO",
+                "2-",
+                "regnskaber og arbejder år for år aktivt for at nedbringe dem."
+            ]
+        },
+        "innovation_ogproduktudvikling": {
+            "fødevarestrategi_navn2": "Innovation og produktudvikling",
+            "innovation_ogproduktudvikling_actions": [
+                "Fermentering",
+                "Det Grønne Værksted",
+                "Planteproteiner"
+            ],
+            "innovation_ogproduktudvikling_details": [
+                "Fermentering er kulminationen af tid, sted og kultur. ",
+                "Bliv klogere på de mange spændende initiativer i Det Grønne Værksted.",
+                "Bliv klogere på proteiner fra plantekost."
+            ]
+        }
+    }
+}
+][
+
+][
+
+]

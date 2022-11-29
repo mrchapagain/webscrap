@@ -18,9 +18,6 @@ class WebscrapItem(scrapy.Item):
     food_group_navn= scrapy.Field()
     food_categories_avilable= scrapy.Field()
 
-    image_urls= scrapy.Field()
-    files = scrapy.Field
-
     food_categories_details= scrapy.Field()
     food_categories_navn= scrapy.Field()
     food_categories_images_url= scrapy.Field()
@@ -46,7 +43,6 @@ class WebscrapItem(scrapy.Item):
     Astdns_anbefalers_avilable= scrapy.Field()
     Astdns_anbefalers_details= scrapy.Field()
     
-
     anbefalers_navn= scrapy.Field()
     anbefalers_promoimage= scrapy.Field()
     anbefalers_description=scrapy.Field()
@@ -67,3 +63,9 @@ class WebscrapItem(scrapy.Item):
 
     bæredygtighed_ogmiljø_actions = scrapy.Field()
     bæredygtighed_ogmiljø_details= scrapy.Field()
+
+
+
+    image_name = scrapy.Field()
+    image_urls = scrapy.Field()
+    images = scrapy.Field()
